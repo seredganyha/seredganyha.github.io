@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n\n\n\n<div class=\"container\">\n        <h2>Создань задания</h2>\n        <mat-form-field>\n            <input matInput [matDatepicker]=\"picker\" placeholder=\"Choose a date\" [(ngModel)]=\"date\">\n            <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n            <mat-datepicker #picker ></mat-datepicker>\n        </mat-form-field>\n        <button mat-button (click)=\"lol()\">показ</button>\n\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n\n\n<div class=\"container\">\n\n        <h2>Создань задания</h2>\n\n          \n          \n        <form class=\"example-form\" [formGroup]=\"checkForm\"  \n        (ngSubmit)=\"onSubmit(checkForm.value)\">\n        <mat-form-field>\n            <input matInput [matDatepicker]=\"picker\" placeholder=\"Choose a date\"  [min]=\"dateToday\" formControlName=\"date\">\n            <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n            <mat-datepicker #picker ></mat-datepicker>\n        </mat-form-field>\n        <button mat-mini-fab color=\"primary\" class=\"addBtn\" (click)=\"addInput()\">+</button>\n      \n\n\n    \n        <div class=\"row\" formArrayName=\"aliases\">\n            \n        <div class=\"col-11\" \n        *ngFor=\"let address of aliases.controls; let i=index\">\n            <mat-form-field class=\"example-full-width\">\n                <input matInput placeholder=\"Задание\" \n                formControlName=\"{{i}}\">\n                 \n              </mat-form-field>\n        </div>\n      </div>\n        \n        <button class=\"button\" type=\"submit\" \n        (click)=\"postCheck(checkForm.value)\"\n        >Сохранить</button>\n        <div></div>\n      </form>\n</div>\n\n");
 
 /***/ }),
 
@@ -97,7 +97,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<h1 mat-dialog-title align=\"center\">{{data.name}}</h1>\r\n<div mat-dialog-content>\r\n  <p>{{data.collections}}</p>\r\n  <p>{{data.id}}</p>\r\n</div>\r\n<div mat-dialog-actions >\r\n  <button mat-button (click)=\"onNoClick()\">No Thanks</button>\r\n  <button mat-button (click)=\"deleteElement(data.id)\" (click)=\"onNoClick()\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"trash-alt\" class=\"svg-inline--fa fa-trash-alt fa-w-14\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><path fill=\"currentColor\" d=\"M32 464a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128H32zm272-256a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zM432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z\"></path></svg></button>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<h1 mat-dialog-title align=\"center\">{{data.name}}</h1>\r\n<div mat-dialog-content class=\"content\">\r\n  <p>{{data.collections}}</p>\r\n</div>\r\n<div mat-dialog-actions class=\"action\">\r\n  <button mat-button (click)=\"onNoClick()\">No Thanks</button>\r\n  <button mat-button (click)=\"deleteElement(data.id)\" (click)=\"onNoClick()\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"trash-alt\" class=\"svg-inline--fa fa-trash-alt fa-w-14\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><path fill=\"currentColor\" d=\"M32 464a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128H32zm272-256a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zM432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z\"></path></svg></button>\r\n</div>");
 
 /***/ }),
 
@@ -149,7 +149,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <h1>Цели хранилища</h1>\n                        <ul>\n                                <li>Сохранение и анализ данных\\опыта\\информации\\файлов с помощью фретчей</li>\n                                <li>Компонентный подход к фретчам\\возможность создания и кастомизации пользовательских фратчей</li>\n                                <ul>\n                                        <h1>О фретчах</h1>\n                                        <li> Фретч - это  набор возможностей для  сохранения и анализа данных</li>\n                                        <li>Базовые Фретчи - Дневник .... и т.д</li>\n                                        <li>Кастомизации фретчей - это выбор возможностей через окно \"Редактор Фретчей\" для создания уникального опыта взаимодействия с данными.</li>\n                                        <li>Создание новых возможностей - приоритет хранилища</li>\n                                        <li>Редактор текста.Хэштеги\\пометки.Графики/Формы/Поддержка разных данных/ .... и т.д</li>\n                                        <li>Например: Фретч для отсчета прогресса -> Например Собрать сумму денег до определенного времени с заполняющимся кругом | Используются формы(данные:Деньги) Progress-Circle - который заполняется по мере продвижения  </li>\n                                        <li>Как это кастомизируется?Пользователь выбирает 2 формы ввода с данными - деньги.Текущая сумма и Цель. Птм добавляет таймер с обратным отсчетом и устанавливает дату когла окончание.Добавляет круг-прогресса связывая его с текущим результатом</li>\n\n                                        <li>В будущем добавление возможностей аналитики. Например Пользователь Выбирает две формы и выбирает аналитику изменения в день. Полученные данные оторбражает через форму </li>\n                                </ul>\n                                \n                        </ul> -->\n                        <!-- <br>\n                        <mat-progress-bar mode=\"determinate\" value=\"70\">\n                                <span>sd</span>\n                        </mat-progress-bar> -->\n                        \n                        \n                        <div class=\"container\">\n                               \n                              \n                                <h1 class=\"h1\">Задания на сегодня</h1>\n                                \n                                \n                                                <mat-selection-list #shoes (click)=\"clickBtn(shoes)\">\n                                                                <mat-list-option>\n                                                                        Спать\n                                                                </mat-list-option>\n                                                                <mat-list-option>\n                                                                        Есть макарошки\n                                                                </mat-list-option>\n                                                                <mat-list-option>\n                                                                        Сходить в туалет\n                                                                </mat-list-option>\n                                                                <mat-list-option>\n                                                                        Поцеловать макарошки\n                                                                </mat-list-option>\n                                                                <mat-list-option>\n                                                                        Спать\n                                                                </mat-list-option>\n                                                              </mat-selection-list>\n                               \n                              \n                              <div class=\"row\">\n                                <div class=\"col-7\">\n                                        <h1 class=\"complete\">Complete</h1>\n                                </div>\n                                <div class=\"col-2\">\n                                        <mat-progress-spinner id=\"spinner\" #spinner\n                                        mode=\"determinate\" value=\"{{click}}\">\n                                        </mat-progress-spinner>\n                                        <h1 class=\"value-spinner\" #value>{{click}}</h1>\n\n                                </div>\n                                \n                        </div>\n\n                                \n                        </div>\n                        \n                        <!-- <mat-horizontal-stepper labelPosition=\"bottom\">\n                                <mat-step label=\"Купить билет\" class=\"first\">\n                                  <p>Ну же пупсик</p>\n                                  <div>\n                                    <button mat-button matStepperNext>Next</button>\n                                  </div>\n                                </mat-step>\n                                <mat-step label=\"бронь хаты\">\n                                  <p>ну давай уже решайся</p>\n                                  <div>\n                                    <button mat-button matStepperPrevious>Back</button>\n                                    <button mat-button matStepperNext>Next</button>\n                                  </div>\n                                </mat-step>\n                                <mat-step label=\"В путь\">\n                                  <p>Езжай братишка</p>\n                                </mat-step>\n                              \n                                \n                              \n                              </mat-horizontal-stepper> -->");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <h1>Цели хранилища</h1>\n                        <ul>\n                                <li>Сохранение и анализ данных\\опыта\\информации\\файлов с помощью фретчей</li>\n                                <li>Компонентный подход к фретчам\\возможность создания и кастомизации пользовательских фратчей</li>\n                                <ul>\n                                        <h1>О фретчах</h1>\n                                        <li> Фретч - это  набор возможностей для  сохранения и анализа данных</li>\n                                        <li>Базовые Фретчи - Дневник .... и т.д</li>\n                                        <li>Кастомизации фретчей - это выбор возможностей через окно \"Редактор Фретчей\" для создания уникального опыта взаимодействия с данными.</li>\n                                        <li>Создание новых возможностей - приоритет хранилища</li>\n                                        <li>Редактор текста.Хэштеги\\пометки.Графики/Формы/Поддержка разных данных/ .... и т.д</li>\n                                        <li>Например: Фретч для отсчета прогресса -> Например Собрать сумму денег до определенного времени с заполняющимся кругом | Используются формы(данные:Деньги) Progress-Circle - который заполняется по мере продвижения  </li>\n                                        <li>Как это кастомизируется?Пользователь выбирает 2 формы ввода с данными - деньги.Текущая сумма и Цель. Птм добавляет таймер с обратным отсчетом и устанавливает дату когла окончание.Добавляет круг-прогресса связывая его с текущим результатом</li>\n\n                                        <li>В будущем добавление возможностей аналитики. Например Пользователь Выбирает две формы и выбирает аналитику изменения в день. Полученные данные оторбражает через форму </li>\n                                </ul>\n                                \n                        </ul> -->\n<!-- <br>\n                        <mat-progress-bar mode=\"determinate\" value=\"70\">\n                                <span>sd</span>\n                        </mat-progress-bar> -->\n\n\n<div class=\"container\">\n\n\n        <h1 class=\"h1\">Задания на сегодня</h1>\n\n\n        <mat-selection-list #shoes (click)=\"clickBtn(shoes)\">\n                <mat-list-option *ngFor=\"let item of jsonData\">\n                        {{item}}\n                </mat-list-option>\n        </mat-selection-list>\n\n\n        <div class=\"row\">\n                <div class=\"col-7\">\n                        <h1 class=\"complete\">Complete</h1>\n                </div>\n                <div class=\"col-2\">\n                        <mat-progress-spinner id=\"spinner\" #spinner mode=\"determinate\" value=\"{{click}}\">\n                        </mat-progress-spinner>\n                        <h1 class=\"value-spinner\" #value>{{click}}</h1>\n\n                </div>\n\n        </div>\n\n\n</div>\n\n<!-- <mat-horizontal-stepper labelPosition=\"bottom\">\n                                <mat-step label=\"Купить билет\" class=\"first\">\n                                  <p>Ну же пупсик</p>\n                                  <div>\n                                    <button mat-button matStepperNext>Next</button>\n                                  </div>\n                                </mat-step>\n                                <mat-step label=\"бронь хаты\">\n                                  <p>ну давай уже решайся</p>\n                                  <div>\n                                    <button mat-button matStepperPrevious>Back</button>\n                                    <button mat-button matStepperNext>Next</button>\n                                  </div>\n                                </mat-step>\n                                <mat-step label=\"В путь\">\n                                  <p>Езжай братишка</p>\n                                </mat-step>\n                              \n                                \n                              \n                              </mat-horizontal-stepper> -->");
 
 /***/ }),
 
@@ -744,7 +744,7 @@ UploudFieldComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbnRlbnQtaXRlbS9jaGVjay1saXN0L2NoZWNrLWxpc3QuY29tcG9uZW50LnNhc3MifQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".example-form {\n  min-width: 150px;\n  max-width: 500px;\n  width: 100%;\n}\n\n.example-full-width {\n  width: 100%;\n}\n\ntd {\n  padding-right: 8px;\n}\n\n.addBtn {\n  margin-left: 25px;\n  height: 50px;\n  width: 50px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGVudC1pdGVtL2NoZWNrLWxpc3QvQzpcXHByb2plY3RzXFxNeS1TdG9yYWdlL3NyY1xcYXBwXFxjb250ZW50LWl0ZW1cXGNoZWNrLWxpc3RcXGNoZWNrLWxpc3QuY29tcG9uZW50LnNhc3MiLCJzcmMvYXBwL2NvbnRlbnQtaXRlbS9jaGVjay1saXN0L2NoZWNrLWxpc3QuY29tcG9uZW50LnNhc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxnQkFBQTtFQUNBLGdCQUFBO0VBQ0EsV0FBQTtBQ0NKOztBRENBO0VBQ0ksV0FBQTtBQ0VKOztBREFBO0VBQ0ksa0JBQUE7QUNHSjs7QUREQTtFQUNJLGlCQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7QUNJSiIsImZpbGUiOiJzcmMvYXBwL2NvbnRlbnQtaXRlbS9jaGVjay1saXN0L2NoZWNrLWxpc3QuY29tcG9uZW50LnNhc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhhbXBsZS1mb3JtXHJcbiAgICBtaW4td2lkdGg6IDE1MHB4XHJcbiAgICBtYXgtd2lkdGg6IDUwMHB4XHJcbiAgICB3aWR0aDogMTAwJVxyXG5cclxuLmV4YW1wbGUtZnVsbC13aWR0aFxyXG4gICAgd2lkdGg6IDEwMCVcclxuXHJcbnRkXHJcbiAgICBwYWRkaW5nLXJpZ2h0OiA4cHhcclxuXHJcbi5hZGRCdG5cclxuICAgIG1hcmdpbi1sZWZ0OiAyNXB4XHJcbiAgICBoZWlnaHQ6IDUwcHhcclxuICAgIHdpZHRoOiA1MHB4IiwiLmV4YW1wbGUtZm9ybSB7XG4gIG1pbi13aWR0aDogMTUwcHg7XG4gIG1heC13aWR0aDogNTAwcHg7XG4gIHdpZHRoOiAxMDAlO1xufVxuXG4uZXhhbXBsZS1mdWxsLXdpZHRoIHtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbnRkIHtcbiAgcGFkZGluZy1yaWdodDogOHB4O1xufVxuXG4uYWRkQnRuIHtcbiAgbWFyZ2luLWxlZnQ6IDI1cHg7XG4gIGhlaWdodDogNTBweDtcbiAgd2lkdGg6IDUwcHg7XG59Il19 */");
 
 /***/ }),
 
@@ -760,19 +760,76 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheckListComponent", function() { return CheckListComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/services/jsonCreate.service */ "./src/app/services/jsonCreate.service.ts");
+
+
 
 
 let CheckListComponent = class CheckListComponent {
-    constructor() {
+    constructor(formBuild, js) {
+        this.formBuild = formBuild;
+        this.js = js;
+        this.checkForm = this.formBuild.group({
+            date: '',
+            aliases: this.formBuild.array([
+                this.formBuild.control('')
+            ])
+        });
+        this.jsonTasks = { date: '', tasks: [] };
         this.dateToday = new Date();
     }
     ngOnInit() {
     }
-    lol() {
-        console.log(this.date.toLocaleDateString());
-        console.log(this.dateToday.toLocaleDateString());
+    onSubmit(gol) {
+        // // Process checkout data here
+        // console.log(this.date)
+        // console.log(gol)
+        // // console.log(gol)
+        //  this.date = gol.date.toLocaleDateString()
+        // // console.log(gol)
+        //   this.jsonTasks.date = this.date
+        //   // this.jsonTasks.tasks = this.checkForm.value
+        //   for (var key in this.checkForm.value) {
+        //     if(key==="date"){
+        //     }
+        //     else{
+        //       console.log()
+        //       this.jsonTasks.tasks[key] =this.checkForm.value[key]
+        //     }
+        //   }
+        //   console.log(this.jsonTasks)
+        // // this.js.postCheckList(this.jsonTasks).subscribe(val => {
+        // //   console.log(val)
+        // // })
+    }
+    postCheck() {
+        this.checkForm.value.date = this.checkForm.value.date.toLocaleDateString();
+        console.log(this.checkForm);
+        // this.js.postCheckList(this.checkForm.value).subscribe(val=>{
+        //   console.log(val)
+        // })
+        this.js.deleteData().subscribe(val => {
+            console.log(val);
+        });
+    }
+    addInput() {
+        // const nameOrder="checklist"+(this.mass.length)
+        // this.mass.push(nameOrder)
+        // this.checkForm.controls[nameOrder]=new FormControl('')
+        // this.checkForm.value[nameOrder] =''
+        // console.log(this.checkForm)
+        this.aliases.push(this.formBuild.control(''));
+        console.log(this.dateToday);
+    }
+    get aliases() {
+        return this.checkForm.get('aliases');
     }
 };
+CheckListComponent.ctorParameters = () => [
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] },
+    { type: src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_3__["JsonCreate"] }
+];
 CheckListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-check-list',
@@ -920,7 +977,7 @@ CollectoinsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("h1 {\n  font-size: 26px;\n}\n\np {\n  font-size: 18px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGVudC1pdGVtL2RuZXZuaWstc3RvcmUvZG5ldm5pay1yZWFkL2RuZXZuaWstcmVhZC9DOlxccHJvamVjdHNcXE15LVN0b3JhZ2Uvc3JjXFxhcHBcXGNvbnRlbnQtaXRlbVxcZG5ldm5pay1zdG9yZVxcZG5ldm5pay1yZWFkXFxkbmV2bmlrLXJlYWRcXGRpYWxvZy1kYXRhLWV4YW1wbGUtZGlhbG9nLnNhc3MiLCJzcmMvYXBwL2NvbnRlbnQtaXRlbS9kbmV2bmlrLXN0b3JlL2RuZXZuaWstcmVhZC9kbmV2bmlrLXJlYWQvZGlhbG9nLWRhdGEtZXhhbXBsZS1kaWFsb2cuc2FzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGVBQUE7QUNDSjs7QURBQTtFQUNJLGVBQUE7QUNHSiIsImZpbGUiOiJzcmMvYXBwL2NvbnRlbnQtaXRlbS9kbmV2bmlrLXN0b3JlL2RuZXZuaWstcmVhZC9kbmV2bmlrLXJlYWQvZGlhbG9nLWRhdGEtZXhhbXBsZS1kaWFsb2cuc2FzcyIsInNvdXJjZXNDb250ZW50IjpbImgxXHJcbiAgICBmb250LXNpemU6IDI2cHhcclxucFxyXG4gICAgZm9udC1zaXplOiAxOHB4IiwiaDEge1xuICBmb250LXNpemU6IDI2cHg7XG59XG5cbnAge1xuICBmb250LXNpemU6IDE4cHg7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("h1 {\n  font-size: 26px;\n}\n\np {\n  font-size: 18px;\n}\n\n.action {\n  padding-top: 20px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGVudC1pdGVtL2RuZXZuaWstc3RvcmUvZG5ldm5pay1yZWFkL2RuZXZuaWstcmVhZC9DOlxccHJvamVjdHNcXE15LVN0b3JhZ2Uvc3JjXFxhcHBcXGNvbnRlbnQtaXRlbVxcZG5ldm5pay1zdG9yZVxcZG5ldm5pay1yZWFkXFxkbmV2bmlrLXJlYWRcXGRpYWxvZy1kYXRhLWV4YW1wbGUtZGlhbG9nLnNhc3MiLCJzcmMvYXBwL2NvbnRlbnQtaXRlbS9kbmV2bmlrLXN0b3JlL2RuZXZuaWstcmVhZC9kbmV2bmlrLXJlYWQvZGlhbG9nLWRhdGEtZXhhbXBsZS1kaWFsb2cuc2FzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGVBQUE7QUNDSjs7QURBQTtFQUNJLGVBQUE7QUNHSjs7QURBQTtFQUNJLGlCQUFBO0FDR0oiLCJmaWxlIjoic3JjL2FwcC9jb250ZW50LWl0ZW0vZG5ldm5pay1zdG9yZS9kbmV2bmlrLXJlYWQvZG5ldm5pay1yZWFkL2RpYWxvZy1kYXRhLWV4YW1wbGUtZGlhbG9nLnNhc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMVxyXG4gICAgZm9udC1zaXplOiAyNnB4XHJcbnBcclxuICAgIGZvbnQtc2l6ZTogMThweFxyXG4vLyAuY29udGVudFxyXG4vLyAgICAgbWFyZ2luLWJvdHRvbTogMjBweFxyXG4uYWN0aW9uXHJcbiAgICBwYWRkaW5nLXRvcDogMjBweCIsImgxIHtcbiAgZm9udC1zaXplOiAyNnB4O1xufVxuXG5wIHtcbiAgZm9udC1zaXplOiAxOHB4O1xufVxuXG4uYWN0aW9uIHtcbiAgcGFkZGluZy10b3A6IDIwcHg7XG59Il19 */");
 
 /***/ }),
 
@@ -983,7 +1040,8 @@ let DnevnikReadComponent = class DnevnikReadComponent {
         console.log(this.collections);
         console.log(this.jsonData[i].message);
         const dialogRef = this.dialog.open(DialogOverviewExampleDialog, {
-            width: '450px',
+            width: '520px',
+            height: '300px',
             data: {
                 name: this.jsonData[i].title,
                 collections: this.jsonData[i].message,
@@ -1199,12 +1257,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProfileStoreComponent", function() { return ProfileStoreComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/jsonCreate.service */ "./src/app/services/jsonCreate.service.ts");
+
 
 
 let ProfileStoreComponent = class ProfileStoreComponent {
-    constructor() {
-        // this.value.width = this.spinner.width
+    constructor(js) {
+        this.js = js;
         this.click = 0;
+        // this.value.width = this.spinner.width
+        this.js.getSelectedCheckList().subscribe(value => {
+            this.jsonData = value[0].aliases;
+        });
     }
     ngOnInit() {
         this.width = window.innerWidth;
@@ -1216,7 +1280,7 @@ let ProfileStoreComponent = class ProfileStoreComponent {
         console.log(this.value);
         console.log(this.shoes.options.length);
         this.step = 100 / this.shoes.options.length;
-        this.click = this.step * this.shoes.selectedOptions.selected.length;
+        this.click = Math.floor(this.step * this.shoes.selectedOptions.selected.length);
         if (this.click === 100) {
             this.value.nativeElement.style.paddingLeft = '25px';
         }
@@ -1227,6 +1291,9 @@ let ProfileStoreComponent = class ProfileStoreComponent {
             this.value.nativeElement.style.paddingLeft = '35px';
     }
 };
+ProfileStoreComponent.ctorParameters = () => [
+    { type: src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_2__["JsonCreate"] }
+];
 tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("shoes", { static: false })
 ], ProfileStoreComponent.prototype, "shoes", void 0);
@@ -1420,21 +1487,29 @@ const httpOptions = {
 let JsonCreate = class JsonCreate {
     constructor(http) {
         this.http = http;
+        this.date = new Date().toLocaleDateString();
         this.configUrl = 'https://jsonbox.io/box_ce820a7b8b65281a8753';
         this.configCollections = 'https://jsonbox.io/box_ce820a7b8b65281a8753?q=collection:';
+        this.configChecklist = "https://jsonbox.io/box_26ac51c939fbfa8ae80d";
+        this.configUrlJulia = "https://jsonbox.io/box_308c1794496d93cb21b4";
+        this.configCollectionsJulia = "https://jsonbox.io/box_308c1794496d93cb21b4?q=collection:";
+        this.configCheckListJulia = "https://jsonbox.io/box_5bbd8261b8ebb3688bb9";
         this.configDeleteAll = "https://jsonbox.io/box_f9ba3926dade96693495?q=message:**"; //удалить все
         this.configDelete = 'https://jsonbox.io/box_ce820a7b8b65281a8753/';
+        this.configDeleteJulia = "https://jsonbox.io/box_308c1794496d93cb21b4/";
     }
     getConfig() {
-        return this.http.get(this.configUrl);
+        return this.http.get(this.configUrlJulia);
     }
     getSelectedConfig(selectedConfig) {
         console.log(selectedConfig);
         if (selectedConfig === "all") {
-            return this.http.get(this.configUrl);
+            return this.http.get(this.configUrlJulia);
         }
-        else
-            return this.http.get(this.configCollections + selectedConfig);
+        else {
+            console.log(this.configCollectionsJulia + selectedConfig);
+            return this.http.get(this.configCollectionsJulia + selectedConfig);
+        }
     }
     postJson(title, message, collection) {
         const data = {
@@ -1443,14 +1518,20 @@ let JsonCreate = class JsonCreate {
             collection
         };
         console.log(data);
-        return this.http.post(this.configUrl, data, httpOptions);
+        return this.http.post(this.configUrlJulia, data, httpOptions);
+    }
+    postCheckList(jsonArray) {
+        return this.http.post(this.configCheckListJulia, jsonArray, httpOptions);
+    }
+    getSelectedCheckList() {
+        return this.http.get(this.configCheckListJulia + "?q=date:" + this.date);
     }
     deleteData() {
-        return this.http.delete(this.configDeleteAll);
+        return this.http.delete(this.configCheckListJulia + "?q=date:**");
     }
     deleteSelectedElement(id) {
         console.log(this.configDelete + id);
-        return this.http.delete(this.configDelete + id);
+        return this.http.delete(this.configDeleteJulia + id);
     }
 };
 JsonCreate.ctorParameters = () => [
