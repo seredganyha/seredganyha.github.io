@@ -23,6 +23,292 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
+/***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
+/*!**************************************************!*\
+  !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-SG": "./node_modules/moment/locale/en-SG.js",
+	"./en-SG.js": "./node_modules/moment/locale/en-SG.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./ga": "./node_modules/moment/locale/ga.js",
+	"./ga.js": "./node_modules/moment/locale/ga.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it-ch": "./node_modules/moment/locale/it-ch.js",
+	"./it-ch.js": "./node_modules/moment/locale/it-ch.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ku": "./node_modules/moment/locale/ku.js",
+	"./ku.js": "./node_modules/moment/locale/ku.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
 /*!**************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
@@ -58,7 +344,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n\n\n\n<div class=\"container\">\n\n        <h2>Создань задания</h2>\n\n          \n          \n        <form class=\"example-form\" [formGroup]=\"checkForm\"  \n        (ngSubmit)=\"onSubmit(checkForm.value)\">\n        <mat-form-field>\n            <input matInput [matDatepicker]=\"picker\" placeholder=\"Choose a date\"  [min]=\"dateToday\" formControlName=\"date\">\n            <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n            <mat-datepicker #picker ></mat-datepicker>\n        </mat-form-field>\n        <button mat-mini-fab color=\"primary\" class=\"addBtn\" (click)=\"addInput()\">+</button>\n      \n\n\n    \n        <div class=\"row\" formArrayName=\"aliases\">\n            \n        <div class=\"col-11\" \n        *ngFor=\"let address of aliases.controls; let i=index\">\n            <mat-form-field class=\"example-full-width\">\n                <input matInput placeholder=\"Задание\" \n                formControlName=\"{{i}}\">\n                 \n              </mat-form-field>\n        </div>\n      </div>\n        \n        <button class=\"button\" type=\"submit\" \n        (click)=\"postCheck(checkForm.value)\"\n        >Сохранить</button>\n        <div></div>\n      </form>\n</div>\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n\n\n<div class=\"container\">\n\n  <div class=\"row\">\n     \n        <form class=\"example-form\" [formGroup]=\"checkForm\"  \n        (ngSubmit)=\"onSubmit(checkForm.value)\">\n        <mat-form-field>\n            <input matInput [matDatepicker]=\"picker\" placeholder=\"Choose a date\"  [min]=\"dateToday\" formControlName=\"date\">\n            <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n            <mat-datepicker #picker ></mat-datepicker>\n        </mat-form-field>\n        <button mat-mini-fab color=\"primary\" class=\"addBtn\" (click)=\"addInput()\">+</button>\n      \n\n\n    \n        <div class=\"row\" formArrayName=\"aliases\">\n            \n        <div class=\"col-11\" \n        *ngFor=\"let address of aliases.controls; let i=index\">\n            <mat-form-field class=\"example-full-width\">\n                <input matInput placeholder=\"Задание\" \n                formControlName=\"{{i}}\">\n                 \n              </mat-form-field>\n        </div>\n      </div>\n        \n        <button mat-raised-button color=\"primary\" class=\"button\" type=\"submit\" \n        (click)=\"postCheck(checkForm.value)\"\n        (click)=\"openSnackBar()\"\n        >Сохранить</button>\n        <div></div>\n      </form>\n</div>\n\n\n\n\n");
 
 /***/ }),
 
@@ -71,7 +357,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<mat-card class=\"home\">\n  <mat-card-title align=\"center\">\n    Дневник\n  </mat-card-title>\n<form>\n  \n      <mat-card-content align=\"center\">\n            <mat-form-field class=\"inp\">\n                <input matInput placeholder=\"Заголовок\" [formControl]=\"title\">\n            </mat-form-field>\n            <br>\n            <mat-form-field class=\"inp\">\n                <input matInput placeholder=\"Группа\" [formControl]=\"groups\">\n            </mat-form-field>\n            <br>\n    \n                <textarea  [formControl]=\"text\"></textarea>\n      </mat-card-content>\n  \n\n    <mat-card-actions align=\"end\">\n      <button mat-stroked-button color=\"primary\" (click)=\"uploudCreate(title.value,text.value,groups.value)\" (click)=\"openSnackBar()\">Primary</button>\n    </mat-card-actions>\n  </form>\n</mat-card>\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<mat-card class=\"home\">\n  <mat-card-title align=\"center\">\n    Дневник\n  </mat-card-title>\n<form [formGroup]=\"dnevnikForm\">\n  \n      <mat-card-content align=\"center\">\n            <mat-form-field class=\"inp\">\n                <input matInput placeholder=\"Заголовок\" formControlName=\"title\">\n            </mat-form-field>\n            <br>\n            <mat-form-field class=\"inp\">\n                <input matInput placeholder=\"Группа\" formControlName=\"groups\">\n            </mat-form-field>\n            <br>\n    \n                <textarea  formControlName=\"text\"></textarea>\n      </mat-card-content>\n  \n\n    <mat-card-actions align=\"end\">\n      <button mat-stroked-button color=\"primary\" (click)=\"upld2()\" (click)=\"openSnackBar()\">Primary</button>\n    </mat-card-actions>\n  </form>\n</mat-card>\n\n");
 
 /***/ }),
 
@@ -97,7 +383,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<h1 mat-dialog-title align=\"center\">{{data.name}}</h1>\r\n<div mat-dialog-content class=\"content\">\r\n  <p>{{data.collections}}</p>\r\n</div>\r\n<div mat-dialog-actions class=\"action\">\r\n  <button mat-button (click)=\"onNoClick()\">No Thanks</button>\r\n  <button mat-button (click)=\"deleteElement(data.id)\" (click)=\"onNoClick()\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"trash-alt\" class=\"svg-inline--fa fa-trash-alt fa-w-14\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><path fill=\"currentColor\" d=\"M32 464a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128H32zm272-256a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zM432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z\"></path></svg></button>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<h1 mat-dialog-title align=\"center\">{{data.title}}</h1>\r\n<div mat-dialog-content class=\"content\">\r\n  <p>{{data.text}}</p>\r\n</div>\r\n<div mat-dialog-actions class=\"action\">\r\n  <button mat-button (click)=\"onNoClick()\">No Thanks</button>\r\n  <button mat-button (click)=\"deleteElement(data.id)\" (click)=\"onNoClick()\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"trash-alt\" class=\"svg-inline--fa fa-trash-alt fa-w-14\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><path fill=\"currentColor\" d=\"M32 464a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128H32zm272-256a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zM432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z\"></path></svg></button>\r\n</div>\r\n");
 
 /***/ }),
 
@@ -110,7 +396,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<h4>Дневник</h4>\n<mat-form-field>\n  <mat-label>select collection</mat-label>\n  <mat-select>\n\n      <mat-option [value]=\"all\" (click)=DisplaySelectedRecord(all)>\n          Все темы\n      </mat-option>\n    <mat-option *ngFor=\"let item of col\" [value]=\"item\" (click)=DisplaySelectedRecord(item)>\n        {{item}}\n    </mat-option>\n  </mat-select>\n</mat-form-field>\n<br>\n\n<div class=\"container\">\n<div class=\"row  justify-content-center\">\n\n<div *ngFor=\"let item of selectCollection; let i = index\"  >\n    <div class=\"col-12 \">\n    <mat-card class=\"one\" (click)=\"openDialog(i)\" align=\"center\">\n\n        <mat-card-title >\n          {{item.title}}\n        </mat-card-title>\n        \n            <mat-card-content>\n               \n                <p>{{item.collection}}</p>\n            \n            </mat-card-content>\n    </mat-card>\n    </div>\n\n\n\n        \n\n</div>\n</div>\n</div>\n\n\n\n\n<!-- <div *ngFor=\"let item of jsonData; let i = index\"  \n[@changeDivSize]=item.currentState>\n    <mat-card class=\"one\" (click)=\"openDialog(i)\">\n        <mat-card-title>\n          {{item.title}}\n          \n        </mat-card-title>\n        \n            <mat-card-content>\n               \n                <p>{{item.collection}}</p>\n            \n            </mat-card-content>\n    </mat-card>\n\n        \n\n</div> -->");
+/* harmony default export */ __webpack_exports__["default"] = ("<h4>Дневник</h4>\n<mat-form-field>\n  <mat-label>select collection</mat-label>\n  <mat-select>\n\n      <mat-option [value]=\"all\" (click)=DisplaySelectedRecord(all)>\n          Все темы\n      </mat-option>\n    <mat-option *ngFor=\"let item of col\" [value]=\"item\" (click)=DisplaySelectedRecord(item)>\n        {{item}}\n    </mat-option>\n  </mat-select>\n</mat-form-field>\n<br>\n\n<div class=\"container\">\n<div class=\"row  justify-content-center\">\n\n<div *ngFor=\"let item of selectCollection; let i = index\"  >\n    <div class=\"col-12 \">\n    <mat-card class=\"one\" (click)=\"openDialog(i)\" align=\"center\">\n\n        <mat-card-title >\n          {{item.title}}\n        </mat-card-title>\n        \n            <mat-card-content>\n               \n                <p>{{item.groups}}</p>\n            \n            </mat-card-content>\n    </mat-card>\n    </div>\n\n\n\n        \n\n</div>\n</div>\n</div>\n\n\n\n\n<!-- <div *ngFor=\"let item of jsonData; let i = index\"  \n[@changeDivSize]=item.currentState>\n    <mat-card class=\"one\" (click)=\"openDialog(i)\">\n        <mat-card-title>\n          {{item.title}}\n          \n        </mat-card-title>\n        \n            <mat-card-content>\n               \n                <p>{{item.collection}}</p>\n            \n            </mat-card-content>\n    </mat-card>\n\n        \n\n</div> -->");
 
 /***/ }),
 
@@ -153,6 +439,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/content-item/shot/shot.component.html":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/content-item/shot/shot.component.html ***!
+  \*********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-1\">\n            №\n        </div>\n        <div class=\"col-auto\">\n            Прицеливание\n        </div>\n        <div class=\"col-auto\">\n            Удержание\n        </div>\n        <div class=\"col-2\">\n            Спуск\n        </div>\n    </div>\n</div>\n\n<div class=\"container\">\n\n    <form class=\"example-form\" [formGroup]=\"checkForm\" (ngSubmit)=\"onSubmit(checkForm.value)\">\n        <div class=\"row\">\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"1\">\n                </mat-form-field>\n            </div>\n\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent1' required>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold1'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming1'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n\n\n\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"2\">\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent2'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold2'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming2'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n\n\n\n\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"3\">\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent3'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold3'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming3'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n\n\n\n\n\n\n\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"4\">\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent4'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold4'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming4'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n\n\n\n\n\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"5\">\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent5'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold5'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming5'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n\n\n\n\n\n\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"6\">\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent6'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold6'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming6'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n\n\n\n\n\n\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"8\">\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent8'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold8'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming8'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n        \n            <div>\n                <button mat-raised-button color=\"primary\" type=\"submit\" (click)=\"postTraining()\">Сохранить</button>\n            </div>\n    </div>\n    </form>\n        ");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"container\">\n  <div class=\"row\">\n\n\n      <mat-card tabindex=\"0\">\n      <mat-card-title>Sign in\n\n        <button mat-raised-button color=\"primary\" \n        class=\"register\" routerLink=\"/register\">register</button>\n\n      </mat-card-title>\n      \n      <mat-card-content align='center' class=\"content\">\n        <form action=\"\" [formGroup]=\"loginForm\">\n          <mat-form-field>\n\n            <input matInput type=\"email\" formControlName=\"email\" placeholder=\"Login\">\n\n          </mat-form-field>\n\n          <mat-form-field>\n\n            <input matInput type=\"password\" formControlName=\"password\" placeholder=\"Password\">\n\n          </mat-form-field>\n\n        </form>\n      </mat-card-content>\n      <mat-card-actions align='center' class=\"actions\">\n        <button mat-raised-button color=\"primary\" class=\"sign\"\n        type=\"submit\" \n        (click)=\"openSnackBar()\"\n        (click)=\"tryLogin(loginForm.value)\"\n        >\n        sign in\n      </button>\n      </mat-card-actions>\n      </mat-card>\n\n\n  </div>\n</div>\n\n  ");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/menu-item/menu-item.component.html":
 /*!******************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/menu-item/menu-item.component.html ***!
@@ -188,7 +500,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<mat-toolbar color=\"primary\">\n        <mat-toolbar-row>\n                <button mat-button (click)=\"sidenav.toggle()\">\n                        <svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"bars\"\n                                class=\"svg-inline--fa fa-bars fa-w-14\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"\n                                viewBox=\"0 0 448 512\">\n                                <path fill=\"currentColor\"\n                                        d=\"M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z\">\n                                </path>\n                        </svg>\n                </button>\n                <span routerLink=\"\">Хранилище</span>\n                <span class=\"example-spacer\"></span>\n                <h1>Серпежо</h1>\n        </mat-toolbar-row>\n\n</mat-toolbar>\n\n<mat-sidenav-container class=\"example-container\">\n        <mat-sidenav #sidenav mode=\"side\" [(opened)]=\"opened\" (opened)=\"events.push('open!')\"\n                (closed)=\"events.push('close!')\">\n\n                <mat-accordion>\n                        <mat-expansion-panel>\n                                <mat-expansion-panel-header>\n                                        <mat-panel-title>\n                                                Дневник\n                                        </mat-panel-title>\n                                </mat-expansion-panel-header>\n                                <mat-action-list>\n\n                                        <button mat-list-item routerLink='/dnevnik-read' (click)=\"sidenav.toggle()\">\n                                                Читать Дневник\n                                        </button>\n\n                                        <button mat-list-item routerLink='/dnevnik-editor' (click)=\"sidenav.toggle()\">\n                                                Сделать запись\n                                        </button>\n                                </mat-action-list>\n                </mat-expansion-panel>\n        \n        \n                <mat-expansion-panel>\n                        <mat-expansion-panel-header routerLink='/organaizer'>\n                                <mat-panel-title (click)=\"sidenav.toggle()\">\n                                        Органайзер\n                                </mat-panel-title>\n                        </mat-expansion-panel-header>\n                        <mat-list>\n                                <mat-list-item>Ебубу</mat-list-item>\n                                <mat-list-item>Ебубу</mat-list-item>\n                                <mat-list-item>Ебубу</mat-list-item>\n                                <mat-list-item>Ебубу</mat-list-item>\n                        </mat-list>\n                </mat-expansion-panel>\n        \n                <mat-expansion-panel>\n                        <mat-expansion-panel-header routerLink='/tasks-check' (click)=\"sidenav.toggle()\">\n                                <mat-panel-title>\n                                        Чек-лист\n                                </mat-panel-title>\n                        </mat-expansion-panel-header>\n                </mat-expansion-panel>\n        \n        </mat-accordion>\n                \n        \n\n        </mat-sidenav>\n\n        <mat-sidenav-content>\n                <router-outlet></router-outlet>\n        </mat-sidenav-content>\n</mat-sidenav-container>");
+/* harmony default export */ __webpack_exports__["default"] = ("<mat-toolbar color=\"primary\">\n        <mat-toolbar-row>\n                <button mat-button (click)=\"sidenav.toggle()\">\n                        <svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"bars\"\n                                class=\"svg-inline--fa fa-bars fa-w-14\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"\n                                viewBox=\"0 0 448 512\">\n                                <path fill=\"currentColor\"\n                                        d=\"M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z\">\n                                </path>\n                        </svg>\n                </button>\n                <span routerLink=\"/profile\">Хранилище</span>\n                \n                <h1 routerLink=''>Войти</h1>\n        </mat-toolbar-row>\n\n</mat-toolbar>\n\n<mat-sidenav-container class=\"example-container\">\n        <mat-sidenav #sidenav mode=\"side\" [(opened)]=\"opened\" (opened)=\"events.push('open!')\"\n                (closed)=\"events.push('close!')\">\n\n                <mat-accordion>\n                        <mat-expansion-panel>\n                                <mat-expansion-panel-header>\n                                        <mat-panel-title>\n                                                Дневник\n                                        </mat-panel-title>\n                                </mat-expansion-panel-header>\n                                <mat-action-list>\n\n                                        <button mat-list-item routerLink='/dnevnik-read' (click)=\"sidenav.toggle()\">\n                                                Читать Дневник\n                                        </button>\n\n                                        <button mat-list-item routerLink='/dnevnik-editor' (click)=\"sidenav.toggle()\">\n                                                Сделать запись\n                                        </button>\n                                </mat-action-list>\n                </mat-expansion-panel>\n        \n        \n                <mat-expansion-panel>\n                        <mat-expansion-panel-header routerLink='/organaizer'>\n                                <mat-panel-title (click)=\"sidenav.toggle()\">\n                                        Органайзер\n                                </mat-panel-title>\n                        </mat-expansion-panel-header>\n                </mat-expansion-panel>\n        \n                <mat-expansion-panel>\n                        <mat-expansion-panel-header routerLink='/tasks-check' (click)=\"sidenav.toggle()\">\n                                <mat-panel-title>\n                                        Чек-лист\n                                </mat-panel-title>\n                        </mat-expansion-panel-header>\n                </mat-expansion-panel>\n\n\n                <mat-expansion-panel>\n                                <mat-expansion-panel-header routerLink='/shoot-training' (click)=\"sidenav.toggle()\">\n                                        <mat-panel-title>\n                                                Тренировка стрельбы\n                                        </mat-panel-title>\n                                </mat-expansion-panel-header>\n                        </mat-expansion-panel>\n        \n        </mat-accordion>\n                \n        \n\n        </mat-sidenav>\n\n        <mat-sidenav-content>\n                <router-outlet></router-outlet>\n        </mat-sidenav-content>\n</mat-sidenav-container>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n <div class=\"container\">\n  <div class=\"row\">\n\n\n      <mat-card tabindex=\"0\">\n      <mat-card-title>Register\n\n        <button mat-raised-button color=\"primary\" \n        class=\"register\" routerLink=\"\">sign in</button>\n\n      </mat-card-title>\n      \n      <mat-card-content align='center' class=\"content\">\n        <form action=\"\" [formGroup]=\"registerForm\">\n          <mat-form-field>\n\n            <input matInput type=\"email\" formControlName=\"email\" placeholder=\"Login\">\n\n          </mat-form-field>\n\n          <mat-form-field>\n\n            <input matInput type=\"password\" formControlName=\"password\" placeholder=\"Password\">\n\n          </mat-form-field>\n\n        </form>\n      </mat-card-content>\n      <mat-card-actions align='center' class=\"actions\">\n        <button mat-raised-button color=\"primary\" class=\"sign\"\n        type=\"submit\"\n        (click)=\"openSnackBar()\"\n        (click)=\"tryRegister(registerForm.value)\">\n        Register\n      </button>\n      </mat-card-actions>\n      </mat-card>\n\n\n  </div>\n</div>");
 
 /***/ }),
 
@@ -454,6 +779,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _content_item_organaizer_organaizer_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./content-item/organaizer/organaizer.component */ "./src/app/content-item/organaizer/organaizer.component.ts");
 /* harmony import */ var _test_test_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./test/test.component */ "./src/app/test/test.component.ts");
 /* harmony import */ var _content_item_check_list_check_list_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./content-item/check-list/check-list.component */ "./src/app/content-item/check-list/check-list.component.ts");
+/* harmony import */ var _content_item_shot_shot_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./content-item/shot/shot.component */ "./src/app/content-item/shot/shot.component.ts");
+/* harmony import */ var _register_register_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./register/register.component */ "./src/app/register/register.component.ts");
+/* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
+/* harmony import */ var _services_guards_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./services/guards.service */ "./src/app/services/guards.service.ts");
+
+
+
+
 
 
 
@@ -465,13 +798,23 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: '', component: _content_item_profile_store_profile_store_component__WEBPACK_IMPORTED_MODULE_3__["ProfileStoreComponent"] },
+    { path: '', component: _login_login_component__WEBPACK_IMPORTED_MODULE_12__["LoginComponent"] },
+    { path: 'register', component: _register_register_component__WEBPACK_IMPORTED_MODULE_11__["RegisterComponent"] },
     { path: 'dnevnik-store', component: _content_item_dnevnik_store_dnevnik_store_component__WEBPACK_IMPORTED_MODULE_4__["DnevnikStoreComponent"] },
-    { path: 'dnevnik-read', component: _content_item_dnevnik_store_dnevnik_read_dnevnik_read_dnevnik_read_component__WEBPACK_IMPORTED_MODULE_5__["DnevnikReadComponent"] },
-    { path: 'dnevnik-editor', component: _content_item_dnevnik_store_dnevnik_editor_dnevnik_editor_component__WEBPACK_IMPORTED_MODULE_6__["DnevnikEditorComponent"] },
-    { path: 'organaizer', component: _content_item_organaizer_organaizer_component__WEBPACK_IMPORTED_MODULE_7__["OrganaizerComponent"] },
-    { path: 'test', component: _test_test_component__WEBPACK_IMPORTED_MODULE_8__["TestComponent"] },
-    { path: 'tasks-check', component: _content_item_check_list_check_list_component__WEBPACK_IMPORTED_MODULE_9__["CheckListComponent"] }
+    { path: 'dnevnik-read', component: _content_item_dnevnik_store_dnevnik_read_dnevnik_read_dnevnik_read_component__WEBPACK_IMPORTED_MODULE_5__["DnevnikReadComponent"],
+        canActivate: [_services_guards_service__WEBPACK_IMPORTED_MODULE_13__["GuardsService"]] },
+    { path: 'dnevnik-editor', component: _content_item_dnevnik_store_dnevnik_editor_dnevnik_editor_component__WEBPACK_IMPORTED_MODULE_6__["DnevnikEditorComponent"],
+        canActivate: [_services_guards_service__WEBPACK_IMPORTED_MODULE_13__["GuardsService"]] },
+    { path: 'organaizer', component: _content_item_organaizer_organaizer_component__WEBPACK_IMPORTED_MODULE_7__["OrganaizerComponent"],
+        canActivate: [_services_guards_service__WEBPACK_IMPORTED_MODULE_13__["GuardsService"]] },
+    { path: 'test', component: _test_test_component__WEBPACK_IMPORTED_MODULE_8__["TestComponent"],
+        canActivate: [_services_guards_service__WEBPACK_IMPORTED_MODULE_13__["GuardsService"]] },
+    { path: 'tasks-check', component: _content_item_check_list_check_list_component__WEBPACK_IMPORTED_MODULE_9__["CheckListComponent"],
+        canActivate: [_services_guards_service__WEBPACK_IMPORTED_MODULE_13__["GuardsService"]] },
+    { path: 'shoot-training', component: _content_item_shot_shot_component__WEBPACK_IMPORTED_MODULE_10__["ShotComponent"],
+        canActivate: [_services_guards_service__WEBPACK_IMPORTED_MODULE_13__["GuardsService"]] },
+    { path: 'profile', component: _content_item_profile_store_profile_store_component__WEBPACK_IMPORTED_MODULE_3__["ProfileStoreComponent"],
+        canActivate: [_services_guards_service__WEBPACK_IMPORTED_MODULE_13__["GuardsService"]] },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -546,39 +889,61 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm2015/animations.js");
-/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/sidenav */ "./node_modules/@angular/material/esm2015/sidenav.js");
-/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/toolbar */ "./node_modules/@angular/material/esm2015/toolbar.js");
-/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/esm2015/expansion.js");
-/* harmony import */ var _angular_material_list__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/list */ "./node_modules/@angular/material/esm2015/list.js");
-/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/form-field */ "./node_modules/@angular/material/esm2015/form-field.js");
-/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/esm2015/button.js");
-/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/input */ "./node_modules/@angular/material/esm2015/input.js");
-/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/esm2015/card.js");
-/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material/grid-list */ "./node_modules/@angular/material/esm2015/grid-list.js");
-/* harmony import */ var _angular_cdk_text_field__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/cdk/text-field */ "./node_modules/@angular/cdk/esm2015/text-field.js");
-/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/esm2015/snack-bar.js");
-/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/esm2015/select.js");
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
-/* harmony import */ var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material/checkbox */ "./node_modules/@angular/material/esm2015/checkbox.js");
-/* harmony import */ var _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material/progress-bar */ "./node_modules/@angular/material/esm2015/progress-bar.js");
-/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/material/progress-spinner */ "./node_modules/@angular/material/esm2015/progress-spinner.js");
-/* harmony import */ var _angular_material_stepper__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/material/stepper */ "./node_modules/@angular/material/esm2015/stepper.js");
-/* harmony import */ var _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/material/datepicker */ "./node_modules/@angular/material/esm2015/datepicker.js");
-/* harmony import */ var _my_main_stage_my_main_stage_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./my-main-stage/my-main-stage.component */ "./src/app/my-main-stage/my-main-stage.component.ts");
-/* harmony import */ var _menu_item_menu_item_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./menu-item/menu-item.component */ "./src/app/menu-item/menu-item.component.ts");
-/* harmony import */ var _menu_them_menu_them_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./menu-them/menu-them.component */ "./src/app/menu-them/menu-them.component.ts");
-/* harmony import */ var _content_item_profile_store_profile_store_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./content-item/profile-store/profile-store.component */ "./src/app/content-item/profile-store/profile-store.component.ts");
-/* harmony import */ var _content_item_dnevnik_store_dnevnik_store_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./content-item/dnevnik-store/dnevnik-store.component */ "./src/app/content-item/dnevnik-store/dnevnik-store.component.ts");
-/* harmony import */ var _capability_uploud_field_uploud_field_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./capability/uploud-field/uploud-field.component */ "./src/app/capability/uploud-field/uploud-field.component.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _content_item_dnevnik_store_dnevnik_read_dnevnik_read_dnevnik_read_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./content-item/dnevnik-store/dnevnik-read/dnevnik-read/dnevnik-read.component */ "./src/app/content-item/dnevnik-store/dnevnik-read/dnevnik-read/dnevnik-read.component.ts");
-/* harmony import */ var _content_item_dnevnik_store_dnevnik_editor_dnevnik_editor_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./content-item/dnevnik-store/dnevnik-editor/dnevnik-editor.component */ "./src/app/content-item/dnevnik-store/dnevnik-editor/dnevnik-editor.component.ts");
-/* harmony import */ var _content_item_organaizer_organaizer_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./content-item/organaizer/organaizer.component */ "./src/app/content-item/organaizer/organaizer.component.ts");
-/* harmony import */ var _content_item_dnevnik_store_dnevnik_read_collectoins_collectoins_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./content-item/dnevnik-store/dnevnik-read/collectoins/collectoins.component */ "./src/app/content-item/dnevnik-store/dnevnik-read/collectoins/collectoins.component.ts");
-/* harmony import */ var _test_test_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./test/test.component */ "./src/app/test/test.component.ts");
-/* harmony import */ var _content_item_check_list_check_list_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./content-item/check-list/check-list.component */ "./src/app/content-item/check-list/check-list.component.ts");
-/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/esm2015/core.js");
+/* harmony import */ var _angular_fire__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/fire */ "./node_modules/@angular/fire/es2015/index.js");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/firestore/es2015/index.js");
+/* harmony import */ var _angular_fire_auth__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/fire/auth */ "./node_modules/@angular/fire/auth/es2015/index.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm2015/animations.js");
+/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/sidenav */ "./node_modules/@angular/material/esm2015/sidenav.js");
+/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/toolbar */ "./node_modules/@angular/material/esm2015/toolbar.js");
+/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/esm2015/expansion.js");
+/* harmony import */ var _angular_material_list__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/material/list */ "./node_modules/@angular/material/esm2015/list.js");
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material/form-field */ "./node_modules/@angular/material/esm2015/form-field.js");
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/esm2015/button.js");
+/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/input */ "./node_modules/@angular/material/esm2015/input.js");
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/esm2015/card.js");
+/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/grid-list */ "./node_modules/@angular/material/esm2015/grid-list.js");
+/* harmony import */ var _angular_cdk_text_field__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/cdk/text-field */ "./node_modules/@angular/cdk/esm2015/text-field.js");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/esm2015/snack-bar.js");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/esm2015/select.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/esm2015/dialog.js");
+/* harmony import */ var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/material/checkbox */ "./node_modules/@angular/material/esm2015/checkbox.js");
+/* harmony import */ var _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/material/progress-bar */ "./node_modules/@angular/material/esm2015/progress-bar.js");
+/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/material/progress-spinner */ "./node_modules/@angular/material/esm2015/progress-spinner.js");
+/* harmony import */ var _angular_material_stepper__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @angular/material/stepper */ "./node_modules/@angular/material/esm2015/stepper.js");
+/* harmony import */ var _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @angular/material/datepicker */ "./node_modules/@angular/material/esm2015/datepicker.js");
+/* harmony import */ var _angular_material_moment_adapter__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @angular/material-moment-adapter */ "./node_modules/@angular/material-moment-adapter/esm2015/material-moment-adapter.js");
+/* harmony import */ var _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @angular/material/button-toggle */ "./node_modules/@angular/material/esm2015/button-toggle.js");
+/* harmony import */ var _my_main_stage_my_main_stage_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./my-main-stage/my-main-stage.component */ "./src/app/my-main-stage/my-main-stage.component.ts");
+/* harmony import */ var _menu_item_menu_item_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./menu-item/menu-item.component */ "./src/app/menu-item/menu-item.component.ts");
+/* harmony import */ var _menu_them_menu_them_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./menu-them/menu-them.component */ "./src/app/menu-them/menu-them.component.ts");
+/* harmony import */ var _content_item_profile_store_profile_store_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./content-item/profile-store/profile-store.component */ "./src/app/content-item/profile-store/profile-store.component.ts");
+/* harmony import */ var _content_item_dnevnik_store_dnevnik_store_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./content-item/dnevnik-store/dnevnik-store.component */ "./src/app/content-item/dnevnik-store/dnevnik-store.component.ts");
+/* harmony import */ var _capability_uploud_field_uploud_field_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./capability/uploud-field/uploud-field.component */ "./src/app/capability/uploud-field/uploud-field.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _content_item_dnevnik_store_dnevnik_read_dnevnik_read_dnevnik_read_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./content-item/dnevnik-store/dnevnik-read/dnevnik-read/dnevnik-read.component */ "./src/app/content-item/dnevnik-store/dnevnik-read/dnevnik-read/dnevnik-read.component.ts");
+/* harmony import */ var _content_item_dnevnik_store_dnevnik_editor_dnevnik_editor_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./content-item/dnevnik-store/dnevnik-editor/dnevnik-editor.component */ "./src/app/content-item/dnevnik-store/dnevnik-editor/dnevnik-editor.component.ts");
+/* harmony import */ var _content_item_organaizer_organaizer_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./content-item/organaizer/organaizer.component */ "./src/app/content-item/organaizer/organaizer.component.ts");
+/* harmony import */ var _content_item_dnevnik_store_dnevnik_read_collectoins_collectoins_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./content-item/dnevnik-store/dnevnik-read/collectoins/collectoins.component */ "./src/app/content-item/dnevnik-store/dnevnik-read/collectoins/collectoins.component.ts");
+/* harmony import */ var _test_test_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./test/test.component */ "./src/app/test/test.component.ts");
+/* harmony import */ var _content_item_check_list_check_list_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./content-item/check-list/check-list.component */ "./src/app/content-item/check-list/check-list.component.ts");
+/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/esm2015/core.js");
+/* harmony import */ var _content_item_shot_shot_component__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./content-item/shot/shot.component */ "./src/app/content-item/shot/shot.component.ts");
+/* harmony import */ var _register_register_component__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./register/register.component */ "./src/app/register/register.component.ts");
+/* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
+/* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./services/auth.service */ "./src/app/services/auth.service.ts");
+/* harmony import */ var _services_guards_service__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./services/guards.service */ "./src/app/services/guards.service.ts");
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -624,49 +989,56 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
         declarations: [
             _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-            _my_main_stage_my_main_stage_component__WEBPACK_IMPORTED_MODULE_25__["MyMainStageComponent"],
-            _menu_item_menu_item_component__WEBPACK_IMPORTED_MODULE_26__["MenuItemComponent"],
-            _menu_them_menu_them_component__WEBPACK_IMPORTED_MODULE_27__["MenuThemComponent"],
-            _content_item_profile_store_profile_store_component__WEBPACK_IMPORTED_MODULE_28__["ProfileStoreComponent"],
-            _content_item_dnevnik_store_dnevnik_store_component__WEBPACK_IMPORTED_MODULE_29__["DnevnikStoreComponent"],
-            _capability_uploud_field_uploud_field_component__WEBPACK_IMPORTED_MODULE_30__["UploudFieldComponent"],
-            _content_item_dnevnik_store_dnevnik_read_dnevnik_read_dnevnik_read_component__WEBPACK_IMPORTED_MODULE_32__["DnevnikReadComponent"],
-            _content_item_dnevnik_store_dnevnik_editor_dnevnik_editor_component__WEBPACK_IMPORTED_MODULE_33__["DnevnikEditorComponent"],
-            _content_item_organaizer_organaizer_component__WEBPACK_IMPORTED_MODULE_34__["OrganaizerComponent"],
-            _content_item_dnevnik_store_dnevnik_read_dnevnik_read_dnevnik_read_component__WEBPACK_IMPORTED_MODULE_32__["DialogOverviewExampleDialog"],
-            _content_item_dnevnik_store_dnevnik_read_collectoins_collectoins_component__WEBPACK_IMPORTED_MODULE_35__["CollectoinsComponent"],
-            _test_test_component__WEBPACK_IMPORTED_MODULE_36__["TestComponent"],
-            _content_item_check_list_check_list_component__WEBPACK_IMPORTED_MODULE_37__["CheckListComponent"]
+            _my_main_stage_my_main_stage_component__WEBPACK_IMPORTED_MODULE_31__["MyMainStageComponent"],
+            _menu_item_menu_item_component__WEBPACK_IMPORTED_MODULE_32__["MenuItemComponent"],
+            _menu_them_menu_them_component__WEBPACK_IMPORTED_MODULE_33__["MenuThemComponent"],
+            _content_item_profile_store_profile_store_component__WEBPACK_IMPORTED_MODULE_34__["ProfileStoreComponent"],
+            _content_item_dnevnik_store_dnevnik_store_component__WEBPACK_IMPORTED_MODULE_35__["DnevnikStoreComponent"],
+            _capability_uploud_field_uploud_field_component__WEBPACK_IMPORTED_MODULE_36__["UploudFieldComponent"],
+            _content_item_dnevnik_store_dnevnik_read_dnevnik_read_dnevnik_read_component__WEBPACK_IMPORTED_MODULE_38__["DnevnikReadComponent"],
+            _content_item_dnevnik_store_dnevnik_editor_dnevnik_editor_component__WEBPACK_IMPORTED_MODULE_39__["DnevnikEditorComponent"],
+            _content_item_organaizer_organaizer_component__WEBPACK_IMPORTED_MODULE_40__["OrganaizerComponent"],
+            _content_item_dnevnik_store_dnevnik_read_dnevnik_read_dnevnik_read_component__WEBPACK_IMPORTED_MODULE_38__["DialogOverviewExampleDialog"],
+            _content_item_dnevnik_store_dnevnik_read_collectoins_collectoins_component__WEBPACK_IMPORTED_MODULE_41__["CollectoinsComponent"],
+            _test_test_component__WEBPACK_IMPORTED_MODULE_42__["TestComponent"],
+            _content_item_check_list_check_list_component__WEBPACK_IMPORTED_MODULE_43__["CheckListComponent"],
+            _content_item_shot_shot_component__WEBPACK_IMPORTED_MODULE_45__["ShotComponent"],
+            _register_register_component__WEBPACK_IMPORTED_MODULE_46__["RegisterComponent"],
+            _login_login_component__WEBPACK_IMPORTED_MODULE_47__["LoginComponent"]
         ],
-        entryComponents: [_content_item_dnevnik_store_dnevnik_read_dnevnik_read_dnevnik_read_component__WEBPACK_IMPORTED_MODULE_32__["DialogOverviewExampleDialog"]],
+        entryComponents: [_content_item_dnevnik_store_dnevnik_read_dnevnik_read_dnevnik_read_component__WEBPACK_IMPORTED_MODULE_38__["DialogOverviewExampleDialog"]],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__["BrowserAnimationsModule"],
-            _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_7__["MatSidenavModule"],
-            _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_8__["MatToolbarModule"],
-            _angular_material_expansion__WEBPACK_IMPORTED_MODULE_9__["MatExpansionModule"],
-            _angular_material_list__WEBPACK_IMPORTED_MODULE_10__["MatListModule"],
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_10__["BrowserAnimationsModule"],
+            _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_11__["MatSidenavModule"],
+            _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_12__["MatToolbarModule"],
+            _angular_material_expansion__WEBPACK_IMPORTED_MODULE_13__["MatExpansionModule"],
+            _angular_material_list__WEBPACK_IMPORTED_MODULE_14__["MatListModule"],
             _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"],
-            _angular_material_form_field__WEBPACK_IMPORTED_MODULE_11__["MatFormFieldModule"],
-            _angular_material_button__WEBPACK_IMPORTED_MODULE_12__["MatButtonModule"],
-            _angular_forms__WEBPACK_IMPORTED_MODULE_31__["FormsModule"],
-            _angular_forms__WEBPACK_IMPORTED_MODULE_31__["ReactiveFormsModule"],
-            _angular_material_input__WEBPACK_IMPORTED_MODULE_13__["MatInputModule"],
-            _angular_material_card__WEBPACK_IMPORTED_MODULE_14__["MatCardModule"],
-            _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_15__["MatGridListModule"],
-            _angular_cdk_text_field__WEBPACK_IMPORTED_MODULE_16__["TextFieldModule"],
-            _angular_material_dialog__WEBPACK_IMPORTED_MODULE_19__["MatDialogModule"],
-            _angular_material_select__WEBPACK_IMPORTED_MODULE_18__["MatSelectModule"],
-            _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_17__["MatSnackBarModule"],
-            _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_20__["MatCheckboxModule"],
-            _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_21__["MatProgressBarModule"],
-            _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_22__["MatProgressSpinnerModule"],
-            _angular_material_stepper__WEBPACK_IMPORTED_MODULE_23__["MatStepperModule"],
-            _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_24__["MatDatepickerModule"],
-            _angular_material_core__WEBPACK_IMPORTED_MODULE_38__["MatNativeDateModule"],
+            _angular_material_form_field__WEBPACK_IMPORTED_MODULE_15__["MatFormFieldModule"],
+            _angular_material_button__WEBPACK_IMPORTED_MODULE_16__["MatButtonModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_37__["FormsModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_37__["ReactiveFormsModule"],
+            _angular_material_input__WEBPACK_IMPORTED_MODULE_17__["MatInputModule"],
+            _angular_material_card__WEBPACK_IMPORTED_MODULE_18__["MatCardModule"],
+            _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_19__["MatGridListModule"],
+            _angular_cdk_text_field__WEBPACK_IMPORTED_MODULE_20__["TextFieldModule"],
+            _angular_material_dialog__WEBPACK_IMPORTED_MODULE_23__["MatDialogModule"],
+            _angular_material_select__WEBPACK_IMPORTED_MODULE_22__["MatSelectModule"],
+            _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_21__["MatSnackBarModule"],
+            _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_24__["MatCheckboxModule"],
+            _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_25__["MatProgressBarModule"],
+            _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_26__["MatProgressSpinnerModule"],
+            _angular_material_stepper__WEBPACK_IMPORTED_MODULE_27__["MatStepperModule"],
+            _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_28__["MatDatepickerModule"],
+            _angular_material_moment_adapter__WEBPACK_IMPORTED_MODULE_29__["MatMomentDateModule"],
+            _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_30__["MatButtonToggleModule"],
+            _angular_fire__WEBPACK_IMPORTED_MODULE_6__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_9__["environment"].firebaseConfig),
+            _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_7__["AngularFirestoreModule"],
+            _angular_fire_auth__WEBPACK_IMPORTED_MODULE_8__["AngularFireAuthModule"],
         ],
-        providers: [{ provide: _angular_material_core__WEBPACK_IMPORTED_MODULE_38__["MAT_DATE_LOCALE"], useValue: 'ru' }],
+        providers: [_services_auth_service__WEBPACK_IMPORTED_MODULE_48__["AuthService"], _services_guards_service__WEBPACK_IMPORTED_MODULE_49__["GuardsService"], { provide: _angular_material_core__WEBPACK_IMPORTED_MODULE_44__["MAT_DATE_LOCALE"], useValue: 'ru' }],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })
 ], AppModule);
@@ -744,7 +1116,7 @@ UploudFieldComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".example-form {\n  min-width: 150px;\n  max-width: 500px;\n  width: 100%;\n}\n\n.example-full-width {\n  width: 100%;\n}\n\ntd {\n  padding-right: 8px;\n}\n\n.addBtn {\n  margin-left: 25px;\n  height: 50px;\n  width: 50px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGVudC1pdGVtL2NoZWNrLWxpc3QvQzpcXHByb2plY3RzXFxNeS1TdG9yYWdlL3NyY1xcYXBwXFxjb250ZW50LWl0ZW1cXGNoZWNrLWxpc3RcXGNoZWNrLWxpc3QuY29tcG9uZW50LnNhc3MiLCJzcmMvYXBwL2NvbnRlbnQtaXRlbS9jaGVjay1saXN0L2NoZWNrLWxpc3QuY29tcG9uZW50LnNhc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxnQkFBQTtFQUNBLGdCQUFBO0VBQ0EsV0FBQTtBQ0NKOztBRENBO0VBQ0ksV0FBQTtBQ0VKOztBREFBO0VBQ0ksa0JBQUE7QUNHSjs7QUREQTtFQUNJLGlCQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7QUNJSiIsImZpbGUiOiJzcmMvYXBwL2NvbnRlbnQtaXRlbS9jaGVjay1saXN0L2NoZWNrLWxpc3QuY29tcG9uZW50LnNhc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhhbXBsZS1mb3JtXHJcbiAgICBtaW4td2lkdGg6IDE1MHB4XHJcbiAgICBtYXgtd2lkdGg6IDUwMHB4XHJcbiAgICB3aWR0aDogMTAwJVxyXG5cclxuLmV4YW1wbGUtZnVsbC13aWR0aFxyXG4gICAgd2lkdGg6IDEwMCVcclxuXHJcbnRkXHJcbiAgICBwYWRkaW5nLXJpZ2h0OiA4cHhcclxuXHJcbi5hZGRCdG5cclxuICAgIG1hcmdpbi1sZWZ0OiAyNXB4XHJcbiAgICBoZWlnaHQ6IDUwcHhcclxuICAgIHdpZHRoOiA1MHB4IiwiLmV4YW1wbGUtZm9ybSB7XG4gIG1pbi13aWR0aDogMTUwcHg7XG4gIG1heC13aWR0aDogNTAwcHg7XG4gIHdpZHRoOiAxMDAlO1xufVxuXG4uZXhhbXBsZS1mdWxsLXdpZHRoIHtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbnRkIHtcbiAgcGFkZGluZy1yaWdodDogOHB4O1xufVxuXG4uYWRkQnRuIHtcbiAgbWFyZ2luLWxlZnQ6IDI1cHg7XG4gIGhlaWdodDogNTBweDtcbiAgd2lkdGg6IDUwcHg7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".example-form {\n  min-width: 150px;\n  max-width: 500px;\n  width: 100%;\n}\n\n.example-full-width {\n  width: 100%;\n}\n\ntd {\n  padding-right: 8px;\n}\n\n.addBtn {\n  margin-left: 25px;\n  height: 50px;\n  width: 50px;\n}\n\n.btnToggle {\n  font-size: 12px;\n  height: 3em;\n}\n\n.container-fluid {\n  margin: 0;\n}\n\nh4 {\n  margin-top: 15px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGVudC1pdGVtL2NoZWNrLWxpc3QvQzpcXHByb2plY3RzXFxNeS1TdG9yYWdlL3NyY1xcYXBwXFxjb250ZW50LWl0ZW1cXGNoZWNrLWxpc3RcXGNoZWNrLWxpc3QuY29tcG9uZW50LnNhc3MiLCJzcmMvYXBwL2NvbnRlbnQtaXRlbS9jaGVjay1saXN0L2NoZWNrLWxpc3QuY29tcG9uZW50LnNhc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxnQkFBQTtFQUNBLGdCQUFBO0VBQ0EsV0FBQTtBQ0NKOztBRENBO0VBQ0ksV0FBQTtBQ0VKOztBREFBO0VBQ0ksa0JBQUE7QUNHSjs7QURGQTtFQUNJLGlCQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7QUNLSjs7QURKQTtFQUNJLGVBQUE7RUFDQSxXQUFBO0FDT0o7O0FETkE7RUFDSSxTQUFBO0FDU0o7O0FEUkE7RUFDSSxnQkFBQTtBQ1dKIiwiZmlsZSI6InNyYy9hcHAvY29udGVudC1pdGVtL2NoZWNrLWxpc3QvY2hlY2stbGlzdC5jb21wb25lbnQuc2FzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGFtcGxlLWZvcm1cclxuICAgIG1pbi13aWR0aDogMTUwcHhcclxuICAgIG1heC13aWR0aDogNTAwcHhcclxuICAgIHdpZHRoOiAxMDAlXHJcblxyXG4uZXhhbXBsZS1mdWxsLXdpZHRoXHJcbiAgICB3aWR0aDogMTAwJVxyXG5cclxudGRcclxuICAgIHBhZGRpbmctcmlnaHQ6IDhweFxyXG4uYWRkQnRuXHJcbiAgICBtYXJnaW4tbGVmdDogMjVweFxyXG4gICAgaGVpZ2h0OiA1MHB4XHJcbiAgICB3aWR0aDogNTBweFxyXG4uYnRuVG9nZ2xlXHJcbiAgICBmb250LXNpemU6IDEycHhcclxuICAgIGhlaWdodDogM2VtXHJcbi5jb250YWluZXItZmx1aWRcclxuICAgIG1hcmdpbjogMFxyXG5oNCBcclxuICAgIG1hcmdpbi10b3A6IDE1cHgiLCIuZXhhbXBsZS1mb3JtIHtcbiAgbWluLXdpZHRoOiAxNTBweDtcbiAgbWF4LXdpZHRoOiA1MDBweDtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi5leGFtcGxlLWZ1bGwtd2lkdGgge1xuICB3aWR0aDogMTAwJTtcbn1cblxudGQge1xuICBwYWRkaW5nLXJpZ2h0OiA4cHg7XG59XG5cbi5hZGRCdG4ge1xuICBtYXJnaW4tbGVmdDogMjVweDtcbiAgaGVpZ2h0OiA1MHB4O1xuICB3aWR0aDogNTBweDtcbn1cblxuLmJ0blRvZ2dsZSB7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgaGVpZ2h0OiAzZW07XG59XG5cbi5jb250YWluZXItZmx1aWQge1xuICBtYXJnaW46IDA7XG59XG5cbmg0IHtcbiAgbWFyZ2luLXRvcDogMTVweDtcbn0iXX0= */");
 
 /***/ }),
 
@@ -762,20 +1134,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/services/jsonCreate.service */ "./src/app/services/jsonCreate.service.ts");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/esm2015/snack-bar.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_5__);
+
+
 
 
 
 
 let CheckListComponent = class CheckListComponent {
-    constructor(formBuild, js) {
+    constructor(formBuild, js, snackBar) {
         this.formBuild = formBuild;
         this.js = js;
+        this.snackBar = snackBar;
         this.checkForm = this.formBuild.group({
-            date: '',
+            date: moment__WEBPACK_IMPORTED_MODULE_5__(),
             aliases: this.formBuild.array([
                 this.formBuild.control('')
             ])
         });
+        this.selected = 'option2';
         this.jsonTasks = { date: '', tasks: [] };
         this.dateToday = new Date();
     }
@@ -804,14 +1183,13 @@ let CheckListComponent = class CheckListComponent {
         // // })
     }
     postCheck() {
-        this.checkForm.value.date = this.checkForm.value.date.toLocaleDateString();
-        console.log(this.checkForm);
-        // this.js.postCheckList(this.checkForm.value).subscribe(val=>{
+        this.checkForm.value.date = this.checkForm.value.date.format('DD-MM-YYYY');
+        console.log(this.checkForm.value);
+        this.js.setDataFirestore('check-list', this.checkForm.value);
+        // this.js.deleteData
+        // ().subscribe(val=>{
         //   console.log(val)
         // })
-        this.js.deleteData().subscribe(val => {
-            console.log(val);
-        });
     }
     addInput() {
         // const nameOrder="checklist"+(this.mass.length)
@@ -820,15 +1198,21 @@ let CheckListComponent = class CheckListComponent {
         // this.checkForm.value[nameOrder] =''
         // console.log(this.checkForm)
         this.aliases.push(this.formBuild.control(''));
-        console.log(this.dateToday);
+        console.log(this.checkForm.value);
     }
     get aliases() {
         return this.checkForm.get('aliases');
     }
+    openSnackBar() {
+        this.snackBar.open("Запись добавлена", ")))0)", {
+            duration: 2000,
+        });
+    }
 };
 CheckListComponent.ctorParameters = () => [
     { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] },
-    { type: src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_3__["JsonCreate"] }
+    { type: src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_3__["JsonCreate"] },
+    { type: _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_4__["MatSnackBar"] }
 ];
 CheckListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -870,28 +1254,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/services/jsonCreate.service */ "./src/app/services/jsonCreate.service.ts");
 /* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/esm2015/snack-bar.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_5__);
+
 
 
 
 
 
 let DnevnikEditorComponent = class DnevnikEditorComponent {
-    constructor(snackBar, js) {
+    constructor(snackBar, js, fb) {
         this.snackBar = snackBar;
         this.js = js;
+        this.fb = fb;
         this.text = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('');
         this.groups = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('');
         this.title = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]('');
+        this.dnevnikForm = this.fb.group({
+            date: moment__WEBPACK_IMPORTED_MODULE_5__().format("MM-DD-YYYY"),
+            text: '',
+            groups: '',
+            title: '',
+        });
     }
     //  addButton(title: string,message: string,collection:string){
     //   this.uploudCreate(title,message,collection)
     //   this.openSnackBar()
     //  }
-    uploudCreate(title, message, collection) {
-        console.log(message, collection);
-        this.js.postJson(title, message, collection).subscribe(val => {
-            console.log(val);
-        });
+    upld2() {
+        console.log(this.dnevnikForm);
+        this.js.setDataFirestore('dnevnik', this.dnevnikForm.value);
     }
     openSnackBar() {
         this.snackBar.open("Запись добавлена", ")))0)", {
@@ -901,7 +1293,8 @@ let DnevnikEditorComponent = class DnevnikEditorComponent {
 };
 DnevnikEditorComponent.ctorParameters = () => [
     { type: _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_4__["MatSnackBar"] },
-    { type: src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_3__["JsonCreate"] }
+    { type: src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_3__["JsonCreate"] },
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }
 ];
 DnevnikEditorComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -1023,43 +1416,86 @@ let DnevnikReadComponent = class DnevnikReadComponent {
         this.all = "all";
         this.array = [];
         this.select = "all";
-        this.js.getConfig().subscribe(value => {
-            this.jsonData = value;
-            this.selectCollection = value;
-            for (let i = 0; i < this.jsonData.length; i++) {
-                console.log(this.jsonData[i].collection);
-                this.array.push(this.jsonData[i].collection);
+        this.js.gg().subscribe(val => {
+            console.log(val);
+        });
+        this.js.getDataFirestore('dnevnik').subscribe(val => {
+            console.log(val);
+            this.jsonData = val;
+            this.selectCollection = val;
+            for (let i = 0; i < val.length; i++) {
+                console.log(val[i].groups);
+                this.array.push(val[i].groups);
             }
             this.col = new Set(this.array);
             this.col.delete("");
-            console.log(value);
             console.log(this.col);
+        });
+        // this.jsonData = val
+        // this.js.getConfig().subscribe(value => {
+        //   this.jsonData = value
+        //   this.selectCollection = value
+        // //   for (let i = 0; i < this.jsonData.length; i++) {
+        // //     console.log(this.jsonData[i].collection)
+        // //     this.array.push(this.jsonData[i].collection)
+        // //   }
+        // //   this.col = new Set(this.array)
+        // //   this.col.delete("")
+        // //   console.log(value)
+        // //   console.log(this.col)
+        // // })
+    }
+    readData() {
+        this.js.getDataFirestore('dnevnik').subscribe(val => {
+            console.log(val[0]);
         });
     }
     openDialog(i) {
-        console.log(this.collections);
-        console.log(this.jsonData[i].message);
         const dialogRef = this.dialog.open(DialogOverviewExampleDialog, {
             width: '520px',
             height: '300px',
             data: {
-                name: this.jsonData[i].title,
-                collections: this.jsonData[i].message,
-                id: this.jsonData[i]._id,
+                title: this.jsonData[i].title,
+                groups: this.jsonData[i].groups,
+                date: this.jsonData[i].date,
+                text: this.jsonData[i].text,
+                id: this.jsonData[i].id,
                 js: this.js
             }
         });
         dialogRef.afterClosed().subscribe(result => {
+            console.log(this.jsonData);
             console.log('The dialog was closed');
-            this.DisplaySelectedRecord(this.select);
+            // this.DisplaySelectedRecord(this.select)
         });
     }
+    // DisplaySelectedRecord(selectedCollection: string){
+    //   this.js.getSelectedConfig(selectedCollection).subscribe(value=> {
+    //     this.selectCollection = value
+    //     this.select = selectedCollection
+    //     console.log(this.selectCollection)
+    //   })
+    // }
+    // displaySelectedRecord(selectCollection) {
+    //  this.js.getSelectedDataFirestore('dnevnik',selectCollection).subscribe(  =>
+    //    {},
+    //   error => { console.log(error); },
+    //   () => { console.log('Completed'); }
+    //  );
+    // }
     DisplaySelectedRecord(selectedCollection) {
-        this.js.getSelectedConfig(selectedCollection).subscribe(value => {
-            this.selectCollection = value;
-            this.select = selectedCollection;
-            console.log(this.selectCollection);
-        });
+        if (selectedCollection === 'all') {
+            this.js.getDataFirestore('dnevnik').subscribe(val => {
+                this.selectCollection = val;
+                this.select = selectedCollection;
+            });
+        }
+        else {
+            this.js.getSelectedDataFirestore('dnevnik', 'groups', selectedCollection).subscribe(val => {
+                this.selectCollection = val;
+                this.select = selectedCollection;
+            });
+        }
     }
 };
 DnevnikReadComponent.ctorParameters = () => [
@@ -1088,12 +1524,14 @@ let DialogOverviewExampleDialog = class DialogOverviewExampleDialog {
         this.data = data;
     }
     onNoClick() {
+        console.log(this.data);
         this.dialogRef.close();
     }
     deleteElement(id) {
-        this.data.js.deleteSelectedElement(id).subscribe(value => {
-            console.log(value);
-        });
+        console.log(id);
+        this.data.js.deleteSelectedElement(id, 'dnevnik')
+            .then(result => console.log("Fulfilled: " + result), error => console.log("Rejected: " + error.message) // Rejected: время вышло!
+        );
     }
 };
 DialogOverviewExampleDialog.ctorParameters = () => [
@@ -1258,6 +1696,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/jsonCreate.service */ "./src/app/services/jsonCreate.service.ts");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -1266,8 +1707,9 @@ let ProfileStoreComponent = class ProfileStoreComponent {
         this.js = js;
         this.click = 0;
         // this.value.width = this.spinner.width
-        this.js.getSelectedCheckList().subscribe(value => {
+        this.js.getSelectedDataFirestore('check-list', 'date', moment__WEBPACK_IMPORTED_MODULE_3__().format('DD-MM-YYYY')).subscribe(value => {
             this.jsonData = value[0].aliases;
+            console.log(value);
         });
     }
     ngOnInit() {
@@ -1310,6 +1752,182 @@ ProfileStoreComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./profile-store.component.sass */ "./src/app/content-item/profile-store/profile-store.component.sass")).default]
     })
 ], ProfileStoreComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/content-item/shot/shot.component.sass":
+/*!*******************************************************!*\
+  !*** ./src/app/content-item/shot/shot.component.sass ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".container-fluid {\n  margin: 0px;\n}\n\n.pric {\n  width: 110px;\n}\n\n.yder {\n  width: 85px;\n}\n\n.spysk {\n  width: 50px;\n}\n\n.one {\n  width: 18px;\n}\n\nmat-option {\n  text-align: center;\n}\n\nmat-select {\n  text-align: center;\n}\n\nbutton {\n  margin-left: 60vw;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGVudC1pdGVtL3Nob3QvQzpcXHByb2plY3RzXFxNeS1TdG9yYWdlL3NyY1xcYXBwXFxjb250ZW50LWl0ZW1cXHNob3RcXHNob3QuY29tcG9uZW50LnNhc3MiLCJzcmMvYXBwL2NvbnRlbnQtaXRlbS9zaG90L3Nob3QuY29tcG9uZW50LnNhc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxXQUFBO0FDQ0o7O0FEQUE7RUFDSSxZQUFBO0FDR0o7O0FERkE7RUFDSSxXQUFBO0FDS0o7O0FESkE7RUFDSSxXQUFBO0FDT0o7O0FETkE7RUFDSSxXQUFBO0FDU0o7O0FEUkE7RUFDSSxrQkFBQTtBQ1dKOztBRFZBO0VBQ0ksa0JBQUE7QUNhSjs7QURaQTtFQUNJLGlCQUFBO0FDZUoiLCJmaWxlIjoic3JjL2FwcC9jb250ZW50LWl0ZW0vc2hvdC9zaG90LmNvbXBvbmVudC5zYXNzIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbnRhaW5lci1mbHVpZFxyXG4gICAgbWFyZ2luOiAwcHhcclxuLnByaWNcclxuICAgIHdpZHRoOiAxMTBweFxyXG4ueWRlclxyXG4gICAgd2lkdGg6IDg1cHhcclxuLnNweXNrXHJcbiAgICB3aWR0aDogNTBweFxyXG4ub25lXHJcbiAgICB3aWR0aDogMThweFxyXG5tYXQtb3B0aW9uXHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXJcclxubWF0LXNlbGVjdFxyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyXHJcbmJ1dHRvblxyXG4gICAgbWFyZ2luLWxlZnQ6IDYwdndcclxuXHJcbiIsIi5jb250YWluZXItZmx1aWQge1xuICBtYXJnaW46IDBweDtcbn1cblxuLnByaWMge1xuICB3aWR0aDogMTEwcHg7XG59XG5cbi55ZGVyIHtcbiAgd2lkdGg6IDg1cHg7XG59XG5cbi5zcHlzayB7XG4gIHdpZHRoOiA1MHB4O1xufVxuXG4ub25lIHtcbiAgd2lkdGg6IDE4cHg7XG59XG5cbm1hdC1vcHRpb24ge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbm1hdC1zZWxlY3Qge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbmJ1dHRvbiB7XG4gIG1hcmdpbi1sZWZ0OiA2MHZ3O1xufSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/content-item/shot/shot.component.ts":
+/*!*****************************************************!*\
+  !*** ./src/app/content-item/shot/shot.component.ts ***!
+  \*****************************************************/
+/*! exports provided: ShotComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ShotComponent", function() { return ShotComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/services/jsonCreate.service */ "./src/app/services/jsonCreate.service.ts");
+
+
+
+
+let ShotComponent = class ShotComponent {
+    // postTraining() {
+    //   console.log(this.checkForm)
+    //   this.js.postTrainingJson(this.checkForm.value).subscribe(val=>{
+    //     console.log(val)
+    //   })
+    // }
+    constructor(formBuild, js) {
+        this.formBuild = formBuild;
+        this.js = js;
+        this.evaluation = [
+            { value: '+', viewValue: '+' },
+            { value: '+ —', viewValue: '+ —' },
+            { value: '—', viewValue: '—' }
+        ];
+        this.order = [0, 1, 2, 3, 4, 5, 6, 7];
+        this.checkForm = this.formBuild.group({
+            descent1: [''],
+            descent2: [''],
+            descent3: [''],
+            descent4: [''],
+            descent5: [''],
+            descent6: [''],
+            descent7: [''],
+            descent8: [''],
+            hold1: [''],
+            hold2: [''],
+            hold3: [''],
+            hold4: [''],
+            hold5: [''],
+            hold6: [''],
+            hold7: [''],
+            hold8: [''],
+            aiming1: [''],
+            aiming2: [''],
+            aiming3: [''],
+            aiming4: [''],
+            aiming5: [''],
+            aiming6: [''],
+            aiming7: [''],
+            aiming8: [''],
+        });
+    }
+    onSubmit(bs) {
+        console.log(bs);
+    }
+    ngOnInit() {
+    }
+};
+ShotComponent.ctorParameters = () => [
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] },
+    { type: src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_3__["JsonCreate"] }
+];
+ShotComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-shot',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./shot.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/content-item/shot/shot.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./shot.component.sass */ "./src/app/content-item/shot/shot.component.sass")).default]
+    })
+], ShotComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/login/login.component.sass":
+/*!********************************************!*\
+  !*** ./src/app/login/login.component.sass ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("mat-card {\n  width: 100vw;\n  padding-bottom: 50px;\n}\n\n.container {\n  margin-top: 100px;\n  max-width: 1000px;\n  min-width: 250px;\n  width: 40%;\n}\n\n.sign {\n  width: 80%;\n}\n\n.register {\n  position: absolute;\n  right: 20px;\n}\n\n.content {\n  margin-top: 10%;\n}\n\n.actions {\n  margin-top: 10%;\n}\n\nmat-form-field {\n  width: 80%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbG9naW4vQzpcXHByb2plY3RzXFxNeS1TdG9yYWdlL3NyY1xcYXBwXFxsb2dpblxcbG9naW4uY29tcG9uZW50LnNhc3MiLCJzcmMvYXBwL2xvZ2luL2xvZ2luLmNvbXBvbmVudC5zYXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksWUFBQTtFQUNBLG9CQUFBO0FDQ0o7O0FEQUE7RUFDSSxpQkFBQTtFQUNBLGlCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxVQUFBO0FDR0o7O0FERkE7RUFDSSxVQUFBO0FDS0o7O0FESkE7RUFDSSxrQkFBQTtFQUNBLFdBQUE7QUNPSjs7QUROQTtFQUNJLGVBQUE7QUNTSjs7QURSQTtFQUNJLGVBQUE7QUNXSjs7QURWQTtFQUNJLFVBQUE7QUNhSiIsImZpbGUiOiJzcmMvYXBwL2xvZ2luL2xvZ2luLmNvbXBvbmVudC5zYXNzIiwic291cmNlc0NvbnRlbnQiOlsibWF0LWNhcmRcclxuICAgIHdpZHRoOiAxMDB2d1xyXG4gICAgcGFkZGluZy1ib3R0b206IDUwcHhcclxuLmNvbnRhaW5lclxyXG4gICAgbWFyZ2luLXRvcDogMTAwcHhcclxuICAgIG1heC13aWR0aDogMTAwMHB4XHJcbiAgICBtaW4td2lkdGg6IDI1MHB4XHJcbiAgICB3aWR0aDogNDAlXHJcbi5zaWduXHJcbiAgICB3aWR0aDogODAlXHJcbi5yZWdpc3RlclxyXG4gICAgcG9zaXRpb246IGFic29sdXRlXHJcbiAgICByaWdodDogMjBweFxyXG4uY29udGVudFxyXG4gICAgbWFyZ2luLXRvcDogMTAlXHJcbi5hY3Rpb25zXHJcbiAgICBtYXJnaW4tdG9wOiAxMCVcclxubWF0LWZvcm0tZmllbGRcclxuICAgIHdpZHRoOiA4MCUiLCJtYXQtY2FyZCB7XG4gIHdpZHRoOiAxMDB2dztcbiAgcGFkZGluZy1ib3R0b206IDUwcHg7XG59XG5cbi5jb250YWluZXIge1xuICBtYXJnaW4tdG9wOiAxMDBweDtcbiAgbWF4LXdpZHRoOiAxMDAwcHg7XG4gIG1pbi13aWR0aDogMjUwcHg7XG4gIHdpZHRoOiA0MCU7XG59XG5cbi5zaWduIHtcbiAgd2lkdGg6IDgwJTtcbn1cblxuLnJlZ2lzdGVyIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICByaWdodDogMjBweDtcbn1cblxuLmNvbnRlbnQge1xuICBtYXJnaW4tdG9wOiAxMCU7XG59XG5cbi5hY3Rpb25zIHtcbiAgbWFyZ2luLXRvcDogMTAlO1xufVxuXG5tYXQtZm9ybS1maWVsZCB7XG4gIHdpZHRoOiA4MCU7XG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/login/login.component.ts":
+/*!******************************************!*\
+  !*** ./src/app/login/login.component.ts ***!
+  \******************************************/
+/*! exports provided: LoginComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginComponent", function() { return LoginComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/auth.service */ "./src/app/services/auth.service.ts");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/esm2015/snack-bar.js");
+
+
+
+
+
+let LoginComponent = class LoginComponent {
+    constructor(auth, snackBar) {
+        this.auth = auth;
+        this.snackBar = snackBar;
+        this.errorMessage = '';
+        this.successMessage = '';
+        this.loginForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroup"]({
+            email: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](''),
+            password: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](''),
+        });
+    }
+    authTest() {
+        this.authTests = this.auth.checkAuth();
+        console.log(this.auth.returnId());
+    }
+    tryLogin(value) {
+        this.auth.doAuth(value)
+            .then(res => {
+            console.log(res);
+            this.successMessage = res.message;
+        }, err => {
+            console.log(err);
+            this.successMessage = err;
+        });
+    }
+    openSnackBar() {
+        this.snackBar.open("Вход выполнен успешно(На самом деле хз)", ")))0)", {
+            duration: 2000,
+        });
+    }
+};
+LoginComponent.ctorParameters = () => [
+    { type: _services_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"] },
+    { type: _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_4__["MatSnackBar"] }
+];
+LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-login',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./login.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/login/login.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./login.component.sass */ "./src/app/login/login.component.sass")).default]
+    })
+], LoginComponent);
 
 
 
@@ -1412,7 +2030,7 @@ MenuThemComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".example-container {\n  height: 100vh;\n}\n\n.mat-sidenav {\n  width: 250px;\n}\n\n.mat-sidenav-container {\n  background-color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbXktbWFpbi1zdGFnZS9DOlxccHJvamVjdHNcXE15LVN0b3JhZ2Uvc3JjXFxhcHBcXG15LW1haW4tc3RhZ2VcXG15LW1haW4tc3RhZ2UuY29tcG9uZW50LnNhc3MiLCJzcmMvYXBwL215LW1haW4tc3RhZ2UvbXktbWFpbi1zdGFnZS5jb21wb25lbnQuc2FzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQUE7QUNDRjs7QURBQTtFQUNFLFlBQUE7QUNHRjs7QURGQTtFQUNFLHVCQUFBO0FDS0YiLCJmaWxlIjoic3JjL2FwcC9teS1tYWluLXN0YWdlL215LW1haW4tc3RhZ2UuY29tcG9uZW50LnNhc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhhbXBsZS1jb250YWluZXIgXHJcbiAgaGVpZ2h0OiAxMDB2aFxyXG4ubWF0LXNpZGVuYXZcclxuICB3aWR0aDogMjUwcHhcclxuLm1hdC1zaWRlbmF2LWNvbnRhaW5lclxyXG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlXHJcbiAiLCIuZXhhbXBsZS1jb250YWluZXIge1xuICBoZWlnaHQ6IDEwMHZoO1xufVxuXG4ubWF0LXNpZGVuYXYge1xuICB3aWR0aDogMjUwcHg7XG59XG5cbi5tYXQtc2lkZW5hdi1jb250YWluZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".example-container {\n  height: 100vh;\n}\n\n.mat-sidenav {\n  width: 250px;\n}\n\n.mat-sidenav-container {\n  background-color: white;\n}\n\nh1 {\n  position: absolute;\n  right: 30px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbXktbWFpbi1zdGFnZS9DOlxccHJvamVjdHNcXE15LVN0b3JhZ2Uvc3JjXFxhcHBcXG15LW1haW4tc3RhZ2VcXG15LW1haW4tc3RhZ2UuY29tcG9uZW50LnNhc3MiLCJzcmMvYXBwL215LW1haW4tc3RhZ2UvbXktbWFpbi1zdGFnZS5jb21wb25lbnQuc2FzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQUE7QUNDRjs7QURBQTtFQUNFLFlBQUE7QUNHRjs7QURGQTtFQUNFLHVCQUFBO0FDS0Y7O0FESkE7RUFDRSxrQkFBQTtFQUNBLFdBQUE7QUNPRiIsImZpbGUiOiJzcmMvYXBwL215LW1haW4tc3RhZ2UvbXktbWFpbi1zdGFnZS5jb21wb25lbnQuc2FzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGFtcGxlLWNvbnRhaW5lciBcclxuICBoZWlnaHQ6IDEwMHZoXHJcbi5tYXQtc2lkZW5hdlxyXG4gIHdpZHRoOiAyNTBweFxyXG4ubWF0LXNpZGVuYXYtY29udGFpbmVyXHJcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGVcclxuaDFcclxuICBwb3NpdGlvbjogYWJzb2x1dGVcclxuICByaWdodDogMzBweFxyXG4gIiwiLmV4YW1wbGUtY29udGFpbmVyIHtcbiAgaGVpZ2h0OiAxMDB2aDtcbn1cblxuLm1hdC1zaWRlbmF2IHtcbiAgd2lkdGg6IDI1MHB4O1xufVxuXG4ubWF0LXNpZGVuYXYtY29udGFpbmVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG59XG5cbmgxIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICByaWdodDogMzBweDtcbn0iXX0= */");
 
 /***/ }),
 
@@ -1462,6 +2080,198 @@ MyMainStageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/register/register.component.sass":
+/*!**************************************************!*\
+  !*** ./src/app/register/register.component.sass ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("mat-card {\n  width: 100vw;\n  padding-bottom: 50px;\n}\n\n.container {\n  margin-top: 100px;\n  max-width: 1000px;\n  min-width: 250px;\n  width: 40%;\n}\n\n.sign {\n  width: 80%;\n}\n\n.register {\n  position: absolute;\n  right: 20px;\n}\n\n.content {\n  margin-top: 10%;\n}\n\n.actions {\n  margin-top: 10%;\n}\n\nmat-form-field {\n  width: 80%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcmVnaXN0ZXIvQzpcXHByb2plY3RzXFxNeS1TdG9yYWdlL3NyY1xcYXBwXFxyZWdpc3RlclxccmVnaXN0ZXIuY29tcG9uZW50LnNhc3MiLCJzcmMvYXBwL3JlZ2lzdGVyL3JlZ2lzdGVyLmNvbXBvbmVudC5zYXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksWUFBQTtFQUNBLG9CQUFBO0FDQ0o7O0FEQUE7RUFDSSxpQkFBQTtFQUNBLGlCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxVQUFBO0FDR0o7O0FERkE7RUFDSSxVQUFBO0FDS0o7O0FESkE7RUFDSSxrQkFBQTtFQUNBLFdBQUE7QUNPSjs7QUROQTtFQUNJLGVBQUE7QUNTSjs7QURSQTtFQUNJLGVBQUE7QUNXSjs7QURWQTtFQUNJLFVBQUE7QUNhSiIsImZpbGUiOiJzcmMvYXBwL3JlZ2lzdGVyL3JlZ2lzdGVyLmNvbXBvbmVudC5zYXNzIiwic291cmNlc0NvbnRlbnQiOlsibWF0LWNhcmRcclxuICAgIHdpZHRoOiAxMDB2d1xyXG4gICAgcGFkZGluZy1ib3R0b206IDUwcHhcclxuLmNvbnRhaW5lclxyXG4gICAgbWFyZ2luLXRvcDogMTAwcHhcclxuICAgIG1heC13aWR0aDogMTAwMHB4XHJcbiAgICBtaW4td2lkdGg6IDI1MHB4XHJcbiAgICB3aWR0aDogNDAlXHJcbi5zaWduXHJcbiAgICB3aWR0aDogODAlXHJcbi5yZWdpc3RlclxyXG4gICAgcG9zaXRpb246IGFic29sdXRlXHJcbiAgICByaWdodDogMjBweFxyXG4uY29udGVudFxyXG4gICAgbWFyZ2luLXRvcDogMTAlXHJcbi5hY3Rpb25zXHJcbiAgICBtYXJnaW4tdG9wOiAxMCVcclxubWF0LWZvcm0tZmllbGRcclxuICAgIHdpZHRoOiA4MCUiLCJtYXQtY2FyZCB7XG4gIHdpZHRoOiAxMDB2dztcbiAgcGFkZGluZy1ib3R0b206IDUwcHg7XG59XG5cbi5jb250YWluZXIge1xuICBtYXJnaW4tdG9wOiAxMDBweDtcbiAgbWF4LXdpZHRoOiAxMDAwcHg7XG4gIG1pbi13aWR0aDogMjUwcHg7XG4gIHdpZHRoOiA0MCU7XG59XG5cbi5zaWduIHtcbiAgd2lkdGg6IDgwJTtcbn1cblxuLnJlZ2lzdGVyIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICByaWdodDogMjBweDtcbn1cblxuLmNvbnRlbnQge1xuICBtYXJnaW4tdG9wOiAxMCU7XG59XG5cbi5hY3Rpb25zIHtcbiAgbWFyZ2luLXRvcDogMTAlO1xufVxuXG5tYXQtZm9ybS1maWVsZCB7XG4gIHdpZHRoOiA4MCU7XG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/register/register.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/register/register.component.ts ***!
+  \************************************************/
+/*! exports provided: RegisterComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterComponent", function() { return RegisterComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/auth.service */ "./src/app/services/auth.service.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/esm2015/snack-bar.js");
+
+
+
+
+
+let RegisterComponent = class RegisterComponent {
+    constructor(auth, snackBar) {
+        this.auth = auth;
+        this.snackBar = snackBar;
+        this.errorMessage = '';
+        this.successMessage = '';
+        this.registerForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormGroup"]({
+            email: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](''),
+            password: new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"](''),
+        });
+    }
+    tryRegister(value) {
+        this.auth.doRegister(value)
+            .then(res => console.log(res), err => console.log(err));
+    }
+    openSnackBar() {
+        this.snackBar.open("Регистрация выполнена успешно(На самом деле хз)", ")))0)", {
+            duration: 2000,
+        });
+    }
+};
+RegisterComponent.ctorParameters = () => [
+    { type: _services_auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"] },
+    { type: _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_4__["MatSnackBar"] }
+];
+RegisterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-register',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./register.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/register/register.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./register.component.sass */ "./src/app/register/register.component.sass")).default]
+    })
+], RegisterComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/auth.service.ts":
+/*!******************************************!*\
+  !*** ./src/app/services/auth.service.ts ***!
+  \******************************************/
+/*! exports provided: AuthService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthService", function() { return AuthService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_fire_auth__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/fire/auth */ "./node_modules/@angular/fire/auth/es2015/index.js");
+/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! firebase/app */ "./node_modules/firebase/app/dist/index.cjs.js");
+/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(firebase_app__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
+
+
+
+const httpOptions = {
+    headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({
+        'Content-Type': 'application/json',
+    })
+};
+let AuthService = class AuthService {
+    constructor(http, fire) {
+        this.http = http;
+        this.fire = fire;
+    }
+    doRegister(value) {
+        return firebase_app__WEBPACK_IMPORTED_MODULE_4__["auth"]().createUserWithEmailAndPassword(value.email, value.password);
+    }
+    checkAuth() {
+        var user = firebase_app__WEBPACK_IMPORTED_MODULE_4__["auth"]().currentUser;
+        if (user) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+    returnId() {
+        var id = firebase_app__WEBPACK_IMPORTED_MODULE_4__["auth"]().currentUser.uid;
+        if (id) {
+            return id;
+        }
+        else
+            return "Войди в аккаунт";
+    }
+    doAuth(value) {
+        return new Promise((resolve, reject) => {
+            firebase_app__WEBPACK_IMPORTED_MODULE_4__["auth"]().signInWithEmailAndPassword(value.email, value.password)
+                .then(res => {
+                firebase_app__WEBPACK_IMPORTED_MODULE_4__["auth"]().onAuthStateChanged(function (user) {
+                    if (user) {
+                        // User is signed in.
+                        console.log(user);
+                        // ...
+                    }
+                    else {
+                        // User is signed out.
+                        // ...
+                    }
+                });
+            }, err => reject(err));
+        });
+    }
+};
+AuthService.ctorParameters = () => [
+    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] },
+    { type: _angular_fire_auth__WEBPACK_IMPORTED_MODULE_3__["AngularFireAuth"] }
+];
+AuthService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])()
+], AuthService);
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/guards.service.ts":
+/*!********************************************!*\
+  !*** ./src/app/services/guards.service.ts ***!
+  \********************************************/
+/*! exports provided: GuardsService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GuardsService", function() { return GuardsService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/auth.service */ "./src/app/services/auth.service.ts");
+
+
+
+let GuardsService = class GuardsService {
+    constructor(auth) {
+        this.auth = auth;
+    }
+    canActivate(next, state) {
+        let url = state.url;
+        return this.auth.checkAuth();
+    }
+    checkLogin() {
+        return true;
+    }
+};
+GuardsService.ctorParameters = () => [
+    { type: _services_auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"] }
+];
+GuardsService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
+], GuardsService);
+
+
+
+/***/ }),
+
 /***/ "./src/app/services/jsonCreate.service.ts":
 /*!************************************************!*\
   !*** ./src/app/services/jsonCreate.service.ts ***!
@@ -1475,6 +2285,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/firestore/es2015/index.js");
+/* harmony import */ var _auth_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./auth.service */ "./src/app/services/auth.service.ts");
+
+
 
 
 
@@ -1485,8 +2299,10 @@ const httpOptions = {
     })
 };
 let JsonCreate = class JsonCreate {
-    constructor(http) {
+    constructor(http, db, auth) {
         this.http = http;
+        this.db = db;
+        this.auth = auth;
         this.date = new Date().toLocaleDateString();
         this.configUrl = 'https://jsonbox.io/box_ce820a7b8b65281a8753';
         this.configCollections = 'https://jsonbox.io/box_ce820a7b8b65281a8753?q=collection:';
@@ -1494,48 +2310,93 @@ let JsonCreate = class JsonCreate {
         this.configUrlJulia = "https://jsonbox.io/box_308c1794496d93cb21b4";
         this.configCollectionsJulia = "https://jsonbox.io/box_308c1794496d93cb21b4?q=collection:";
         this.configCheckListJulia = "https://jsonbox.io/box_5bbd8261b8ebb3688bb9";
+        this.configUrlIlya = "https://jsonbox.io/box_c69057ba38a03c1aeab1";
+        this.configCollectionsIlya = "https://jsonbox.io/box_c69057ba38a03c1aeab1?q=collection:";
+        this.configCheckListIlya = "https://jsonbox.io/box_b0b06100f9bd43fa7abb";
+        this.configUrlArtem = 'https://jsonbox.io/box_1c8a861dea07c279bbeb';
+        this.configCollectionsArtem = 'https://jsonbox.io/box_1c8a861dea07c279bbeb?q=collection:';
+        this.configCheckListArtem = 'https://jsonbox.io/box_af82aac969662df9cfb7';
+        this.configTrainingArtem = 'https://jsonbox.io/box_0c90d5aeda9b458be74c';
         this.configDeleteAll = "https://jsonbox.io/box_f9ba3926dade96693495?q=message:**"; //удалить все
         this.configDelete = 'https://jsonbox.io/box_ce820a7b8b65281a8753/';
-        this.configDeleteJulia = "https://jsonbox.io/box_308c1794496d93cb21b4/";
+        this.configDeleteIlya = "https://jsonbox.io/box_c69057ba38a03c1aeab1/";
+        this.configDeleteArtem = 'https://jsonbox.io/box_1c8a861dea07c279bbeb';
+    }
+    //иЛЬЯ
+    // getConfig() {
+    //   return this.http.get(this.configUrlIlya);
+    // }
+    // getSelectedConfig(selectedConfig) {
+    //   console.log(selectedConfig)
+    //   if(selectedConfig === "all"){
+    //     return this.http.get(this.configUrlIlya)
+    //   }
+    //   else return this.http.get(this.configCollectionsIlya+selectedConfig)
+    // }
+    // postJson(title,message,collection) {
+    //     const data ={
+    //       title,
+    //       message,
+    //       collection
+    //     }
+    //     console.log(data)
+    //     return this.http.post(this.configUrlIlya, data, httpOptions)
+    // }
+    // postCheckList(jsonArray){
+    //   return this.http.post(this.configCheckListIlya, jsonArray, httpOptions)
+    // }
+    // getSelectedCheckList() {
+    //    return this.http.get(this.configCheckListIlya +"?q=date:"+this.date)
+    // }
+    // deleteData() {
+    //   return this.http.delete(this.configCheckListIlya +"?q=date:**")
+    // }
+    // deleteSelectedElement(id: string) {
+    //   console.log(this.configDeleteIlya+id)
+    //   return this.http.delete(this.configDeleteIlya+id)
+    // }
+    //Моя
+    setDataFirestore(component, value) {
+        return this.db.collection('users').doc(this.auth.returnId()).collection(component).add(value);
+    }
+    getDataFirestore(component) {
+        return this.db.collection('users').doc(this.auth.returnId()).collection(component).valueChanges({ idField: "id" });
+    }
+    getSelectedDataFirestore(component, collCompared, valueCompared) {
+        return this.db.collection('users').doc(this.auth.returnId()).collection(component, ref => ref.where(collCompared, "==", valueCompared)).valueChanges({ idField: "id" });
+    }
+    gg() {
+        return this.db.collection('users').doc(this.auth.returnId()).collection('dnevnik').valueChanges({ idField: "id" });
     }
     getConfig() {
-        return this.http.get(this.configUrlJulia);
+        return this.http.get(this.configUrl);
     }
     getSelectedConfig(selectedConfig) {
         console.log(selectedConfig);
         if (selectedConfig === "all") {
-            return this.http.get(this.configUrlJulia);
+            return this.http.get(this.configUrl);
         }
-        else {
-            console.log(this.configCollectionsJulia + selectedConfig);
-            return this.http.get(this.configCollectionsJulia + selectedConfig);
-        }
-    }
-    postJson(title, message, collection) {
-        const data = {
-            title,
-            message,
-            collection
-        };
-        console.log(data);
-        return this.http.post(this.configUrlJulia, data, httpOptions);
+        else
+            return this.http.get(this.configCollections + selectedConfig);
     }
     postCheckList(jsonArray) {
-        return this.http.post(this.configCheckListJulia, jsonArray, httpOptions);
+        return this.http.post(this.configChecklist, jsonArray, httpOptions);
     }
     getSelectedCheckList() {
-        return this.http.get(this.configCheckListJulia + "?q=date:" + this.date);
+        console.log(this.configChecklist);
+        return this.http.get(this.configChecklist + "?q=date:" + this.date);
     }
     deleteData() {
-        return this.http.delete(this.configCheckListJulia + "?q=date:**");
+        return this.http.delete(this.configChecklist + "?q=date:**");
     }
-    deleteSelectedElement(id) {
-        console.log(this.configDelete + id);
-        return this.http.delete(this.configDeleteJulia + id);
+    deleteSelectedElement(id, component) {
+        return this.db.collection('users').doc(this.auth.returnId()).collection(component).doc(id).delete();
     }
 };
 JsonCreate.ctorParameters = () => [
-    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] }
+    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] },
+    { type: _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__["AngularFirestore"] },
+    { type: _auth_service__WEBPACK_IMPORTED_MODULE_4__["AuthService"] }
 ];
 JsonCreate = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])()
@@ -1607,7 +2468,16 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 
 const environment = {
-    production: false
+    production: false,
+    firebaseConfig: {
+        apiKey: "AIzaSyCqsT3uKlC7kTNEKc_2SdZMOEejDHB2OJI",
+        authDomain: "storage-44b4a.firebaseapp.com",
+        databaseURL: "https://storage-44b4a.firebaseio.com",
+        projectId: "storage-44b4a",
+        storageBucket: "storage-44b4a.appspot.com",
+        messagingSenderId: "232156593711",
+        appId: "1:232156593711:web:1e92db41a4799493d950da"
+    }
 };
 /*
  * For easier debugging in development mode, you can import the following file
