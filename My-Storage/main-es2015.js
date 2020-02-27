@@ -344,7 +344,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n\n<div class=\"navbar\">\n  <h1>Дневник</h1>\n  <h2  routerLink='/dnevnik-editor' routerLinkActive=\"active\">Сделать запись</h2>\n  <h2 routerLink='/dnevnik-read'>Читать</h2>\n</div>\n\n<div class=\"container-fluid\">\n\n  <div class=\"row\">\n     <mat-card>\n        <form class=\"example-form\" [formGroup]=\"checkForm\"  \n        (ngSubmit)=\"onSubmit(checkForm.value)\">\n        <mat-form-field>\n            <input matInput [matDatepicker]=\"picker\" placeholder=\"Choose a date\"  [min]=\"dateToday\" formControlName=\"date\">\n            <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n            <mat-datepicker #picker ></mat-datepicker>\n        </mat-form-field>\n        <button mat-mini-fab color=\"primary\" class=\"addBtn\" (click)=\"addInput()\">+</button>\n      \n\n\n    \n        <div class=\"row\" formArrayName=\"aliases\">\n            \n        <div class=\"col-11\" \n        *ngFor=\"let address of aliases.controls; let i=index\">\n            <mat-form-field class=\"example-full-width\" appearance=\"outline\">\n              <mat-label>Задания</mat-label>\n                <input matInput  \n                formControlName=\"{{i}}\">\n                 \n              </mat-form-field>\n        </div>\n      </div>\n        \n        <button mat-raised-button color=\"primary\" class=\"button\" type=\"submit\" \n        (click)=\"postCheck(checkForm.value)\"\n        (click)=\"openSnackBar()\"\n        routerLink='/profile'>Сохранить</button>\n        <div></div>\n      </form>\n    </mat-card>\n</div>\n\n\n\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<div class=\"navbar\">\n  <h1>Дневник</h1>\n  <h2  routerLink='/dnevnik-editor' routerLinkActive=\"active\">Сделать запись</h2>\n  <h2 routerLink='/dnevnik-read'>Читать</h2>\n</div>\n\n<div class=\"container-fluid\">\n\n  <div class=\"row\">\n     <mat-card>\n        <form class=\"example-form\" [formGroup]=\"checkForm\"  \n        (ngSubmit)=\"onSubmit(checkForm.value)\">\n        <mat-form-field>\n            <input matInput [matDatepicker]=\"picker\" placeholder=\"Choose a date\"  [min]=\"dateToday\" formControlName=\"date\">\n            <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n            <mat-datepicker #picker ></mat-datepicker>\n        </mat-form-field>\n        <button mat-mini-fab color=\"primary\" class=\"addBtn\" (click)=\"addInput()\">+</button>\n      \n\n\n    \n        <div class=\"row\" formArrayName=\"aliases\">\n            \n        <div class=\"col-11\" \n        *ngFor=\"let address of aliases.controls; let i=index\">\n            <mat-form-field class=\"example-full-width\" appearance=\"outline\">\n              <mat-label>Задания</mat-label>\n                <input matInput  \n                formControlName=\"{{i}}\">\n              </mat-form-field>\n        </div>\n      </div>\n        \n        <button mat-raised-button color=\"primary\" class=\"button\" type=\"submit\" \n        (click)=\"postCheck(checkForm.value)\"\n        (click)=\"openSnackBar()\"\n        >Сохранить</button>\n        <div></div>\n      </form>\n    </mat-card>\n</div>\n\n\n\n\n");
 
 /***/ }),
 
@@ -435,7 +435,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <h1>Цели хранилища</h1>\n                        <ul>\n                                <li>Сохранение и анализ данных\\опыта\\информации\\файлов с помощью фретчей</li>\n                                <li>Компонентный подход к фретчам\\возможность создания и кастомизации пользовательских фратчей</li>\n                                <ul>\n                                        <h1>О фретчах</h1>\n                                        <li> Фретч - это  набор возможностей для  сохранения и анализа данных</li>\n                                        <li>Базовые Фретчи - Дневник .... и т.д</li>\n                                        <li>Кастомизации фретчей - это выбор возможностей через окно \"Редактор Фретчей\" для создания уникального опыта взаимодействия с данными.</li>\n                                        <li>Создание новых возможностей - приоритет хранилища</li>\n                                        <li>Редактор текста.Хэштеги\\пометки.Графики/Формы/Поддержка разных данных/ .... и т.д</li>\n                                        <li>Например: Фретч для отсчета прогресса -> Например Собрать сумму денег до определенного времени с заполняющимся кругом | Используются формы(данные:Деньги) Progress-Circle - который заполняется по мере продвижения  </li>\n                                        <li>Как это кастомизируется?Пользователь выбирает 2 формы ввода с данными - деньги.Текущая сумма и Цель. Птм добавляет таймер с обратным отсчетом и устанавливает дату когла окончание.Добавляет круг-прогресса связывая его с текущим результатом</li>\n\n                                        <li>В будущем добавление возможностей аналитики. Например Пользователь Выбирает две формы и выбирает аналитику изменения в день. Полученные данные оторбражает через форму </li>\n                                </ul>\n                                \n                        </ul> -->\n<!-- <br>\n                        <mat-progress-bar mode=\"determinate\" value=\"70\">\n                                <span>sd</span>\n                        </mat-progress-bar> -->\n\n\n<!-- <div class=\"container\">\n        <mat-card>Simple card</mat-card>\n\n        <div class=\"row\">\n                <div class=\"col-6\">\n                        <h1 class=\"kek\">Задания</h1>\n                        <div *ngIf=\"!nullTasks\" class=\"\">\n                                <h3>У вас нет заданий на сегодня</h3>\n                                <button mat-flat-button color=\"primary\" routerLink='/tasks-check'>Добавить</button>\n                        </div>\n\n                        <br>\n                        <div class=\"complete\" *ngIf=\"nullTasks\">\n                                <mat-selection-list #shoes (click)=\"clickBtn(shoes)\">\n                                        <mat-list-option *ngFor=\"let item of jsonData\">\n                                                {{item}}\n                                        </mat-list-option>\n                                </mat-selection-list>\n                                <div class=\"row\">\n\n                                        <h3 class=\"complete\">\n                                                Complete\n                                        </h3>\n                                        <div class=\"number-spinner\">\n\n                                                <mat-progress-spinner id=\"spinner\" #spinner mode=\"determinate\"\n                                                        value=\"{{click}}\" diameter=\"80\">\n                                                </mat-progress-spinner>\n\n                                                <h2 class=\"value-spinner\" #value>{{click}}\n                                                </h2>\n                                        </div>\n\n                                </div>\n                        </div>\n                </div>\n                <div class=\"\">\n                        <h1 class=\"lol\">Задания</h1>\n                        <h3>Вы не добавили еще не одной цели</h3>\n                        <button mat-flat-button color=\"primary\">Добавить</button>\n\n                </div>\n        </div>\n\n        <br>\n        <br>\n        <br>\n        <br>\n\n        <div class=\"row\">\n                <div class=\"col-6\">\n                        <h2>Трекер привычек</h2>\n\n                        <div class=\"\">\n                                <img class=\"glass\" src=\"https://img.icons8.com/cotton/64/000000/water-glass.png\">\n                                <img class=\"glass\" src=\"https://img.icons8.com/cotton/64/000000/water-glass.png\">\n                                <img class=\"glass\" src=\"https://img.icons8.com/cotton/64/000000/water-glass.png\">\n\n                                <h2 class=\"h2\">6 Л</h2>\n                        </div>\n\n                        <br>\n                        <div class=\"\">\n                                <img class=\"bed\" src=\"https://img.icons8.com/pastel-glyph/64/000000/empty-bed.png\">\n                                <img class=\"bed\" src=\"https://img.icons8.com/pastel-glyph/64/000000/empty-bed.png\">\n                                <img class=\"bed\" src=\"https://img.icons8.com/pastel-glyph/64/000000/empty-bed.png\">\n                                <img class=\"bed\" src=\"https://img.icons8.com/pastel-glyph/64/000000/empty-bed.png\">\n                                <h2 class=\"h2\">8 Ч</h2>\n                        </div>\n                </div>\n                <div class=\"col-6\">\n                        <h1>Статистика</h1>\n                        <h3>Для отображения статистики необходимо ввести данные</h3>\n                        <div class=\"rod\">\n                                <img class=\"charts\"\n                                        src=\"https://img.icons8.com/plasticine/100/000000/positive-dynamic--v1.png\">\n                                <button class=\"btn-charts\" mat-flat-button color=\"primary\">Детальная статистика</button>\n                        </div>\n                </div>\n        </div>\n</div> -->\n<!-- <mat-horizontal-stepper labelPosition=\"bottom\">\n                                <mat-step label=\"Купить билет\" class=\"first\">\n                                  <p>Ну же пупсик</p>\n                                  <div>\n                                    <button mat-button matStepperNext>Next</button>\n                                  </div>\n                                </mat-step>\n                                <mat-step label=\"бронь хаты\">\n                                  <p>ну давай уже решайся</p>\n                                  <div>\n                                    <button mat-button matStepperPrevious>Back</button>\n                                    <button mat-button matStepperNext>Next</button>\n                                  </div>\n                                </mat-step>\n                                <mat-step label=\"В путь\">\n                                  <p>Езжай братишка</p>\n                                </mat-step>\n                              \n                                \n                              \n                              </mat-horizontal-stepper> -->\n\n\n\n\n\n<div class=\"container-fluid\">\n        <div class=\"navbar\">\n                <h1>Главная</h1>\n                <h2 class=\"active\">Сегодня</h2> <h2>Читать</h2>\n        </div>\n\n        <div class=\"row content\">\n                <div class=\"col-5\">\n                        <mat-card class=\"statistics\">\n                        Статистика\n                        <div>\n                                <div>\n                                        <div class=\"chart\">\n                                                <canvas baseChart width=\"480\" height=\"345\" [datasets]=\"barChartData\" [labels]=\"barChartLabels\"\n                                                        [options]=\"barChartOptions\" [plugins]=\"barChartPlugins\" [legend]=\"barChartLegend\"\n                                                        [chartType]=\"barChartType\">\n                                                </canvas>\n                                        </div>\n                                </div>\n                        </div>\n                        </mat-card>\n                </div>\n                <div class=\"col-4\">\n                        \n                        <mat-card class=\"goals\">  \n                                Мои задачи\n                                <div *ngIf=\"!nullTasks\" class=\"\">\n                                <h3>У вас нет заданий на сегодня</h3>\n                                <button mat-flat-button color=\"primary\" routerLink='/tasks-check'>Добавить</button>\n                        </div>\n\n\n\n                        <div class=\"row\" *ngIf=\"nullTasks\">\n                                <div class=\"col-9\">\n                                <mat-selection-list #shoes \n                                (click)=\"clickBtn(shoes)\">\n                                        \n                                        <mat-list-option \n                                        *ngFor=\"let item of jsonData\">\n                                                <p>{{item}}</p>\n                                        </mat-list-option>\n\n                                </mat-selection-list>\n                                </div>\n                                        <div class=\"col-3\">\n\n                                                <mat-progress-spinner id=\"spinner\" #spinner mode=\"determinate\"\n                                                        value=\"{{click}}\" diameter=\"80\">\n                                                </mat-progress-spinner>\n\n                                                <h2 class=\"value-spinner\" #value>{{click}}\n                                                </h2>\n                                        </div>\n\n                        </div>\n                \n\n        </mat-card>\n                        <mat-card class=\"tasks\">Незаконченная секция\n                                <mat-list>\n                                        <mat-list-item><p>uhuhuhuhuhuuhuh</p> </mat-list-item>\n                                        <mat-list-item><p>grrrrrrrrrrr</p></mat-list-item>\n                                        <mat-list-item><p>brrbrbrbrbrrbrbr</p></mat-list-item>\n                                       </mat-list>\n                        </mat-card>\n                </div>\n\n                <div class=\"col\">\n                        <mat-card class=\"tracker\">Трекер привычек\n                                <mat-selection-list >\n                                        \n                                        <mat-list-option>\n                                               <p>Прочитать 100 страниц</p>\n                                        </mat-list-option>\n                                        <mat-list-option>\n                                                <p>2 литра воды</p>\n                                         </mat-list-option>\n                                         <mat-list-option>\n                                                <p>100 отжиманий</p>\n                                         </mat-list-option>\n                                         <mat-list-option>\n                                                <p>60 минут работы над проетом</p>\n                                         </mat-list-option>\n                                         <mat-list-option>\n                                                <p>Бинго-бонго</p>\n                                         </mat-list-option>\n\n                                </mat-selection-list>\n                        </mat-card>\n                        <button mat-raised-button color=\"primary\" class=\"button\" type=\"submit\"><h1>Сохранить</h1></button>\n                </div>\n        </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <h1>Цели хранилища</h1>\n                        <ul>\n                                <li>Сохранение и анализ данных\\опыта\\информации\\файлов с помощью фретчей</li>\n                                <li>Компонентный подход к фретчам\\возможность создания и кастомизации пользовательских фратчей</li>\n                                <ul>\n                                        <h1>О фретчах</h1>\n                                        <li> Фретч - это  набор возможностей для  сохранения и анализа данных</li>\n                                        <li>Базовые Фретчи - Дневник .... и т.д</li>\n                                        <li>Кастомизации фретчей - это выбор возможностей через окно \"Редактор Фретчей\" для создания уникального опыта взаимодействия с данными.</li>\n                                        <li>Создание новых возможностей - приоритет хранилища</li>\n                                        <li>Редактор текста.Хэштеги\\пометки.Графики/Формы/Поддержка разных данных/ .... и т.д</li>\n                                        <li>Например: Фретч для отсчета прогресса -> Например Собрать сумму денег до определенного времени с заполняющимся кругом | Используются формы(данные:Деньги) Progress-Circle - который заполняется по мере продвижения  </li>\n                                        <li>Как это кастомизируется?Пользователь выбирает 2 формы ввода с данными - деньги.Текущая сумма и Цель. Птм добавляет таймер с обратным отсчетом и устанавливает дату когла окончание.Добавляет круг-прогресса связывая его с текущим результатом</li>\n\n                                        <li>В будущем добавление возможностей аналитики. Например Пользователь Выбирает две формы и выбирает аналитику изменения в день. Полученные данные оторбражает через форму </li>\n                                </ul>\n                                \n                        </ul> -->\n<!-- <br>\n                        <mat-progress-bar mode=\"determinate\" value=\"70\">\n                                <span>sd</span>\n                        </mat-progress-bar> -->\n\n\n<!-- <div class=\"container\">\n        <mat-card>Simple card</mat-card>\n\n        <div class=\"row\">\n                <div class=\"col-lg-6\">\n                        <h1 class=\"kek\">Задания</h1>\n                        <div *ngIf=\"!nullTasks\" class=\"\">\n                                <h3>У вас нет заданий на сегодня</h3>\n                                <button mat-flat-button color=\"primary\" routerLink='/tasks-check'>Добавить</button>\n                        </div>\n\n                        <br>\n                        <div class=\"complete\" *ngIf=\"nullTasks\">\n                                <mat-selection-list #shoes (click)=\"clickBtn(shoes)\">\n                                        <mat-list-option *ngFor=\"let item of jsonData\">\n                                                {{item}}\n                                        </mat-list-option>\n                                </mat-selection-list>\n                                <div class=\"row\">\n\n                                        <h3 class=\"complete\">\n                                                Complete\n                                        </h3>\n                                        <div class=\"number-spinner\">\n\n                                                <mat-progress-spinner id=\"spinner\" #spinner mode=\"determinate\"\n                                                        value=\"{{click}}\" diameter=\"80\">\n                                                </mat-progress-spinner>\n\n                                                <h2 class=\"value-spinner\" #value>{{click}}\n                                                </h2>\n                                        </div>\n\n                                </div>\n                        </div>\n                </div>\n                <div class=\"\">\n                        <h1 class=\"lol\">Задания</h1>\n                        <h3>Вы не добавили еще не одной цели</h3>\n                        <button mat-flat-button color=\"primary\">Добавить</button>\n\n                </div>\n        </div>\n\n        <br>\n        <br>\n        <br>\n        <br>\n\n        <div class=\"row\">\n                <div class=\"col-lg-6\">\n                        <h2>Трекер привычек</h2>\n\n                        <div class=\"\">\n                                <img class=\"glass\" src=\"https://img.icons8.com/cotton/64/000000/water-glass.png\">\n                                <img class=\"glass\" src=\"https://img.icons8.com/cotton/64/000000/water-glass.png\">\n                                <img class=\"glass\" src=\"https://img.icons8.com/cotton/64/000000/water-glass.png\">\n\n                                <h2 class=\"h2\">6 Л</h2>\n                        </div>\n\n                        <br>\n                        <div class=\"\">\n                                <img class=\"bed\" src=\"https://img.icons8.com/pastel-glyph/64/000000/empty-bed.png\">\n                                <img class=\"bed\" src=\"https://img.icons8.com/pastel-glyph/64/000000/empty-bed.png\">\n                                <img class=\"bed\" src=\"https://img.icons8.com/pastel-glyph/64/000000/empty-bed.png\">\n                                <img class=\"bed\" src=\"https://img.icons8.com/pastel-glyph/64/000000/empty-bed.png\">\n                                <h2 class=\"h2\">8 Ч</h2>\n                        </div>\n                </div>\n                <div class=\"col-lg-6\">\n                        <h1>Статистика</h1>\n                        <h3>Для отображения статистики необходимо ввести данные</h3>\n                        <div class=\"rod\">\n                                <img class=\"charts\"\n                                        src=\"https://img.icons8.com/plasticine/100/000000/positive-dynamic--v1.png\">\n                                <button class=\"btn-charts\" mat-flat-button color=\"primary\">Детальная статистика</button>\n                        </div>\n                </div>\n        </div>\n</div> -->\n<!-- <mat-horizontal-stepper labelPosition=\"bottom\">\n                                <mat-step label=\"Купить билет\" class=\"first\">\n                                  <p>Ну же пупсик</p>\n                                  <div>\n                                    <button mat-button matStepperNext>Next</button>\n                                  </div>\n                                </mat-step>\n                                <mat-step label=\"бронь хаты\">\n                                  <p>ну давай уже решайся</p>\n                                  <div>\n                                    <button mat-button matStepperPrevious>Back</button>\n                                    <button mat-button matStepperNext>Next</button>\n                                  </div>\n                                </mat-step>\n                                <mat-step label=\"В путь\">\n                                  <p>Езжай братишка</p>\n                                </mat-step>\n                              \n                                \n                              \n                              </mat-horizontal-stepper> -->\n\n\n\n\n\n<div class=\"container-fluid\">\n        <div class=\"navbar\">\n                <h1>Главная</h1>\n                <h2 class=\"active\">Сегодня</h2>\n                <h2>Читать</h2>\n        </div>\n\n        <div class=\"row content\">\n                <div class=\"col-lg-5\">\n                        <mat-card class=\"statistics\" (click)=\"checkStatus()\">\n                                <h1>Статистика</h1>\n                                <canvas width=\"250\" height=\"350\" #canvat baseChart [datasets]=\"barChartData\"\n                                        [labels]=\"barChartLabels\" [options]=\"barChartOptions\"\n                                        [plugins]=\"barChartPlugins\" [legend]=\"barChartLegend\"\n                                        [chartType]=\"barChartType\">\n                                </canvas>\n                        </mat-card>\n                </div>\n\n                <div class=\"col-lg-4\">\n\n                        <mat-card class=\"goals\">\n                                <h1>Задания</h1>\n\n\n\n\n                                <div class=\"row\">\n                                        <div class=\"col-lg-9\">\n                                                <mat-selection-list *ngIf=\"haveTasks;else addTasks\" #shoes\n                                                        (click)=\"clickBtn(shoes)\">\n\n                                                        <mat-list-option #options *ngFor=\"let item of jsonData;\n                                        let i = index\" [selected]=\"item.status\" (click)=\"changeStatus(i,options)\">\n\n                                                                <p>{{item.name}}</p>\n                                                        </mat-list-option>\n\n                                                </mat-selection-list>\n                                                <ng-template #addTasks>\n                                                        <div class=\"nullTasks\">\n                                                                <h3>У вас нет заданий на сегодня</h3>\n                                                                <button mat-raised-button routerLink='/tasks-check'\n                                                                        color=\"primary\">Добавить</button>\n                                                        </div>\n                                                </ng-template>\n                                        </div>\n                                        <div *ngIf=\"haveTasks\" class=\"col-lg-3\">\n\n                                                <mat-progress-spinner id=\"spinner\" #spinner mode=\"determinate\"\n                                                        value=\"{{click}}\" diameter=\"80\">\n                                                </mat-progress-spinner>\n\n                                                <h2 class=\"value-spinner\" #value>{{click}}\n                                                </h2>\n                                        </div>\n\n                                </div>\n\n\n                        </mat-card>\n                        <mat-card class=\"tasks\">Незаконченная секция\n                                <mat-list>\n                                        <mat-list-item>\n                                                <p>uhuhuhuhuhuuhuh</p>\n                                        </mat-list-item>\n                                        <mat-list-item>\n                                                <p>grrrrrrrrrrr</p>\n                                        </mat-list-item>\n                                        <mat-list-item>\n                                                <p>brrbrbrbrbrrbrbr</p>\n                                        </mat-list-item>\n                                </mat-list>\n                        </mat-card>\n                </div>\n\n                <div class=\"col\">\n                        <mat-card  class=\"tracker\">\n                                <h1>Трекер привычек</h1>\n                                <mat-selection-list \n                                *ngIf=\"haveTracker;else addTracker\"\n                                #listTracker>\n\n                                        <mat-list-option\n                                        (click)=\"changeStatusTracker(i,optionsTracker)\"\n                                         [selected]=\"item.status\"\n                                        #optionsTracker\n                                         *ngFor=\"let item of jsonTrackerData;\n                                     let i = index\">\n                                                <p>{{item.name}}</p>\n                                        </mat-list-option>\n\n                                </mat-selection-list>\n                                <ng-template #addTracker>\n                                        \n                                        <h3 class=\"nullTracker\">Вы еще не добавили не одной привычки для отслеживания.</h3>\n                                        <p>Добавьте привычки, чтобы закрепить и отслеживать регулярность выполнений</p>\n                                        <button class=\"addTracker\" mat-raised-button routerLink='/tracker'\n                                        color=\"primary\">Добавить</button>\n                                        \n                                </ng-template>\n                        </mat-card>\n                        <button mat-raised-button color=\"primary\" class=\"button\" type=\"button\"\n                                (click)=\"updateStatusData()\"\n                                >\n                                <h1>\n                                        Сохранить\n                                </h1>\n                        </button>\n                        <!-- <h1 (click)=\"updateStatusData()\"\n                        class=\"button\" >Сохранить</h1> -->\n\n                </div>\n        </div>\n</div>");
 
 /***/ }),
 
@@ -449,6 +449,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-1\">\n            №\n        </div>\n        <div class=\"col-auto\">\n            Прицеливание\n        </div>\n        <div class=\"col-auto\">\n            Удержание\n        </div>\n        <div class=\"col-2\">\n            Спуск\n        </div>\n    </div>\n</div>\n\n<div class=\"container\">\n\n    <form class=\"example-form\" [formGroup]=\"checkForm\" (ngSubmit)=\"onSubmit(checkForm.value)\">\n        <div class=\"row\">\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"1\">\n                </mat-form-field>\n            </div>\n\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent1' required>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold1'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming1'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n\n\n\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"2\">\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent2'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold2'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming2'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n\n\n\n\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"3\">\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent3'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold3'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming3'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n\n\n\n\n\n\n\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"4\">\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent4'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold4'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming4'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n\n\n\n\n\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"5\">\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent5'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold5'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming5'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n\n\n\n\n\n\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"6\">\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent6'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold6'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming6'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n\n\n\n\n\n\n            <div class=\"col-1\">\n                <mat-form-field class=\"one\">\n                    <input matInput placeholder=\"8\">\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"pric\">\n                    <mat-select formControlName='descent8'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-auto\">\n                <mat-form-field class=\"yder\">\n                    <mat-select formControlName='hold8'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n            <div class=\"col-2\">\n                <mat-form-field class=\"spysk\">\n                    <mat-select formControlName='aiming8'>\n                        <mat-option *ngFor=\"let item of evaluation\" [value]=\"item.value\">\n                            {{item.viewValue}}\n                        </mat-option>\n                    </mat-select>\n                </mat-form-field>\n            </div>\n        \n            <div>\n                <button mat-raised-button color=\"primary\" type=\"submit\" (click)=\"postTraining()\">Сохранить</button>\n            </div>\n    </div>\n    </form>\n        ");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/content-item/tracker/tracker.component.html":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/content-item/tracker/tracker.component.html ***!
+  \***************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<div class=\"navbar\">\n    <h1>Трекер</h1>\n    <!-- <h2  routerLink='/dnevnik-editor' routerLinkActive=\"active\">Сделать запись</h2>\n    <h2 routerLink='/dnevnik-read'>Читать</h2> -->\n  </div>\n  \n  <div class=\"container-fluid\">\n  \n    <div class=\"row\">\n       <mat-card>\n         <h1>Добавьте привычку, чтобы закрепить ее</h1>\n         <button mat-mini-fab color=\"primary\" class=\"addBtn\" (click)=\"addInput()\">+</button>\n          <form class=\"example-form\" [formGroup]=\"checkForm\"  \n          (ngSubmit)=\"onSubmit(checkForm.value)\">\n          <!-- <mat-form-field>\n              <input matInput [matDatepicker]=\"picker\" placeholder=\"Choose a date\"  [min]=\"dateToday\" formControlName=\"date\">\n              <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n              <mat-datepicker #picker ></mat-datepicker>\n          </mat-form-field> -->\n\n        \n  \n  \n      \n          <div class=\"row\" formArrayName=\"aliases\">\n          <div class=\"col-11\" \n          *ngFor=\"let address of aliases.controls; let i=index\">\n\n              <mat-form-field class=\"example-full-width\" appearance=\"outline\">\n                <mat-label>Привычка</mat-label>\n                  <input matInput \n                  placeholder=\"Прочитать 20 страниц\" \n                  formControlName=\"{{i}}\">\n                </mat-form-field>\n          </div>\n         \n        </div>\n          \n          <button mat-raised-button color=\"primary\" class=\"button\" type=\"submit\" \n          (click)=\"postCheck(checkForm.value)\"\n          (click)=\"openSnackBar()\"\n          >Сохранить</button> \n          <div></div>\n        </form>\n      </mat-card>\n  </div>");
 
 /***/ }),
 
@@ -500,7 +513,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<mat-toolbar color=\"primary\" class=\"navbar\">\n        <mat-toolbar-row>\n                <button mat-button (click)=\"sidenav.toggle()\">\n                        <svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"bars\"\n                                class=\"svg-inline--fa fa-bars fa-w-14\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"\n                                viewBox=\"0 0 448 512\">\n                                <path fill=\"currentColor\"\n                                        d=\"M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z\">\n                                </path>\n                        </svg>\n                </button>\n                <span routerLink=\"/profile\">Хранилище</span>\n                \n                <h1 routerLink='' (click)='signOut()'>Выйти</h1>\n        </mat-toolbar-row>\n\n</mat-toolbar>\n\n<mat-sidenav-container class=\"example-container\">\n        <mat-sidenav #sidenav mode=\"side\" [(opened)]=\"opened\" (opened)=\"events.push('open!')\"\n                (closed)=\"events.push('close!')\">\n\n                <mat-accordion>\n                        <mat-expansion-panel>\n                                <mat-expansion-panel-header>\n                                        <mat-panel-title>\n                                                Дневник\n                                        </mat-panel-title>\n                                </mat-expansion-panel-header>\n                                <mat-action-list>\n\n                                        <button mat-list-item routerLink='/dnevnik-read' (click)=\"sidenav.toggle()\">\n                                                Читать Дневник\n                                        </button>\n\n                                        <button mat-list-item routerLink='/dnevnik-editor' (click)=\"sidenav.toggle()\">\n                                                Сделать запись\n                                        </button>\n                                </mat-action-list>\n                </mat-expansion-panel>\n        \n        \n                <mat-expansion-panel>\n                        <mat-expansion-panel-header routerLink='/organaizer'>\n                                <mat-panel-title (click)=\"sidenav.toggle()\">\n                                        Органайзер\n                                </mat-panel-title>\n                        </mat-expansion-panel-header>\n                </mat-expansion-panel>\n        \n                <mat-expansion-panel>\n                        <mat-expansion-panel-header routerLink='/tasks-check' (click)=\"sidenav.toggle()\">\n                                <mat-panel-title>\n                                        Чек-лист\n                                </mat-panel-title>\n                        </mat-expansion-panel-header>\n                </mat-expansion-panel>\n\n\n                <mat-expansion-panel>\n                                <mat-expansion-panel-header routerLink='/shoot-training' (click)=\"sidenav.toggle()\">\n                                        <mat-panel-title>\n                                                Тренировка стрельбы\n                                        </mat-panel-title>\n                                </mat-expansion-panel-header>\n                        </mat-expansion-panel>\n        \n        </mat-accordion>\n                \n        \n\n        </mat-sidenav>\n\n        <mat-sidenav-content>\n                <router-outlet></router-outlet>\n        </mat-sidenav-content>\n</mat-sidenav-container>");
+/* harmony default export */ __webpack_exports__["default"] = ("<mat-toolbar color=\"primary\" class=\"navbar\">\n        <mat-toolbar-row>\n                <button mat-button (click)=\"sidenav.toggle()\">\n                        <svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"bars\"\n                                class=\"svg-inline--fa fa-bars fa-w-14\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"\n                                viewBox=\"0 0 448 512\">\n                                <path fill=\"currentColor\"\n                                        d=\"M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z\">\n                                </path>\n                        </svg>\n                </button>\n                <span routerLink=\"/profile\">Хранилище</span>\n                \n                <h1 routerLink='' (click)='signOut()'>Выйти</h1>\n        </mat-toolbar-row>\n\n</mat-toolbar>\n\n<mat-sidenav-container class=\"example-container\">\n        <mat-sidenav #sidenav mode=\"side\" [(opened)]=\"opened\" (opened)=\"events.push('open!')\"\n                (closed)=\"events.push('close!')\">\n\n                <mat-accordion>\n                        <mat-expansion-panel>\n                                <mat-expansion-panel-header>\n                                        <mat-panel-title>\n                                                Дневник\n                                        </mat-panel-title>\n                                </mat-expansion-panel-header>\n                                <mat-action-list>\n\n                                        <button mat-list-item routerLink='/dnevnik-read' (click)=\"sidenav.toggle()\">\n                                                Читать Дневник\n                                        </button>\n\n                                        <button mat-list-item routerLink='/dnevnik-editor' (click)=\"sidenav.toggle()\">\n                                                Сделать запись\n                                        </button>\n                                </mat-action-list>\n                </mat-expansion-panel>\n        \n        \n                <!-- <mat-expansion-panel>\n                        <mat-expansion-panel-header routerLink='/organaizer'>\n                                <mat-panel-title (click)=\"sidenav.toggle()\">\n                                        Органайзер\n                                </mat-panel-title>\n                        </mat-expansion-panel-header>\n                </mat-expansion-panel> -->\n        \n                <mat-expansion-panel>\n                        <mat-expansion-panel-header routerLink='/tasks-check' (click)=\"sidenav.toggle()\">\n                                <mat-panel-title>\n                                        Чек-лист\n                                </mat-panel-title>\n                        </mat-expansion-panel-header>\n                </mat-expansion-panel>\n                \n\n                <mat-expansion-panel>\n                        <mat-expansion-panel-header routerLink='/tracker' (click)=\"sidenav.toggle()\">\n                                <mat-panel-title>\n                                        Трекер привычек\n                                </mat-panel-title>\n                        </mat-expansion-panel-header>\n                </mat-expansion-panel>\n\n\n                <!-- <mat-expansion-panel>\n                                <mat-expansion-panel-header routerLink='/shoot-training' (click)=\"sidenav.toggle()\">\n                                        <mat-panel-title>\n                                                Тренировка стрельбы\n                                        </mat-panel-title>\n                                </mat-expansion-panel-header>\n                        </mat-expansion-panel> -->\n        \n        </mat-accordion>\n                \n        \n\n        </mat-sidenav>\n\n        <mat-sidenav-content>\n                <router-outlet></router-outlet>\n        </mat-sidenav-content>\n</mat-sidenav-container>");
 
 /***/ }),
 
@@ -784,6 +797,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
 /* harmony import */ var _services_guards_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./services/guards.service */ "./src/app/services/guards.service.ts");
 /* harmony import */ var _angular_fire_auth_guard__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/fire/auth-guard */ "./node_modules/@angular/fire/auth-guard/es2015/index.js");
+/* harmony import */ var _content_item_tracker_tracker_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./content-item/tracker/tracker.component */ "./src/app/content-item/tracker/tracker.component.ts");
+
 
 
 
@@ -817,6 +832,8 @@ const routes = [
         canActivate: [_angular_fire_auth_guard__WEBPACK_IMPORTED_MODULE_14__["AngularFireAuthGuard"]] },
     { path: 'tasks-check', component: _content_item_check_list_check_list_component__WEBPACK_IMPORTED_MODULE_9__["CheckListComponent"],
         canActivate: [_services_guards_service__WEBPACK_IMPORTED_MODULE_13__["GuardsService"]] },
+    { path: 'tracker', component: _content_item_tracker_tracker_component__WEBPACK_IMPORTED_MODULE_15__["TrackerComponent"],
+        canActivate: [_angular_fire_auth_guard__WEBPACK_IMPORTED_MODULE_14__["AngularFireAuthGuard"]] },
     { path: 'shoot-training', component: _content_item_shot_shot_component__WEBPACK_IMPORTED_MODULE_10__["ShotComponent"],
         canActivate: [_angular_fire_auth_guard__WEBPACK_IMPORTED_MODULE_14__["AngularFireAuthGuard"]] },
     { path: 'profile', component: _content_item_profile_store_profile_store_component__WEBPACK_IMPORTED_MODULE_3__["ProfileStoreComponent"],
@@ -945,6 +962,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_fire_auth_guard__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! @angular/fire/auth-guard */ "./node_modules/@angular/fire/auth-guard/es2015/index.js");
 /* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ng2-charts */ "./node_modules/ng2-charts/fesm2015/ng2-charts.js");
 /* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! @angular/material/chips */ "./node_modules/@angular/material/esm2015/chips.js");
+/* harmony import */ var _content_item_tracker_tracker_component__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./content-item/tracker/tracker.component */ "./src/app/content-item/tracker/tracker.component.ts");
+
 
 
 
@@ -1020,7 +1039,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _content_item_check_list_check_list_component__WEBPACK_IMPORTED_MODULE_44__["CheckListComponent"],
             _content_item_shot_shot_component__WEBPACK_IMPORTED_MODULE_46__["ShotComponent"],
             _register_register_component__WEBPACK_IMPORTED_MODULE_47__["RegisterComponent"],
-            _login_login_component__WEBPACK_IMPORTED_MODULE_48__["LoginComponent"]
+            _login_login_component__WEBPACK_IMPORTED_MODULE_48__["LoginComponent"],
+            _content_item_tracker_tracker_component__WEBPACK_IMPORTED_MODULE_54__["TrackerComponent"]
         ],
         entryComponents: [_content_item_dnevnik_store_dnevnik_read_dnevnik_read_dnevnik_read_component__WEBPACK_IMPORTED_MODULE_39__["DialogOverviewExampleDialog"]],
         imports: [
@@ -1167,14 +1187,18 @@ let CheckListComponent = class CheckListComponent {
         this.formBuild = formBuild;
         this.js = js;
         this.snackBar = snackBar;
+        this.jsonPost = {
+            date: '',
+            tasks: []
+        };
+        this.itemTasks = { name: '', status: false };
         this.checkForm = this.formBuild.group({
             date: moment__WEBPACK_IMPORTED_MODULE_5__(),
             aliases: this.formBuild.array([
-                this.formBuild.control('')
-            ])
+                this.formBuild.control(''),
+            ]),
         });
         this.selected = 'option2';
-        this.jsonTasks = { date: '', tasks: [] };
         this.dateToday = new Date();
     }
     ngOnInit() {
@@ -1203,8 +1227,13 @@ let CheckListComponent = class CheckListComponent {
     }
     postCheck() {
         this.checkForm.value.date = this.checkForm.value.date.format('DD-MM-YYYY');
-        console.log(this.checkForm.value);
-        this.js.setDataFirestore('check-list', this.checkForm.value);
+        console.log(this.checkForm.value.date);
+        this.jsonPost.date = this.checkForm.value.date;
+        //  for(let i=0;i<this.checkForm.value.aliases.length;i++){
+        //     this.jsonPost.tasks.push({name:this.checkForm.value.aliases[i],status: false})
+        //  }
+        console.log(this.jsonPost);
+        this.js.setDataFirestore('check-list', this.jsonPost);
         // this.js.deleteData
         // ().subscribe(val=>{
         //   console.log(val)
@@ -1728,7 +1757,7 @@ OrganaizerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".value-spinner {\n  position: absolute;\n  left: 60px;\n  top: 27px;\n  color: blue;\n}\n\n.container {\n  margin-top: 10px;\n}\n\nmat-horizontal-stepper {\n  margin: 0;\n  padding: 0;\n}\n\n.first {\n  padding-left: 0;\n  margin-left: 0;\n}\n\n.bed {\n  margin-left: 7px;\n}\n\n.h2 {\n  display: inline-block;\n  position: absolute;\n}\n\n.btn-charts {\n  position: absolute;\n  top: 30px;\n}\n\n.chart {\n  margin-top: 20px;\n  display: inline-block;\n}\n\n.rod {\n  position: relative;\n}\n\n.statistics {\n  height: 410px;\n}\n\n.goals {\n  min-height: 200px;\n}\n\n.tasks {\n  margin-top: 10px;\n  min-height: 200px;\n}\n\n.navbar {\n  margin-top: 30px;\n  margin-left: 15px;\n}\n\nh1 {\n  font-size: 24px;\n  font-weight: normal;\n}\n\nh2 {\n  display: inline;\n  margin-right: 30px;\n  font-size: 16px;\n  font-weight: normal;\n}\n\n.active {\n  color: #3f51b5;\n}\n\n.content {\n  margin-top: 45px;\n}\n\n.tracker {\n  width: 100%;\n}\n\nmat-progress-spinner {\n  margin-top: 10px;\n}\n\ncanvas {\n  margin-top: 20px;\n}\n\np {\n  font-size: 14px;\n}\n\n.button {\n  margin-top: 45px;\n  width: 100%;\n}\n\nmat-selection-list {\n  outline: none;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGVudC1pdGVtL3Byb2ZpbGUtc3RvcmUvQzpcXHByb2plY3RzXFxNeS1TdG9yYWdlL3NyY1xcYXBwXFxjb250ZW50LWl0ZW1cXHByb2ZpbGUtc3RvcmVcXHByb2ZpbGUtc3RvcmUuY29tcG9uZW50LnNhc3MiLCJzcmMvYXBwL2NvbnRlbnQtaXRlbS9wcm9maWxlLXN0b3JlL3Byb2ZpbGUtc3RvcmUuY29tcG9uZW50LnNhc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS0E7RUFDSSxrQkFBQTtFQUNBLFVBQUE7RUFDQSxTQUFBO0VBQ0EsV0FBQTtBQ0pKOztBREtBO0VBQ0ksZ0JBQUE7QUNGSjs7QURHQTtFQUNJLFNBQUE7RUFDQSxVQUFBO0FDQUo7O0FEQ0E7RUFDSSxlQUFBO0VBQ0EsY0FBQTtBQ0VKOztBREdBO0VBQ0ksZ0JBQUE7QUNBSjs7QURDQTtFQUNJLHFCQUFBO0VBRUEsa0JBQUE7QUNDSjs7QURBQTtFQUNJLGtCQUFBO0VBQ0EsU0FBQTtBQ0dKOztBREZBO0VBQ0ksZ0JBQUE7RUFDQSxxQkFBQTtBQ0tKOztBREpBO0VBQ0ksa0JBQUE7QUNPSjs7QURMQTtFQUNJLGFBQUE7QUNRSjs7QURQQTtFQUNHLGlCQUFBO0FDVUg7O0FEVEE7RUFDSSxnQkFBQTtFQUNBLGlCQUFBO0FDWUo7O0FEWEE7RUFDSSxnQkFBQTtFQUNBLGlCQUFBO0FDY0o7O0FEYkE7RUFDSSxlQUFBO0VBQ0EsbUJBQUE7QUNnQko7O0FEYkE7RUFDSSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsbUJBQUE7QUNnQko7O0FEZkE7RUFDSSxjQUFBO0FDa0JKOztBRGpCQTtFQUNJLGdCQUFBO0FDb0JKOztBRGxCQTtFQUNJLFdBQUE7QUNxQko7O0FEcEJBO0VBQ0ksZ0JBQUE7QUN1Qko7O0FEdEJBO0VBQ0ksZ0JBQUE7QUN5Qko7O0FEeEJBO0VBQ0ksZUFBQTtBQzJCSjs7QUR6QkE7RUFDSSxnQkFBQTtFQUNBLFdBQUE7QUM0Qko7O0FEMUJBO0VBQ0ksYUFBQTtBQzZCSiIsImZpbGUiOiJzcmMvYXBwL2NvbnRlbnQtaXRlbS9wcm9maWxlLXN0b3JlL3Byb2ZpbGUtc3RvcmUuY29tcG9uZW50LnNhc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBtYXQtcHJvZ3Jlc3MtYmFyXHJcbi8vICAgICB3aWR0aDogMjAwcHhcclxuLy8gICAgIGhlaWdodDogMjAwcHhcclxuLy8gICAgIG1hcmdpbi10b3A6IDcwcHhcclxuXHJcbi52YWx1ZS1zcGlubmVyXHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGVcclxuICAgIGxlZnQ6IDYwcHhcclxuICAgIHRvcDogMjdweFxyXG4gICAgY29sb3I6IGJsdWVcclxuLmNvbnRhaW5lclxyXG4gICAgbWFyZ2luLXRvcDogMTBweFxyXG5tYXQtaG9yaXpvbnRhbC1zdGVwcGVyXHJcbiAgICBtYXJnaW46IDBcclxuICAgIHBhZGRpbmc6IDAgIFxyXG4uZmlyc3RcclxuICAgIHBhZGRpbmctbGVmdDogMFxyXG4gICAgbWFyZ2luLWxlZnQ6IDBcclxuLy8gLmgxXHJcbi8vICAgICBmb250LXNpemU6IDMwcHhcclxuLy8gICAgIG1hcmdpbi1ib3R0b206IDMwcHhcclxuXHJcbi5iZWRcclxuICAgIG1hcmdpbi1sZWZ0OiA3cHhcclxuLmgyIFxyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrXHJcbiAgICAvLyBwYWRkaW5nLWJvdHRvbTogMTBweFxyXG4gICAgcG9zaXRpb246IGFic29sdXRlXHJcbi5idG4tY2hhcnRzXHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGVcclxuICAgIHRvcDogMzBweFxyXG4uY2hhcnRcclxuICAgIG1hcmdpbi10b3A6IDIwcHhcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9ja1xyXG4ucm9kXHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmVcclxuXHJcbi5zdGF0aXN0aWNzXHJcbiAgICBoZWlnaHQ6IDQxMHB4XHJcbi5nb2Fsc1xyXG4gICBtaW4taGVpZ2h0OiAyMDBweFxyXG4udGFza3NcclxuICAgIG1hcmdpbi10b3A6IDEwcHhcclxuICAgIG1pbi1oZWlnaHQ6IDIwMHB4XHJcbi5uYXZiYXJcclxuICAgIG1hcmdpbi10b3A6IDMwcHhcclxuICAgIG1hcmdpbi1sZWZ0OiAxNXB4XHJcbmgxXHJcbiAgICBmb250LXNpemU6IDI0cHhcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWxcclxuXHJcblxyXG5oMlxyXG4gICAgZGlzcGxheTogaW5saW5lXHJcbiAgICBtYXJnaW4tcmlnaHQ6IDMwcHhcclxuICAgIGZvbnQtc2l6ZTogMTZweFxyXG4gICAgZm9udC13ZWlnaHQ6IG5vcm1hbFxyXG4uYWN0aXZlXHJcbiAgICBjb2xvcjogIzNmNTFiNVxyXG4uY29udGVudFxyXG4gICAgbWFyZ2luLXRvcDogNDVweFxyXG5cclxuLnRyYWNrZXJcclxuICAgIHdpZHRoOiAxMDAlXHJcbm1hdC1wcm9ncmVzcy1zcGlubmVyXHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4XHJcbmNhbnZhcyBcclxuICAgIG1hcmdpbi10b3A6IDIwcHhcclxucFxyXG4gICAgZm9udC1zaXplOiAxNHB4XHJcblxyXG4uYnV0dG9uXHJcbiAgICBtYXJnaW4tdG9wOiA0NXB4XHJcbiAgICB3aWR0aDogMTAwJVxyXG5cclxubWF0LXNlbGVjdGlvbi1saXN0XHJcbiAgICBvdXRsaW5lOiBub25lIiwiLnZhbHVlLXNwaW5uZXIge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGxlZnQ6IDYwcHg7XG4gIHRvcDogMjdweDtcbiAgY29sb3I6IGJsdWU7XG59XG5cbi5jb250YWluZXIge1xuICBtYXJnaW4tdG9wOiAxMHB4O1xufVxuXG5tYXQtaG9yaXpvbnRhbC1zdGVwcGVyIHtcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiAwO1xufVxuXG4uZmlyc3Qge1xuICBwYWRkaW5nLWxlZnQ6IDA7XG4gIG1hcmdpbi1sZWZ0OiAwO1xufVxuXG4uYmVkIHtcbiAgbWFyZ2luLWxlZnQ6IDdweDtcbn1cblxuLmgyIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG59XG5cbi5idG4tY2hhcnRzIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IDMwcHg7XG59XG5cbi5jaGFydCB7XG4gIG1hcmdpbi10b3A6IDIwcHg7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbn1cblxuLnJvZCB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuLnN0YXRpc3RpY3Mge1xuICBoZWlnaHQ6IDQxMHB4O1xufVxuXG4uZ29hbHMge1xuICBtaW4taGVpZ2h0OiAyMDBweDtcbn1cblxuLnRhc2tzIHtcbiAgbWFyZ2luLXRvcDogMTBweDtcbiAgbWluLWhlaWdodDogMjAwcHg7XG59XG5cbi5uYXZiYXIge1xuICBtYXJnaW4tdG9wOiAzMHB4O1xuICBtYXJnaW4tbGVmdDogMTVweDtcbn1cblxuaDEge1xuICBmb250LXNpemU6IDI0cHg7XG4gIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG59XG5cbmgyIHtcbiAgZGlzcGxheTogaW5saW5lO1xuICBtYXJnaW4tcmlnaHQ6IDMwcHg7XG4gIGZvbnQtc2l6ZTogMTZweDtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbn1cblxuLmFjdGl2ZSB7XG4gIGNvbG9yOiAjM2Y1MWI1O1xufVxuXG4uY29udGVudCB7XG4gIG1hcmdpbi10b3A6IDQ1cHg7XG59XG5cbi50cmFja2VyIHtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbm1hdC1wcm9ncmVzcy1zcGlubmVyIHtcbiAgbWFyZ2luLXRvcDogMTBweDtcbn1cblxuY2FudmFzIHtcbiAgbWFyZ2luLXRvcDogMjBweDtcbn1cblxucCB7XG4gIGZvbnQtc2l6ZTogMTRweDtcbn1cblxuLmJ1dHRvbiB7XG4gIG1hcmdpbi10b3A6IDQ1cHg7XG4gIHdpZHRoOiAxMDAlO1xufVxuXG5tYXQtc2VsZWN0aW9uLWxpc3Qge1xuICBvdXRsaW5lOiBub25lO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".value-spinner {\n  position: absolute;\n  left: 60px;\n  top: 27px;\n  color: blue;\n}\n\n.container {\n  margin-top: 10px;\n}\n\nmat-horizontal-stepper {\n  margin: 0;\n  padding: 0;\n}\n\n.first {\n  padding-left: 0;\n  margin-left: 0;\n}\n\n.bed {\n  margin-left: 7px;\n}\n\n.h2 {\n  display: inline-block;\n  position: absolute;\n}\n\n.btn-charts {\n  position: absolute;\n  top: 30px;\n}\n\n.chart {\n  margin-top: 20px;\n  display: inline-block;\n}\n\n.rod {\n  position: relative;\n}\n\n.statistics {\n  height: 410px;\n}\n\n.goals {\n  min-height: 200px;\n}\n\n.tasks {\n  margin-top: 10px;\n  min-height: 200px;\n}\n\n.navbar {\n  margin-top: 30px;\n  margin-left: 15px;\n}\n\nh1 {\n  font-size: 24px;\n  font-weight: normal;\n}\n\nh2 {\n  display: inline;\n  margin-right: 30px;\n  font-size: 16px;\n  font-weight: normal;\n}\n\n.active {\n  color: #3f51b5;\n}\n\n.content {\n  margin-top: 45px;\n}\n\n.tracker {\n  width: 100%;\n}\n\nmat-progress-spinner {\n  margin-top: 10px;\n}\n\ncanvas {\n  margin-top: 20px;\n}\n\np {\n  font-size: 14px;\n}\n\n.button {\n  margin-top: 45px;\n  width: 100%;\n}\n\nmat-selection-list {\n  outline: none;\n}\n\n.addTracker {\n  margin-top: 30px;\n}\n\n.nullTracker {\n  font-weight: normal;\n  margin-top: 40px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGVudC1pdGVtL3Byb2ZpbGUtc3RvcmUvQzpcXHByb2plY3RzXFxNeS1TdG9yYWdlL3NyY1xcYXBwXFxjb250ZW50LWl0ZW1cXHByb2ZpbGUtc3RvcmVcXHByb2ZpbGUtc3RvcmUuY29tcG9uZW50LnNhc3MiLCJzcmMvYXBwL2NvbnRlbnQtaXRlbS9wcm9maWxlLXN0b3JlL3Byb2ZpbGUtc3RvcmUuY29tcG9uZW50LnNhc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS0E7RUFDSSxrQkFBQTtFQUNBLFVBQUE7RUFDQSxTQUFBO0VBQ0EsV0FBQTtBQ0pKOztBREtBO0VBQ0ksZ0JBQUE7QUNGSjs7QURHQTtFQUNJLFNBQUE7RUFDQSxVQUFBO0FDQUo7O0FEQ0E7RUFDSSxlQUFBO0VBQ0EsY0FBQTtBQ0VKOztBREdBO0VBQ0ksZ0JBQUE7QUNBSjs7QURDQTtFQUNJLHFCQUFBO0VBRUEsa0JBQUE7QUNDSjs7QURBQTtFQUNJLGtCQUFBO0VBQ0EsU0FBQTtBQ0dKOztBREZBO0VBQ0ksZ0JBQUE7RUFDQSxxQkFBQTtBQ0tKOztBREpBO0VBQ0ksa0JBQUE7QUNPSjs7QURMQTtFQUNJLGFBQUE7QUNRSjs7QURQQTtFQUNHLGlCQUFBO0FDVUg7O0FEVEE7RUFDSSxnQkFBQTtFQUNBLGlCQUFBO0FDWUo7O0FEWEE7RUFDSSxnQkFBQTtFQUNBLGlCQUFBO0FDY0o7O0FEYkE7RUFDSSxlQUFBO0VBQ0EsbUJBQUE7QUNnQko7O0FEYkE7RUFDSSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsbUJBQUE7QUNnQko7O0FEZkE7RUFDSSxjQUFBO0FDa0JKOztBRGpCQTtFQUNJLGdCQUFBO0FDb0JKOztBRGxCQTtFQUNJLFdBQUE7QUNxQko7O0FEcEJBO0VBQ0ksZ0JBQUE7QUN1Qko7O0FEdEJBO0VBQ0ksZ0JBQUE7QUN5Qko7O0FEdkJBO0VBQ0ksZUFBQTtBQzBCSjs7QUR4QkE7RUFDSSxnQkFBQTtFQUNBLFdBQUE7QUMyQko7O0FEekJBO0VBQ0ksYUFBQTtBQzRCSjs7QUQxQkE7RUFDSSxnQkFBQTtBQzZCSjs7QUQ1QkE7RUFDSSxtQkFBQTtFQUNBLGdCQUFBO0FDK0JKIiwiZmlsZSI6InNyYy9hcHAvY29udGVudC1pdGVtL3Byb2ZpbGUtc3RvcmUvcHJvZmlsZS1zdG9yZS5jb21wb25lbnQuc2FzcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIG1hdC1wcm9ncmVzcy1iYXJcclxuLy8gICAgIHdpZHRoOiAyMDBweFxyXG4vLyAgICAgaGVpZ2h0OiAyMDBweFxyXG4vLyAgICAgbWFyZ2luLXRvcDogNzBweFxyXG5cclxuLnZhbHVlLXNwaW5uZXJcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZVxyXG4gICAgbGVmdDogNjBweFxyXG4gICAgdG9wOiAyN3B4XHJcbiAgICBjb2xvcjogYmx1ZVxyXG4uY29udGFpbmVyXHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4XHJcbm1hdC1ob3Jpem9udGFsLXN0ZXBwZXJcclxuICAgIG1hcmdpbjogMFxyXG4gICAgcGFkZGluZzogMCAgXHJcbi5maXJzdFxyXG4gICAgcGFkZGluZy1sZWZ0OiAwXHJcbiAgICBtYXJnaW4tbGVmdDogMFxyXG4vLyAuaDFcclxuLy8gICAgIGZvbnQtc2l6ZTogMzBweFxyXG4vLyAgICAgbWFyZ2luLWJvdHRvbTogMzBweFxyXG5cclxuLmJlZFxyXG4gICAgbWFyZ2luLWxlZnQ6IDdweFxyXG4uaDIgXHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2tcclxuICAgIC8vIHBhZGRpbmctYm90dG9tOiAxMHB4XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGVcclxuLmJ0bi1jaGFydHNcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZVxyXG4gICAgdG9wOiAzMHB4XHJcbi5jaGFydFxyXG4gICAgbWFyZ2luLXRvcDogMjBweFxyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrXHJcbi5yb2RcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZVxyXG5cclxuLnN0YXRpc3RpY3NcclxuICAgIGhlaWdodDogNDEwcHhcclxuLmdvYWxzXHJcbiAgIG1pbi1oZWlnaHQ6IDIwMHB4XHJcbi50YXNrc1xyXG4gICAgbWFyZ2luLXRvcDogMTBweFxyXG4gICAgbWluLWhlaWdodDogMjAwcHhcclxuLm5hdmJhclxyXG4gICAgbWFyZ2luLXRvcDogMzBweFxyXG4gICAgbWFyZ2luLWxlZnQ6IDE1cHhcclxuaDFcclxuICAgIGZvbnQtc2l6ZTogMjRweFxyXG4gICAgZm9udC13ZWlnaHQ6IG5vcm1hbFxyXG5cclxuXHJcbmgyXHJcbiAgICBkaXNwbGF5OiBpbmxpbmVcclxuICAgIG1hcmdpbi1yaWdodDogMzBweFxyXG4gICAgZm9udC1zaXplOiAxNnB4XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsXHJcbi5hY3RpdmVcclxuICAgIGNvbG9yOiAjM2Y1MWI1XHJcbi5jb250ZW50XHJcbiAgICBtYXJnaW4tdG9wOiA0NXB4XHJcblxyXG4udHJhY2tlclxyXG4gICAgd2lkdGg6IDEwMCVcclxubWF0LXByb2dyZXNzLXNwaW5uZXJcclxuICAgIG1hcmdpbi10b3A6IDEwcHhcclxuY2FudmFzIFxyXG4gICAgbWFyZ2luLXRvcDogMjBweFxyXG5cclxucFxyXG4gICAgZm9udC1zaXplOiAxNHB4XHJcblxyXG4uYnV0dG9uXHJcbiAgICBtYXJnaW4tdG9wOiA0NXB4XHJcbiAgICB3aWR0aDogMTAwJVxyXG5cclxubWF0LXNlbGVjdGlvbi1saXN0XHJcbiAgICBvdXRsaW5lOiBub25lXHJcblxyXG4uYWRkVHJhY2tlclxyXG4gICAgbWFyZ2luLXRvcDogMzBweFxyXG4ubnVsbFRyYWNrZXJcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWxcclxuICAgIG1hcmdpbi10b3A6IDQwcHgiLCIudmFsdWUtc3Bpbm5lciB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgbGVmdDogNjBweDtcbiAgdG9wOiAyN3B4O1xuICBjb2xvcjogYmx1ZTtcbn1cblxuLmNvbnRhaW5lciB7XG4gIG1hcmdpbi10b3A6IDEwcHg7XG59XG5cbm1hdC1ob3Jpem9udGFsLXN0ZXBwZXIge1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5maXJzdCB7XG4gIHBhZGRpbmctbGVmdDogMDtcbiAgbWFyZ2luLWxlZnQ6IDA7XG59XG5cbi5iZWQge1xuICBtYXJnaW4tbGVmdDogN3B4O1xufVxuXG4uaDIge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbn1cblxuLmJ0bi1jaGFydHMge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMzBweDtcbn1cblxuLmNoYXJ0IHtcbiAgbWFyZ2luLXRvcDogMjBweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xufVxuXG4ucm9kIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuXG4uc3RhdGlzdGljcyB7XG4gIGhlaWdodDogNDEwcHg7XG59XG5cbi5nb2FscyB7XG4gIG1pbi1oZWlnaHQ6IDIwMHB4O1xufVxuXG4udGFza3Mge1xuICBtYXJnaW4tdG9wOiAxMHB4O1xuICBtaW4taGVpZ2h0OiAyMDBweDtcbn1cblxuLm5hdmJhciB7XG4gIG1hcmdpbi10b3A6IDMwcHg7XG4gIG1hcmdpbi1sZWZ0OiAxNXB4O1xufVxuXG5oMSB7XG4gIGZvbnQtc2l6ZTogMjRweDtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbn1cblxuaDIge1xuICBkaXNwbGF5OiBpbmxpbmU7XG4gIG1hcmdpbi1yaWdodDogMzBweDtcbiAgZm9udC1zaXplOiAxNnB4O1xuICBmb250LXdlaWdodDogbm9ybWFsO1xufVxuXG4uYWN0aXZlIHtcbiAgY29sb3I6ICMzZjUxYjU7XG59XG5cbi5jb250ZW50IHtcbiAgbWFyZ2luLXRvcDogNDVweDtcbn1cblxuLnRyYWNrZXIge1xuICB3aWR0aDogMTAwJTtcbn1cblxubWF0LXByb2dyZXNzLXNwaW5uZXIge1xuICBtYXJnaW4tdG9wOiAxMHB4O1xufVxuXG5jYW52YXMge1xuICBtYXJnaW4tdG9wOiAyMHB4O1xufVxuXG5wIHtcbiAgZm9udC1zaXplOiAxNHB4O1xufVxuXG4uYnV0dG9uIHtcbiAgbWFyZ2luLXRvcDogNDVweDtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbm1hdC1zZWxlY3Rpb24tbGlzdCB7XG4gIG91dGxpbmU6IG5vbmU7XG59XG5cbi5hZGRUcmFja2VyIHtcbiAgbWFyZ2luLXRvcDogMzBweDtcbn1cblxuLm51bGxUcmFja2VyIHtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgbWFyZ2luLXRvcDogNDBweDtcbn0iXX0= */");
 
 /***/ }),
 
@@ -1749,6 +1778,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var chartjs_plugin_datalabels__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! chartjs-plugin-datalabels */ "./node_modules/chartjs-plugin-datalabels/dist/chartjs-plugin-datalabels.js");
 /* harmony import */ var chartjs_plugin_datalabels__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(chartjs_plugin_datalabels__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+
 
 
 
@@ -1757,7 +1788,17 @@ __webpack_require__.r(__webpack_exports__);
 let ProfileStoreComponent = class ProfileStoreComponent {
     constructor(js) {
         this.js = js;
-        this.nullTasks = true;
+        this.jsonTrackerData = [];
+        this.jsonTrackerDataOptions = [];
+        this.haveTasks = false;
+        this.haveTracker = false;
+        this.checked = false;
+        this.quantity = 0;
+        this.dateToday = moment__WEBPACK_IMPORTED_MODULE_3__().format('DD-MM-YYYY');
+        this.tasks = {
+            date: this.dateToday,
+            tasksich: []
+        };
         this.barChartOptions = {
             responsive: false,
             // We use these empty structures as placeholders for dynamic theming.
@@ -1777,30 +1818,101 @@ let ProfileStoreComponent = class ProfileStoreComponent {
             { data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A' },
             { data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B' }
         ];
+        this.widthsmall = false;
         this.click = 0;
-        // this.value.width = this.spinner.width
-        this.js.getSelectedDataFirestore('check-list', 'date', moment__WEBPACK_IMPORTED_MODULE_3__().format('DD-MM-YYYY')).subscribe(value => {
-            if (value[0].aliases) {
-            }
-            this.jsonData = value[0].aliases;
-            if (!this.jsonData) {
-                console.log(this.jsonData);
-                this.nullTasks = false;
-            }
-            else {
-                this.nullTasks = true;
-            }
-        });
+        this.ngUnsubscribe = new rxjs__WEBPACK_IMPORTED_MODULE_5__["Subject"]();
     }
     ngOnInit() {
+        console.log('ЭТО Я NGONINIT');
         this.width = window.innerWidth;
+        if (this.width < 720) {
+            this.widthsmall = true;
+        }
+        const subscription = this.js.getSelectedDataFirestore('check-list', 'date', moment__WEBPACK_IMPORTED_MODULE_3__().format('DD-MM-YYYY')).subscribe(value => {
+            this.jsonData = value[0].tasks;
+            this.id = value[0].id;
+            if (this.jsonData === undefined) {
+                this.haveTasks = false;
+            }
+            else
+                this.haveTasks = true;
+            console.log(this.jsonData);
+            console.log(this.haveTasks);
+            subscription.unsubscribe();
+        });
+        const subscriptionTracker = this.js.getCollectionFirestore('tracker').subscribe(value => {
+            value.forEach(val => {
+                this.jsonTrackerData.push({ name: val.id, status: false });
+            });
+            if (this.jsonTrackerData.length === 0) {
+                this.haveTracker = false;
+            }
+            else
+                this.haveTracker = true;
+            console.log(this.haveTracker, "sd");
+            for (let i = 0; i < this.jsonTrackerData.length; i++) {
+                this.js.getTrackerStatusFirestore('tracker', this.jsonTrackerData[i].name, this.dateToday).subscribe(value => {
+                    if (value.status === true) {
+                        this.jsonTrackerData[i].status = true;
+                    }
+                });
+            }
+            console.log(this.jsonTrackerData);
+            subscriptionTracker.unsubscribe();
+        });
+        // const subscriptionTrackerStatus =  this.js.getTrackerStatusFirestore('tracker',this.jsonData,this.dateToday).subscribe(value => {
+        //  console.log(value)
+        // });
+        //   subscriptionTrackerStatus.unsubscribe()
+        this.quantity = 0;
+        for (let i = 0; i < this.jsonData.length; i++) {
+            if (this.jsonData[i].status = true) {
+                this.quantity++;
+            }
+        }
+        this.click = Math.floor((100 / this.jsonData.length) * this.jsonData.length);
+        if (this.click === 100) {
+            this.value.nativeElement.style.left = '41px';
+        }
+        else if (this.click === 0) {
+            this.value.nativeElement.style.left = '55px';
+        }
+        else
+            this.value.nativeElement.style.left = '48px';
     }
-    ngAfterViewInit() {
-        console.log(this.spinner);
+    changeStatus(i, options) {
+        this.jsonData[i].status = !this.jsonData[i].status;
+        console.log(this.jsonData);
+    }
+    changeStatusTracker(i, options) {
+        this.jsonTrackerData[i].status = !this.jsonTrackerData[i].status;
+        console.log(this.jsonTrackerData);
+    }
+    checkStatus() {
+        console.log(this.jsonData);
+    }
+    updateStatusData() {
+        console.log('okey');
+        if (this.haveTasks) {
+            this.js.updateStatus(this.id, "check-list", { date: this.dateToday,
+                tasks: this.jsonData
+            });
+        }
+        else
+            console.log('Нету заданий');
+        if (this.haveTracker) {
+            for (let i = 0; i < this.jsonTrackerData.length; i++) {
+                console.log(this.jsonTrackerData);
+                console.log(this.jsonTrackerData[i].status);
+                this.js.setTrackerStatusFirestore('tracker', this.jsonTrackerData[i].name, this.dateToday, this.jsonTrackerData[i].status);
+            }
+        }
+        else
+            console.log('нету трекеров');
     }
     clickBtn() {
-        console.log(this.value);
-        console.log(this.shoes.options.length);
+        console.log(this.id);
+        console.log(this.shoes);
         this.step = 100 / this.shoes.options.length;
         this.click = Math.floor(this.step * this.shoes.selectedOptions.selected.length);
         if (this.click === 100) {
@@ -1817,14 +1929,20 @@ ProfileStoreComponent.ctorParameters = () => [
     { type: src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_2__["JsonCreate"] }
 ];
 tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("shoes", { static: false })
-], ProfileStoreComponent.prototype, "shoes", void 0);
-tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("value", { static: false })
 ], ProfileStoreComponent.prototype, "value", void 0);
 tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("spinner", { static: false })
 ], ProfileStoreComponent.prototype, "spinner", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("listTracker", { static: false })
+], ProfileStoreComponent.prototype, "listTracker", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("optionsTracker", { static: false })
+], ProfileStoreComponent.prototype, "optionsTracker", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("shoes", { static: false })
+], ProfileStoreComponent.prototype, "shoes", void 0);
 ProfileStoreComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-profile-store',
@@ -1928,6 +2046,95 @@ ShotComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./shot.component.sass */ "./src/app/content-item/shot/shot.component.sass")).default]
     })
 ], ShotComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/content-item/tracker/tracker.component.sass":
+/*!*************************************************************!*\
+  !*** ./src/app/content-item/tracker/tracker.component.sass ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".example-form {\n  width: 750px;\n}\n\n.example-full-width {\n  width: 100%;\n}\n\ntd {\n  padding-right: 8px;\n}\n\n.addBtn {\n  position: absolute;\n  right: 15px;\n  top: 68px;\n  height: 50px;\n  width: 50px;\n}\n\n.btnToggle {\n  font-size: 12px;\n  height: 3em;\n}\n\n.container-fluid {\n  margin-left: 80px;\n  padding-left: 15px;\n}\n\nh4 {\n  margin-top: 15px;\n}\n\n.active {\n  color: #1831BC;\n}\n\nh1 {\n  font-size: 24px;\n  font-weight: normal;\n}\n\nh2 {\n  display: inline;\n  margin-right: 30px;\n  font-size: 16px;\n  font-weight: normal;\n  outline: none;\n  cursor: pointer;\n}\n\n.navbar {\n  margin-top: 30px;\n  margin-left: 80px;\n}\n\nmat-card {\n  margin-top: 40px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGVudC1pdGVtL3RyYWNrZXIvQzpcXHByb2plY3RzXFxNeS1TdG9yYWdlL3NyY1xcYXBwXFxjb250ZW50LWl0ZW1cXHRyYWNrZXJcXHRyYWNrZXIuY29tcG9uZW50LnNhc3MiLCJzcmMvYXBwL2NvbnRlbnQtaXRlbS90cmFja2VyL3RyYWNrZXIuY29tcG9uZW50LnNhc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFBO0FDQ0o7O0FEQ0E7RUFDSSxXQUFBO0FDRUo7O0FEQUE7RUFDSSxrQkFBQTtBQ0dKOztBREZBO0VBQ0ksa0JBQUE7RUFDQSxXQUFBO0VBQ0EsU0FBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0FDS0o7O0FESkE7RUFDSSxlQUFBO0VBQ0EsV0FBQTtBQ09KOztBRE5BO0VBQ0ksaUJBQUE7RUFDQSxrQkFBQTtBQ1NKOztBRFJBO0VBQ0ksZ0JBQUE7QUNXSjs7QURUQTtFQUNJLGNBQUE7QUNZSjs7QURYQTtFQUNJLGVBQUE7RUFDQSxtQkFBQTtBQ2NKOztBRFhBO0VBQ0ksZUFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLG1CQUFBO0VBQ0EsYUFBQTtFQUNBLGVBQUE7QUNjSjs7QURaQTtFQUNJLGdCQUFBO0VBQ0EsaUJBQUE7QUNlSjs7QURiQTtFQUNJLGdCQUFBO0FDZ0JKIiwiZmlsZSI6InNyYy9hcHAvY29udGVudC1pdGVtL3RyYWNrZXIvdHJhY2tlci5jb21wb25lbnQuc2FzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGFtcGxlLWZvcm1cclxuICAgIHdpZHRoOiA3NTBweFxyXG5cclxuLmV4YW1wbGUtZnVsbC13aWR0aFxyXG4gICAgd2lkdGg6IDEwMCVcclxuXHJcbnRkXHJcbiAgICBwYWRkaW5nLXJpZ2h0OiA4cHhcclxuLmFkZEJ0blxyXG4gICAgcG9zaXRpb246IGFic29sdXRlXHJcbiAgICByaWdodDogMTVweFxyXG4gICAgdG9wOiA2OHB4XHJcbiAgICBoZWlnaHQ6IDUwcHhcclxuICAgIHdpZHRoOiA1MHB4XHJcbi5idG5Ub2dnbGVcclxuICAgIGZvbnQtc2l6ZTogMTJweFxyXG4gICAgaGVpZ2h0OiAzZW1cclxuLmNvbnRhaW5lci1mbHVpZFxyXG4gICAgbWFyZ2luLWxlZnQ6IDgwcHhcclxuICAgIHBhZGRpbmctbGVmdDogMTVweFxyXG5oNCBcclxuICAgIG1hcmdpbi10b3A6IDE1cHhcclxuXHJcbi5hY3RpdmVcclxuICAgIGNvbG9yOiAjMTgzMUJDXHJcbmgxXHJcbiAgICBmb250LXNpemU6IDI0cHhcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWxcclxuXHJcblxyXG5oMlxyXG4gICAgZGlzcGxheTogaW5saW5lXHJcbiAgICBtYXJnaW4tcmlnaHQ6IDMwcHhcclxuICAgIGZvbnQtc2l6ZTogMTZweFxyXG4gICAgZm9udC13ZWlnaHQ6IG5vcm1hbFxyXG4gICAgb3V0bGluZTogbm9uZVxyXG4gICAgY3Vyc29yOiBwb2ludGVyXHJcblxyXG4ubmF2YmFyXHJcbiAgICBtYXJnaW4tdG9wOiAzMHB4XHJcbiAgICBtYXJnaW4tbGVmdDogODBweFxyXG5cclxubWF0LWNhcmRcclxuICAgIG1hcmdpbi10b3A6IDQwcHgiLCIuZXhhbXBsZS1mb3JtIHtcbiAgd2lkdGg6IDc1MHB4O1xufVxuXG4uZXhhbXBsZS1mdWxsLXdpZHRoIHtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbnRkIHtcbiAgcGFkZGluZy1yaWdodDogOHB4O1xufVxuXG4uYWRkQnRuIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICByaWdodDogMTVweDtcbiAgdG9wOiA2OHB4O1xuICBoZWlnaHQ6IDUwcHg7XG4gIHdpZHRoOiA1MHB4O1xufVxuXG4uYnRuVG9nZ2xlIHtcbiAgZm9udC1zaXplOiAxMnB4O1xuICBoZWlnaHQ6IDNlbTtcbn1cblxuLmNvbnRhaW5lci1mbHVpZCB7XG4gIG1hcmdpbi1sZWZ0OiA4MHB4O1xuICBwYWRkaW5nLWxlZnQ6IDE1cHg7XG59XG5cbmg0IHtcbiAgbWFyZ2luLXRvcDogMTVweDtcbn1cblxuLmFjdGl2ZSB7XG4gIGNvbG9yOiAjMTgzMUJDO1xufVxuXG5oMSB7XG4gIGZvbnQtc2l6ZTogMjRweDtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbn1cblxuaDIge1xuICBkaXNwbGF5OiBpbmxpbmU7XG4gIG1hcmdpbi1yaWdodDogMzBweDtcbiAgZm9udC1zaXplOiAxNnB4O1xuICBmb250LXdlaWdodDogbm9ybWFsO1xuICBvdXRsaW5lOiBub25lO1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbi5uYXZiYXIge1xuICBtYXJnaW4tdG9wOiAzMHB4O1xuICBtYXJnaW4tbGVmdDogODBweDtcbn1cblxubWF0LWNhcmQge1xuICBtYXJnaW4tdG9wOiA0MHB4O1xufSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/content-item/tracker/tracker.component.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/content-item/tracker/tracker.component.ts ***!
+  \***********************************************************/
+/*! exports provided: TrackerComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TrackerComponent", function() { return TrackerComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/services/jsonCreate.service */ "./src/app/services/jsonCreate.service.ts");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/esm2015/snack-bar.js");
+
+
+
+
+
+let TrackerComponent = class TrackerComponent {
+    constructor(formBuild, js, snackBar) {
+        this.formBuild = formBuild;
+        this.js = js;
+        this.snackBar = snackBar;
+        this.checkForm = this.formBuild.group({
+            aliases: this.formBuild.array([
+                this.formBuild.control(''),
+            ]),
+        });
+        this.jsonPost = [];
+    }
+    ngOnInit() {
+    }
+    get aliases() {
+        return this.checkForm.get('aliases');
+    }
+    addInput() {
+        // const nameOrder="checklist"+(this.mass.length)
+        // this.mass.push(nameOrder)
+        // this.checkForm.controls[nameOrder]=new FormControl('')
+        // this.checkForm.value[nameOrder] =''
+        // console.log(this.checkForm)
+        this.aliases.push(this.formBuild.control(''));
+        console.log(this.checkForm.value);
+    }
+    onSubmit(gol) {
+    }
+    postCheck() {
+        for (let i = 0; i < this.checkForm.value.aliases.length; i++) {
+            this.js.setTrackerFirestore('tracker', this.checkForm.value.aliases[i]);
+        }
+    }
+    openSnackBar() {
+        this.snackBar.open("Запись добавлена", ")))0)", {
+            duration: 2000,
+        });
+    }
+};
+TrackerComponent.ctorParameters = () => [
+    { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] },
+    { type: src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_3__["JsonCreate"] },
+    { type: _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_4__["MatSnackBar"] }
+];
+TrackerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-tracker',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./tracker.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/content-item/tracker/tracker.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./tracker.component.sass */ "./src/app/content-item/tracker/tracker.component.sass")).default]
+    })
+], TrackerComponent);
 
 
 
@@ -2414,6 +2621,7 @@ let JsonCreate = class JsonCreate {
         this.configDelete = 'https://jsonbox.io/box_ce820a7b8b65281a8753/';
         this.configDeleteIlya = "https://jsonbox.io/box_c69057ba38a03c1aeab1/";
         this.configDeleteArtem = 'https://jsonbox.io/box_1c8a861dea07c279bbeb';
+        // this.itemDoc = db.doc<Item> ('item/1')
     }
     //иЛЬЯ
     // getConfig() {
@@ -2452,6 +2660,23 @@ let JsonCreate = class JsonCreate {
     setDataFirestore(component, value) {
         return this.db.collection('users').doc(this.auth.returnId()).collection(component).add(value);
     }
+    setTrackerFirestore(component, value) {
+        return this.db.collection('users').doc(this.auth.returnId()).collection(component).doc(value).set({});
+    }
+    setTrackerStatusFirestore(component, value, dateToday, status) {
+        return this.db.collection('users').doc(this.auth.returnId()).collection(component).doc(value).collection('dates').doc(dateToday).set({
+            status: status
+        });
+    }
+    getCollectionFirestore(component) {
+        return this.db.collection('users').doc(this.auth.returnId()).collection(component).get();
+    }
+    getTrackerStatusFirestore(component, document, date) {
+        // return this.db.collection('users').doc(this.auth.returnId()).collection(component).doc(document).collection("dates").doc(date)
+        // .valueChanges()
+        this.itemDoc = this.db.collection('users').doc(this.auth.returnId()).collection(component).doc(document).collection("dates").doc(date);
+        return this.item = this.itemDoc.valueChanges();
+    }
     getDataFirestore(component) {
         console.log(this.auth.returnId());
         return this.db.collection('users').doc(this.auth.returnId()).collection(component).valueChanges({ idField: "id" });
@@ -2485,6 +2710,9 @@ let JsonCreate = class JsonCreate {
     }
     deleteSelectedElement(id, component) {
         return this.db.collection('users').doc(this.auth.returnId()).collection(component).doc(id).delete();
+    }
+    updateStatus(id, component, value) {
+        return this.db.collection('users').doc(this.auth.returnId()).collection(component).doc(id).set(value);
     }
 };
 JsonCreate.ctorParameters = () => [
