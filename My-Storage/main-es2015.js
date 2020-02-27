@@ -1229,9 +1229,9 @@ let CheckListComponent = class CheckListComponent {
         this.checkForm.value.date = this.checkForm.value.date.format('DD-MM-YYYY');
         console.log(this.checkForm.value.date);
         this.jsonPost.date = this.checkForm.value.date;
-        //  for(let i=0;i<this.checkForm.value.aliases.length;i++){
-        //     this.jsonPost.tasks.push({name:this.checkForm.value.aliases[i],status: false})
-        //  }
+        for (let i = 0; i < this.checkForm.value.aliases.length; i++) {
+            this.jsonPost.tasks.push({ name: this.checkForm.value.aliases[i], status: false });
+        }
         console.log(this.jsonPost);
         this.js.setDataFirestore('check-list', this.jsonPost);
         // this.js.deleteData
