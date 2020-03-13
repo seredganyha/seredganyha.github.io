@@ -403,7 +403,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <mat-card class=\"home\">\n  <mat-card-title align=\"center\">\n    Дневник\n  </mat-card-title>\n<form [formGroup]=\"dnevnikForm\">\n  \n      <mat-card-content align=\"center\">\n            <mat-form-field class=\"inp\">\n                <input matInput placeholder=\"Заголовок\" formControlName=\"title\">\n            </mat-form-field>\n            <br>\n            <mat-form-field class=\"inp\">\n                <input matInput placeholder=\"Группа\" formControlName=\"groups\">\n            </mat-form-field>\n            <br>\n    \n                <textarea  formControlName=\"text\"></textarea>\n      </mat-card-content>\n  \n\n    <mat-card-actions align=\"end\">\n      <button mat-stroked-button color=\"primary\" (click)=\"upld2()\" (click)=\"openSnackBar()\">Primary</button>\n    </mat-card-actions>\n  </form>\n</mat-card>\n -->\n\n\n\n\n\n\n <!-- Секция с фичами -->\n\n\n\n\n <!-- <div class=\"modificators\">\n    <div class=\"marks\">Пометки\n      <mat-chip-list>\n        <mat-chip color=\"warn\" selected>Очень важное</mat-chip>\n        <mat-chip color=\"primary\" selected>обычное</mat-chip>\n      </mat-chip-list>\n    </div>\n    <div class=\"hashtag\">Хэштег</div>\n    <div class=\"hashtags\">\n      <mat-form-field class=\"example-chip-list\">\n        <mat-chip-list #chipList aria-label=\"Fruit selection\">\n          <mat-chip *ngFor=\"let fruit of fruits\" [selectable]=\"selectable\" [removable]=\"removable\"\n            (removed)=\"remove(fruit)\">\n            {{fruit.name}}\n            <p *ngIf=\"removable\">x</p>\n          </mat-chip>\n          <input [matChipInputFor]=\"chipList\" [matChipInputSeparatorKeyCodes]=\"separatorKeysCodes\"\n            [matChipInputAddOnBlur]=\"addOnBlur\" (matChipInputTokenEnd)=\"add($event)\">\n        </mat-chip-list>\n      </mat-form-field>\n    </div>\n  </div> -->\n\n\n\n\n  <!-- Секция с фичами -->\n\n\n\n\n<div class=\"navbar\">\n  <h1>Дневник</h1>\n  <h2  routerLink='/dnevnik-editor' routerLinkActive=\"active\">Сделать запись</h2>\n  <h2 routerLink='/dnevnik-read'>Читать</h2>\n</div>\n\n\n<!-- <div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-12 col-lg-9\">\n<mat-card> -->\n  \n\n  <div class=\"indeficators\">\n    <form [formGroup]=\"dnevnikForm\">\n      <div class=\"row\">\n        <div class=\"col-lg-4 col-12\">\n      <mat-form-field appearance=\"outline\" class=\"inp\">\n        <mat-label>Заголовок</mat-label>\n        <input matInput placeholder=\"Мысли об образовании\" formControlName=\"title\">\n      </mat-form-field>\n    </div>\n    <div class=\"col-12 col-lg-4\">\n      <mat-form-field  appearance=\"outline\" class=\"inp two\">\n        <mat-label>Группа</mat-label>\n        <input matInput placeholder=\"Раздумья\" formControlName=\"groups\">\n      </mat-form-field>\n    </div>\n      </div>\n<!--     \n    <div class=\"col-lg-10 col-12\">\n      <textarea formControlName=\"text\"></textarea>\n    </div>\n   <br> -->\n\n  <div class=\"creditor\">\n    <ckeditor [editor]=\"Editor\" [config]=\"config\" [data]=\"val\" (change)=\"onChange($event)\"></ckeditor>\n    <button mat-raised-button color=\"primary\" class=\"button\" type=\"submit\"\n  (click)=\"upld2()\" (click)=\"openSnackBar()\" >\n  \n    <h2>Сохранить</h2>\n  </button>\n  </div>\n\n \n\n</form>\n</div>\n\n<!-- </mat-card>\n</div>\n</div>\n</div> -->\n\n\n";
+    __webpack_exports__["default"] = "<!-- <mat-card class=\"home\">\n  <mat-card-title align=\"center\">\n    Дневник\n  </mat-card-title>\n<form [formGroup]=\"dnevnikForm\">\n  \n      <mat-card-content align=\"center\">\n            <mat-form-field class=\"inp\">\n                <input matInput placeholder=\"Заголовок\" formControlName=\"title\">\n            </mat-form-field>\n            <br>\n            <mat-form-field class=\"inp\">\n                <input matInput placeholder=\"Группа\" formControlName=\"groups\">\n            </mat-form-field>\n            <br>\n    \n                <textarea  formControlName=\"text\"></textarea>\n      </mat-card-content>\n  \n\n    <mat-card-actions align=\"end\">\n      <button mat-stroked-button color=\"primary\" (click)=\"upld2()\" (click)=\"openSnackBar()\">Primary</button>\n    </mat-card-actions>\n  </form>\n</mat-card>\n -->\n\n\n\n\n\n\n <!-- Секция с фичами -->\n\n\n\n\n <!-- <div class=\"modificators\">\n    <div class=\"marks\">Пометки\n      <mat-chip-list>\n        <mat-chip color=\"warn\" selected>Очень важное</mat-chip>\n        <mat-chip color=\"primary\" selected>обычное</mat-chip>\n      </mat-chip-list>\n    </div>\n    <div class=\"hashtag\">Хэштег</div>\n    <div class=\"hashtags\">\n      <mat-form-field class=\"example-chip-list\">\n        <mat-chip-list #chipList aria-label=\"Fruit selection\">\n          <mat-chip *ngFor=\"let fruit of fruits\" [selectable]=\"selectable\" [removable]=\"removable\"\n            (removed)=\"remove(fruit)\">\n            {{fruit.name}}\n            <p *ngIf=\"removable\">x</p>\n          </mat-chip>\n          <input [matChipInputFor]=\"chipList\" [matChipInputSeparatorKeyCodes]=\"separatorKeysCodes\"\n            [matChipInputAddOnBlur]=\"addOnBlur\" (matChipInputTokenEnd)=\"add($event)\">\n        </mat-chip-list>\n      </mat-form-field>\n    </div>\n  </div> -->\n\n\n\n\n  <!-- Секция с фичами -->\n\n\n\n\n<div class=\"navbar\">\n  <h1>Дневник</h1>\n  <h2  routerLink='/dnevnik-editor' routerLinkActive=\"active\">Сделать запись</h2>\n  <h2 routerLink='/dnevnik-read'>Читать</h2>\n</div>\n\n\n<!-- <div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-12 col-lg-9\">\n<mat-card> -->\n  \n\n  <div class=\"indeficators\">\n    <form [formGroup]=\"dnevnikForm\">\n      <div class=\"row\">\n        <div class=\"col-lg-4 col-12\">\n      <mat-form-field appearance=\"outline\" class=\"inp\">\n        <mat-label>Заголовок</mat-label>\n        <input matInput placeholder=\"Мысли об образовании\" formControlName=\"title\">\n      </mat-form-field>\n    </div>\n    <div class=\"col-12 col-lg-4\">\n      <mat-form-field  appearance=\"outline\" class=\"inp two\">\n        <mat-label>Группа</mat-label>\n        <input matInput placeholder=\"Раздумья\" formControlName=\"groups\">\n      </mat-form-field>\n    </div>\n      \n<!--     \n    <div class=\"col-lg-10 col-12\">\n      <textarea formControlName=\"text\"></textarea>\n    </div>\n   <br> -->\n\n  <div class=\"col-12 col-lg-8 creditor\">\n    <ckeditor [editor]=\"Editor\" [config]=\"config\" [data]=\"val\" (change)=\"onChange($event)\"><h2 class=\"fancy\">Fancy Heading 2</h2></ckeditor>\n    <button mat-raised-button color=\"primary\" class=\"button\" type=\"submit\"\n  (click)=\"upld2()\" (click)=\"openSnackBar()\" >\n  \n    <h2>Сохранить</h2>\n  </button>\n  </div>\n</div>\n \n\n</form>\n</div>\n\n<!-- </mat-card>\n</div>\n</div>\n</div> -->\n\n\n";
     /***/
   },
 
@@ -463,7 +463,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"navbar\">\n    <h1>Дневник</h1>\n    <h2 routerLink='/dnevnik-editor' >Сделать запись</h2>\n    <h2 routerLink='/dnevnik-read'  routerLinkActive=\"active\">Читать</h2>\n  </div>\n<mat-form-field>\n    <mat-label>Выберите группу</mat-label>\n    <mat-select>\n\n        <mat-option [value]=\"all\" (click)=DisplaySelectedRecord(all)>\n            Все темы\n        </mat-option>\n        <mat-option *ngFor=\"let item of col\" [value]=\"item\" (click)=DisplaySelectedRecord(item)>\n            {{item}}\n        </mat-option>\n    </mat-select>\n</mat-form-field>\n<br>\n\n<div class=\"container-fluid\">\n    <div class=\"row  justify-content-center\">\n\n        <div *ngFor=\"let item of selectCollection; let i = index\">\n            <div class=\"col-12 \">\n                <mat-card class=\"one\" (click)=\"openDialog(i)\" align=\"center\" matBadge='{{item.date}}'>\n\n                    <mat-card-title>\n                        {{item.title}}\n                    </mat-card-title>\n                    <!-- <div class=\"date\">\n                        {{item.date}}\n                    </div>\n                        <div class=\"groups\">\n                            {{item.groups}}\n                        </div>\n                         -->\n                    <div class=\"container-fluid\">\n                        <div class=\"row justify-content-between\">\n                            <div class=\"col-6\">\n                                {{item.date}}\n                            </div>\n                            <div class=\"col-6\">\n                                {{item.groups}}\n                            </div>\n                        </div>\n                    </div>\n              \n\n                </mat-card>\n            </div>\n\n\n\n\n\n        </div>\n    </div>\n</div>\n\n\n\n<button mat-fab color=\"primary\" class=\"addRecord\" routerLink='/dnevnik-editor'>+</button>\n\n\n\n\n<!-- <div *ngFor=\"let item of jsonData; let i = index\"  \n[@changeDivSize]=item.currentState>\n    <mat-card class=\"one\" (click)=\"openDialog(i)\">\n        <mat-card-title>\n          {{item.title}}\n          \n        </mat-card-title>\n        \n            <mat-card-content>\n               \n                <p>{{item.collection}}</p>\n            \n            </mat-card-content>\n    </mat-card>\n\n        \n\n</div> -->";
+    __webpack_exports__["default"] = "<div class=\"navbar\">\n    <h1>Дневник</h1>\n    <h2 routerLink='/dnevnik-editor' >Сделать запись</h2>\n    <h2 routerLink='/dnevnik-read'  routerLinkActive=\"active\">Читать</h2>\n  </div>\n<mat-form-field>\n    <mat-label>Выберите группу</mat-label>\n    <mat-select>\n\n        <mat-option [value]=\"all\" (click)=DisplaySelectedRecord(all)>\n            Все темы\n        </mat-option>\n        <mat-option *ngFor=\"let item of col\" [value]=\"item\" (click)=DisplaySelectedRecord(item)>\n            {{item}}\n        </mat-option>\n    </mat-select>\n</mat-form-field>\n<br>\n\n<div class=\"container-fluid\">\n    <div class=\"row  justify-content-center\">\n\n        <div *ngFor=\"let item of selectCollection; let i = index\">\n            <div class=\"col-12 \">\n                <mat-card class=\"one\" (click)=\"openEditor(item)\" align=\"center\" matBadge='{{item.date}}'>\n\n                    <mat-card-title>\n                        {{item.title}}\n                    </mat-card-title>\n                    <!-- <div class=\"date\">\n                        {{item.date}}\n                    </div>\n                        <div class=\"groups\">\n                            {{item.groups}}\n                        </div>\n                         -->\n                    <div class=\"container-fluid\">\n                        <div class=\"row justify-content-between\">\n                            <div class=\"col-6\">\n                                {{item.date}}\n                            </div>\n                            <div class=\"col-6\">\n                                {{item.groups}}\n                            </div>\n                        </div>\n                    </div>\n              \n\n                </mat-card>\n            </div>\n\n\n\n\n\n        </div>\n    </div>\n</div>\n\n\n\n<button mat-fab color=\"primary\" class=\"addRecord\" routerLink='/dnevnik-editor'>+</button>\n\n\n\n\n<!-- <div *ngFor=\"let item of jsonData; let i = index\"  \n[@changeDivSize]=item.currentState>\n    <mat-card class=\"one\" (click)=\"openDialog(i)\">\n        <mat-card-title>\n          {{item.title}}\n          \n        </mat-card-title>\n        \n            <mat-card-content>\n               \n                <p>{{item.collection}}</p>\n            \n            </mat-card-content>\n    </mat-card>\n\n        \n\n</div> -->";
     /***/
   },
 
@@ -2196,7 +2196,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".home {\n  height: 100%;\n  width: 100%;\n}\n\nbutton {\n  position: absolute;\n  right: 0px;\n}\n\n.active {\n  color: #1831BC;\n}\n\nh1 {\n  font-size: 20px;\n  font-weight: normal;\n}\n\nh2 {\n  display: inline;\n  margin-right: 30px;\n  font-size: 16px;\n  font-weight: normal;\n  outline: none;\n  cursor: pointer;\n}\n\n.navbar {\n  margin-top: 30px;\n  margin-left: 20px;\n}\n\n.marks {\n  display: inline-block;\n  margin-top: 10px;\n}\n\n.hashtag {\n  margin-top: 15px;\n  display: inline-block;\n}\n\nmat-chip-list {\n  display: inline-block;\n}\n\nmat-chip {\n  font-size: 11px;\n}\n\n.example-chip-list {\n  width: 90%;\n  padding: 0px;\n}\n\n.row {\n  margin-top: 15px;\n}\n\n.inp {\n  display: inline-block;\n  width: 100%;\n  margin-left: 20px;\n}\n\ntextarea {\n  height: 200px;\n  width: 100%;\n}\n\n.mat-card {\n  margin-top: 40px;\n}\n\n.creditor {\n  position: relative;\n  width: 80%;\n  margin-left: 20px;\n}\n\n:host ::ng-deep .ck-editor__editable_inline {\n  min-height: 300px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGVudC1pdGVtL2RuZXZuaWstc3RvcmUvZG5ldm5pay1lZGl0b3IvQzpcXHByb2plY3RzXFxNeS1TdG9yYWdlL3NyY1xcYXBwXFxjb250ZW50LWl0ZW1cXGRuZXZuaWstc3RvcmVcXGRuZXZuaWstZWRpdG9yXFxkbmV2bmlrLWVkaXRvci5jb21wb25lbnQuc2FzcyIsInNyYy9hcHAvY29udGVudC1pdGVtL2RuZXZuaWstc3RvcmUvZG5ldm5pay1lZGl0b3IvZG5ldm5pay1lZGl0b3IuY29tcG9uZW50LnNhc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFBO0VBQ0EsV0FBQTtBQ0NKOztBRENBO0VBQ0ksa0JBQUE7RUFDQSxVQUFBO0FDRUo7O0FEQUE7RUFDSSxjQUFBO0FDR0o7O0FERkE7RUFDSSxlQUFBO0VBQ0EsbUJBQUE7QUNLSjs7QURGQTtFQUNJLGVBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTtFQUNBLGFBQUE7RUFDQSxlQUFBO0FDS0o7O0FESEE7RUFDSSxnQkFBQTtFQUNBLGlCQUFBO0FDTUo7O0FESEE7RUFDSSxxQkFBQTtFQUNBLGdCQUFBO0FDTUo7O0FETEE7RUFDSSxnQkFBQTtFQUNBLHFCQUFBO0FDUUo7O0FESkE7RUFDSSxxQkFBQTtBQ09KOztBREpBO0VBQ0ksZUFBQTtBQ09KOztBRE5BO0VBQ0ksVUFBQTtFQUNBLFlBQUE7QUNTSjs7QURQQTtFQUNJLGdCQUFBO0FDVUo7O0FEVEE7RUFDSSxxQkFBQTtFQUNBLFdBQUE7RUFDQSxpQkFBQTtBQ1lKOztBRExBO0VBQ0ksYUFBQTtFQUNBLFdBQUE7QUNRSjs7QURQQTtFQUNJLGdCQUFBO0FDVUo7O0FEUkE7RUFDSSxrQkFBQTtFQUNBLFVBQUE7RUFDQSxpQkFBQTtBQ1dKOztBRFBBO0VBQ0ksaUJBQUE7QUNVSiIsImZpbGUiOiJzcmMvYXBwL2NvbnRlbnQtaXRlbS9kbmV2bmlrLXN0b3JlL2RuZXZuaWstZWRpdG9yL2RuZXZuaWstZWRpdG9yLmNvbXBvbmVudC5zYXNzIiwic291cmNlc0NvbnRlbnQiOlsiLmhvbWVcclxuICAgIGhlaWdodDogMTAwJVxyXG4gICAgd2lkdGg6IDEwMCVcclxuXHJcbmJ1dHRvblxyXG4gICAgcG9zaXRpb246IGFic29sdXRlXHJcbiAgICByaWdodDogMHB4XHJcblxyXG4uYWN0aXZlXHJcbiAgICBjb2xvcjogIzE4MzFCQ1xyXG5oMVxyXG4gICAgZm9udC1zaXplOiAyMHB4XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsXHJcblxyXG5cclxuaDJcclxuICAgIGRpc3BsYXk6IGlubGluZVxyXG4gICAgbWFyZ2luLXJpZ2h0OiAzMHB4XHJcbiAgICBmb250LXNpemU6IDE2cHhcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWxcclxuICAgIG91dGxpbmU6IG5vbmVcclxuICAgIGN1cnNvcjogcG9pbnRlclxyXG5cclxuLm5hdmJhclxyXG4gICAgbWFyZ2luLXRvcDogMzBweFxyXG4gICAgbWFyZ2luLWxlZnQ6IDIwcHhcclxuXHJcbiAgICBcclxuLm1hcmtzIFxyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrXHJcbiAgICBtYXJnaW4tdG9wOiAxMHB4XHJcbi5oYXNodGFnXHJcbiAgICBtYXJnaW4tdG9wOiAxNXB4XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2tcclxuICAgIC8vIG1hcmdpbi1sZWZ0OiAyMHB4XHJcblxyXG4gICAgXHJcbm1hdC1jaGlwLWxpc3RcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9ja1xyXG4gICAgXHJcbiAgICAvLyBtYXJnaW4tbGVmdDogNXB4XHJcbm1hdC1jaGlwXHJcbiAgICBmb250LXNpemU6IDExcHhcclxuLmV4YW1wbGUtY2hpcC1saXN0XHJcbiAgICB3aWR0aDogOTAlXHJcbiAgICBwYWRkaW5nOiAwcHhcclxuXHJcbi5yb3dcclxuICAgIG1hcmdpbi10b3A6IDE1cHhcclxuLmlucFxyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrXHJcbiAgICB3aWR0aDogMTAwJVxyXG4gICAgbWFyZ2luLWxlZnQ6IDIwcHhcclxuXHJcbi50d29cclxuICAgIFxyXG4gICAgLy8gbWFyZ2luLWxlZnQ6IDMwcHhcclxuLy8gLmJ1dHRvblxyXG4vLyAgICAgbWFyZ2luLWxlZnQ6IDc1MHB4XHJcbnRleHRhcmVhXHJcbiAgICBoZWlnaHQ6IDIwMHB4XHJcbiAgICB3aWR0aDogMTAwJVxyXG4ubWF0LWNhcmRcclxuICAgIG1hcmdpbi10b3A6IDQwcHhcclxuXHJcbi5jcmVkaXRvclxyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlXHJcbiAgICB3aWR0aDogODAlXHJcbiAgICBtYXJnaW4tbGVmdDogMjBweFxyXG5cclxuXHJcblxyXG46aG9zdCA6Om5nLWRlZXAgLmNrLWVkaXRvcl9fZWRpdGFibGVfaW5saW5lIFxyXG4gICAgbWluLWhlaWdodDogMzAwcHhcclxuXHJcblxyXG5cclxuXHJcblxyXG4gICAgXHJcbiIsIi5ob21lIHtcbiAgaGVpZ2h0OiAxMDAlO1xuICB3aWR0aDogMTAwJTtcbn1cblxuYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICByaWdodDogMHB4O1xufVxuXG4uYWN0aXZlIHtcbiAgY29sb3I6ICMxODMxQkM7XG59XG5cbmgxIHtcbiAgZm9udC1zaXplOiAyMHB4O1xuICBmb250LXdlaWdodDogbm9ybWFsO1xufVxuXG5oMiB7XG4gIGRpc3BsYXk6IGlubGluZTtcbiAgbWFyZ2luLXJpZ2h0OiAzMHB4O1xuICBmb250LXNpemU6IDE2cHg7XG4gIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG4gIG91dGxpbmU6IG5vbmU7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuLm5hdmJhciB7XG4gIG1hcmdpbi10b3A6IDMwcHg7XG4gIG1hcmdpbi1sZWZ0OiAyMHB4O1xufVxuXG4ubWFya3Mge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIG1hcmdpbi10b3A6IDEwcHg7XG59XG5cbi5oYXNodGFnIHtcbiAgbWFyZ2luLXRvcDogMTVweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xufVxuXG5tYXQtY2hpcC1saXN0IHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xufVxuXG5tYXQtY2hpcCB7XG4gIGZvbnQtc2l6ZTogMTFweDtcbn1cblxuLmV4YW1wbGUtY2hpcC1saXN0IHtcbiAgd2lkdGg6IDkwJTtcbiAgcGFkZGluZzogMHB4O1xufVxuXG4ucm93IHtcbiAgbWFyZ2luLXRvcDogMTVweDtcbn1cblxuLmlucCB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgd2lkdGg6IDEwMCU7XG4gIG1hcmdpbi1sZWZ0OiAyMHB4O1xufVxuXG50ZXh0YXJlYSB7XG4gIGhlaWdodDogMjAwcHg7XG4gIHdpZHRoOiAxMDAlO1xufVxuXG4ubWF0LWNhcmQge1xuICBtYXJnaW4tdG9wOiA0MHB4O1xufVxuXG4uY3JlZGl0b3Ige1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIHdpZHRoOiA4MCU7XG4gIG1hcmdpbi1sZWZ0OiAyMHB4O1xufVxuXG46aG9zdCA6Om5nLWRlZXAgLmNrLWVkaXRvcl9fZWRpdGFibGVfaW5saW5lIHtcbiAgbWluLWhlaWdodDogMzAwcHg7XG59Il19 */";
+    __webpack_exports__["default"] = ".home {\n  height: 100%;\n  width: 100%;\n}\n\nbutton {\n  position: absolute;\n  right: 0px;\n}\n\n.active {\n  color: #1831BC;\n}\n\nh1 {\n  font-size: 20px;\n  font-weight: normal;\n}\n\nh2 {\n  display: inline;\n  margin-right: 30px;\n  font-size: 16px;\n  font-weight: normal;\n  outline: none;\n  cursor: pointer;\n}\n\n.navbar {\n  margin-top: 30px;\n  margin-left: 20px;\n}\n\n.marks {\n  display: inline-block;\n  margin-top: 10px;\n}\n\n.hashtag {\n  margin-top: 15px;\n  display: inline-block;\n}\n\nmat-chip-list {\n  display: inline-block;\n}\n\nmat-chip {\n  font-size: 11px;\n}\n\n.example-chip-list {\n  width: 90%;\n  padding: 0px;\n}\n\n.row {\n  margin-top: 15px;\n}\n\n.inp {\n  display: inline-block;\n  margin-left: 20px;\n}\n\ntextarea {\n  height: 200px;\n  width: 100%;\n}\n\n.mat-card {\n  margin-top: 40px;\n}\n\n.creditor {\n  position: relative;\n}\n\np {\n  font-size: 45px;\n}\n\n:host ::ng-deep .ck-editor__editable_inline {\n  min-height: 300px;\n}\n\nh3 {\n  font-size: 40px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGVudC1pdGVtL2RuZXZuaWstc3RvcmUvZG5ldm5pay1lZGl0b3IvQzpcXHByb2plY3RzXFxNeS1TdG9yYWdlL3NyY1xcYXBwXFxjb250ZW50LWl0ZW1cXGRuZXZuaWstc3RvcmVcXGRuZXZuaWstZWRpdG9yXFxkbmV2bmlrLWVkaXRvci5jb21wb25lbnQuc2FzcyIsInNyYy9hcHAvY29udGVudC1pdGVtL2RuZXZuaWstc3RvcmUvZG5ldm5pay1lZGl0b3IvZG5ldm5pay1lZGl0b3IuY29tcG9uZW50LnNhc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFBO0VBQ0EsV0FBQTtBQ0NKOztBRENBO0VBQ0ksa0JBQUE7RUFDQSxVQUFBO0FDRUo7O0FEQUE7RUFDSSxjQUFBO0FDR0o7O0FERkE7RUFDSSxlQUFBO0VBQ0EsbUJBQUE7QUNLSjs7QURGQTtFQUNJLGVBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTtFQUNBLGFBQUE7RUFDQSxlQUFBO0FDS0o7O0FESEE7RUFDSSxnQkFBQTtFQUNBLGlCQUFBO0FDTUo7O0FESEE7RUFDSSxxQkFBQTtFQUNBLGdCQUFBO0FDTUo7O0FETEE7RUFDSSxnQkFBQTtFQUNBLHFCQUFBO0FDUUo7O0FESkE7RUFDSSxxQkFBQTtBQ09KOztBREpBO0VBQ0ksZUFBQTtBQ09KOztBRE5BO0VBQ0ksVUFBQTtFQUNBLFlBQUE7QUNTSjs7QURQQTtFQUNJLGdCQUFBO0FDVUo7O0FEVEE7RUFDSSxxQkFBQTtFQUNBLGlCQUFBO0FDWUo7O0FETEE7RUFDSSxhQUFBO0VBQ0EsV0FBQTtBQ1FKOztBRFBBO0VBQ0ksZ0JBQUE7QUNVSjs7QURSQTtFQUNJLGtCQUFBO0FDV0o7O0FEUkE7RUFDSSxlQUFBO0FDV0o7O0FEVkE7RUFDSSxpQkFBQTtBQ2FKOztBRFRBO0VBQ0ksZUFBQTtBQ1lKIiwiZmlsZSI6InNyYy9hcHAvY29udGVudC1pdGVtL2RuZXZuaWstc3RvcmUvZG5ldm5pay1lZGl0b3IvZG5ldm5pay1lZGl0b3IuY29tcG9uZW50LnNhc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaG9tZVxyXG4gICAgaGVpZ2h0OiAxMDAlXHJcbiAgICB3aWR0aDogMTAwJVxyXG5cclxuYnV0dG9uXHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGVcclxuICAgIHJpZ2h0OiAwcHhcclxuXHJcbi5hY3RpdmVcclxuICAgIGNvbG9yOiAjMTgzMUJDXHJcbmgxXHJcbiAgICBmb250LXNpemU6IDIwcHhcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWxcclxuXHJcblxyXG5oMlxyXG4gICAgZGlzcGxheTogaW5saW5lXHJcbiAgICBtYXJnaW4tcmlnaHQ6IDMwcHhcclxuICAgIGZvbnQtc2l6ZTogMTZweFxyXG4gICAgZm9udC13ZWlnaHQ6IG5vcm1hbFxyXG4gICAgb3V0bGluZTogbm9uZVxyXG4gICAgY3Vyc29yOiBwb2ludGVyXHJcblxyXG4ubmF2YmFyXHJcbiAgICBtYXJnaW4tdG9wOiAzMHB4XHJcbiAgICBtYXJnaW4tbGVmdDogMjBweFxyXG5cclxuICAgIFxyXG4ubWFya3MgXHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2tcclxuICAgIG1hcmdpbi10b3A6IDEwcHhcclxuLmhhc2h0YWdcclxuICAgIG1hcmdpbi10b3A6IDE1cHhcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9ja1xyXG4gICAgLy8gbWFyZ2luLWxlZnQ6IDIwcHhcclxuXHJcbiAgICBcclxubWF0LWNoaXAtbGlzdFxyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrXHJcbiAgICBcclxuICAgIC8vIG1hcmdpbi1sZWZ0OiA1cHhcclxubWF0LWNoaXBcclxuICAgIGZvbnQtc2l6ZTogMTFweFxyXG4uZXhhbXBsZS1jaGlwLWxpc3RcclxuICAgIHdpZHRoOiA5MCVcclxuICAgIHBhZGRpbmc6IDBweFxyXG5cclxuLnJvd1xyXG4gICAgbWFyZ2luLXRvcDogMTVweFxyXG4uaW5wXHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2tcclxuICAgIG1hcmdpbi1sZWZ0OiAyMHB4XHJcblxyXG4udHdvXHJcbiAgICBcclxuICAgIC8vIG1hcmdpbi1sZWZ0OiAzMHB4XHJcbi8vIC5idXR0b25cclxuLy8gICAgIG1hcmdpbi1sZWZ0OiA3NTBweFxyXG50ZXh0YXJlYVxyXG4gICAgaGVpZ2h0OiAyMDBweFxyXG4gICAgd2lkdGg6IDEwMCVcclxuLm1hdC1jYXJkXHJcbiAgICBtYXJnaW4tdG9wOiA0MHB4XHJcblxyXG4uY3JlZGl0b3JcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZVxyXG5cclxuXHJcbnAgXHJcbiAgICBmb250LXNpemU6IDQ1cHhcclxuOmhvc3QgOjpuZy1kZWVwIC5jay1lZGl0b3JfX2VkaXRhYmxlX2lubGluZSBcclxuICAgIG1pbi1oZWlnaHQ6IDMwMHB4XHJcblxyXG5cclxuXHJcbmgzXHJcbiAgICBmb250LXNpemU6IDQwcHhcclxuXHJcbiAgICBcclxuIiwiLmhvbWUge1xuICBoZWlnaHQ6IDEwMCU7XG4gIHdpZHRoOiAxMDAlO1xufVxuXG5idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHJpZ2h0OiAwcHg7XG59XG5cbi5hY3RpdmUge1xuICBjb2xvcjogIzE4MzFCQztcbn1cblxuaDEge1xuICBmb250LXNpemU6IDIwcHg7XG4gIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG59XG5cbmgyIHtcbiAgZGlzcGxheTogaW5saW5lO1xuICBtYXJnaW4tcmlnaHQ6IDMwcHg7XG4gIGZvbnQtc2l6ZTogMTZweDtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgb3V0bGluZTogbm9uZTtcbiAgY3Vyc29yOiBwb2ludGVyO1xufVxuXG4ubmF2YmFyIHtcbiAgbWFyZ2luLXRvcDogMzBweDtcbiAgbWFyZ2luLWxlZnQ6IDIwcHg7XG59XG5cbi5tYXJrcyB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgbWFyZ2luLXRvcDogMTBweDtcbn1cblxuLmhhc2h0YWcge1xuICBtYXJnaW4tdG9wOiAxNXB4O1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG59XG5cbm1hdC1jaGlwLWxpc3Qge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG59XG5cbm1hdC1jaGlwIHtcbiAgZm9udC1zaXplOiAxMXB4O1xufVxuXG4uZXhhbXBsZS1jaGlwLWxpc3Qge1xuICB3aWR0aDogOTAlO1xuICBwYWRkaW5nOiAwcHg7XG59XG5cbi5yb3cge1xuICBtYXJnaW4tdG9wOiAxNXB4O1xufVxuXG4uaW5wIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBtYXJnaW4tbGVmdDogMjBweDtcbn1cblxudGV4dGFyZWEge1xuICBoZWlnaHQ6IDIwMHB4O1xuICB3aWR0aDogMTAwJTtcbn1cblxuLm1hdC1jYXJkIHtcbiAgbWFyZ2luLXRvcDogNDBweDtcbn1cblxuLmNyZWRpdG9yIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuXG5wIHtcbiAgZm9udC1zaXplOiA0NXB4O1xufVxuXG46aG9zdCA6Om5nLWRlZXAgLmNrLWVkaXRvcl9fZWRpdGFibGVfaW5saW5lIHtcbiAgbWluLWhlaWdodDogMzAwcHg7XG59XG5cbmgzIHtcbiAgZm9udC1zaXplOiA0MHB4O1xufSJdfQ== */";
     /***/
   },
 
@@ -2291,16 +2291,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _ckeditor_ckeditor5_build_classic_build_translations_ru__WEBPACK_IMPORTED_MODULE_8___default =
     /*#__PURE__*/
     __webpack_require__.n(_ckeditor_ckeditor5_build_classic_build_translations_ru__WEBPACK_IMPORTED_MODULE_8__);
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
 
     var DnevnikEditorComponent =
     /*#__PURE__*/
     function () {
-      function DnevnikEditorComponent(snackBar, js, fb) {
+      function DnevnikEditorComponent(snackBar, js, fb, route) {
         _classCallCheck(this, DnevnikEditorComponent);
 
         this.snackBar = snackBar;
         this.js = js;
         this.fb = fb;
+        this.route = route;
         this.Editor = _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_7__;
         this.config = {
           language: 'ru',
@@ -2323,17 +2330,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.fruits = [{
           name: 'Love'
         }];
-        this.val = '<h1>ORRRY</h1>';
+        this.val = '';
         console.log(_ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_7__["builtinPlugins"].map(function (plugin) {
           return plugin.pluginName;
         }));
-      } //  addButton(title: string,message: string,collection:string){
-      //   this.uploudCreate(title,message,collection)
-      //   this.openSnackBar()
-      //  }
-
+      }
 
       _createClass(DnevnikEditorComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          console.log(this.route);
+          this.val = this.route.snapshot.queryParams.text;
+        } //  addButton(title: string,message: string,collection:string){
+        //   this.uploudCreate(title,message,collection)
+        //   this.openSnackBar()
+        //  }
+
+      }, {
         key: "upld2",
         value: function upld2() {
           console.log(this.dnevnikForm);
@@ -2393,6 +2406,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_3__["JsonCreate"]
       }, {
         type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]
+      }, {
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_9__["ActivatedRoute"]
       }];
     };
 
@@ -2594,39 +2609,46 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! @ckeditor/ckeditor5-build-classic */
     "./node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js");
     /* harmony import */
 
 
-    var _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_5___default =
+    var _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_6___default =
     /*#__PURE__*/
-    __webpack_require__.n(_ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_5__);
+    __webpack_require__.n(_ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_6__);
     /* harmony import */
 
 
-    var _ckeditor_ckeditor5_build_classic_build_translations_ru__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _ckeditor_ckeditor5_build_classic_build_translations_ru__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! @ckeditor/ckeditor5-build-classic/build/translations/ru */
     "./node_modules/@ckeditor/ckeditor5-build-classic/build/translations/ru.js");
     /* harmony import */
 
 
-    var _ckeditor_ckeditor5_build_classic_build_translations_ru__WEBPACK_IMPORTED_MODULE_6___default =
+    var _ckeditor_ckeditor5_build_classic_build_translations_ru__WEBPACK_IMPORTED_MODULE_7___default =
     /*#__PURE__*/
-    __webpack_require__.n(_ckeditor_ckeditor5_build_classic_build_translations_ru__WEBPACK_IMPORTED_MODULE_6__);
+    __webpack_require__.n(_ckeditor_ckeditor5_build_classic_build_translations_ru__WEBPACK_IMPORTED_MODULE_7__);
 
     var DnevnikReadComponent =
     /*#__PURE__*/
     function () {
       // isClick = false
-      function DnevnikReadComponent(js, dialog) {
+      function DnevnikReadComponent(js, dialog, router) {
         var _this2 = this;
 
         _classCallCheck(this, DnevnikReadComponent);
 
         this.js = js;
         this.dialog = dialog;
+        this.router = router;
         this.all = "all";
         this.array = [];
         this.select = "all";
@@ -2674,9 +2696,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       }, {
         key: "openDialog",
-        value: function openDialog(i) {
+        value: function openDialog(i, item) {
           var _this3 = this;
 
+          console.log(item);
           var dialogRef = this.dialog.open(DialogOverviewExampleDialog, {
             width: '1200px',
             height: '600px',
@@ -2693,6 +2716,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             console.log(_this3.jsonData);
             console.log('The dialog was closed'); // this.DisplaySelectedRecord(this.select)
           });
+        }
+      }, {
+        key: "openEditor",
+        value: function openEditor(item) {
+          console.log(item);
+          var navigationExtras = {
+            queryParams: {
+              'id': item.id,
+              'text': item.text,
+              'title': item.title,
+              'date': item.date
+            }
+          };
+          this.router.navigate(['/dnevnik-editor'], navigationExtras);
         } // DisplaySelectedRecord(selectedCollection: string){
         //   this.js.getSelectedConfig(selectedCollection).subscribe(value=> {
         //     this.selectCollection = value
@@ -2735,6 +2772,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: src_app_services_jsonCreate_service__WEBPACK_IMPORTED_MODULE_2__["JsonCreate"]
       }, {
         type: _angular_material_dialog__WEBPACK_IMPORTED_MODULE_4__["MatDialog"]
+      }, {
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"]
       }];
     };
 
@@ -2757,7 +2796,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         this.dialogRef = dialogRef;
         this.data = data;
-        this.Editor = _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_5__;
+        this.Editor = _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_6__;
         this.config = {
           language: 'ru',
           toolbar: ['heading', '|', "redo", "undo", '|', 'bold', 'italic', '|', 'link', 'bulletedList', 'numberedList', '|', 'blockQuote']
