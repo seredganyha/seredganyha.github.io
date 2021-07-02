@@ -1,0 +1,80 @@
+
+body{
+    background-color:  #161515;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.vl {
+    border-left: 1px solid #FFFDFD;
+    height: 2000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.block {
+    color: #EADCDC;
+    background-color: #161515;
+}
+
+
+
+p{
+    margin: 0;
+    background: #161515;
+    color: #EADCDC;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-right: -50%;
+    padding: 3% 4%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hello{
+
+    top: 200px; 
+
+}
+
+.heart{
+
+    top: 500px; 
+
+}
+
+
+.you{
+
+
+    top: 800px; 
+}
+
+ul{
+ list-style-type: none;
+ padding-inline-start: 0px;
+}
+
+.random{
+    display: inline;
+    margin: 0;
+    background: #161515;
+    color: #EADCDC;
+    position: absolute;
+    top: 1200px;
+    left: 50%;
+    margin-right: -50%;
+    padding: 2% 4%;
+    transform: translate(-50%, -50%)
+}
+
+
+
+.hugs{
+
+    top: 1600px; 
+
+}
