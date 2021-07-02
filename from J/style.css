@@ -7,7 +7,7 @@ body{
 
 .vl {
     border-left: 1px solid #FFFDFD;
-    height: 2000px;
+    height: 2300px;
     position: absolute;
     left: 50%;
     margin-left: -3px;
@@ -36,13 +36,13 @@ p{
 
 .hello{
 
-    top: 200px; 
+    top: 300px; 
 
 }
 
 .heart{
 
-    top: 500px; 
+    top: 700px; 
 
 }
 
@@ -50,7 +50,7 @@ p{
 .you{
 
 
-    top: 800px; 
+    top: 1100px; 
 }
 
 ul{
@@ -64,7 +64,7 @@ ul{
     background: #161515;
     color: #EADCDC;
     position: absolute;
-    top: 1200px;
+    top: 1500px;
     left: 50%;
     margin-right: -50%;
     padding: 2% 4%;
@@ -75,6 +75,6 @@ ul{
 
 .hugs{
 
-    top: 1600px; 
+    top: 1900px; 
 
 }
