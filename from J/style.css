@@ -36,13 +36,13 @@ p{
 
 .hello{
 
-    top: 300px; 
+    top: 400px; 
 
 }
 
 .heart{
 
-    top: 700px; 
+    top: 1000px; 
 
 }
 
@@ -50,7 +50,7 @@ p{
 .you{
 
 
-    top: 1100px; 
+    top: 1500px; 
 }
 
 ul{
@@ -64,7 +64,7 @@ ul{
     background: #161515;
     color: #EADCDC;
     position: absolute;
-    top: 1500px;
+    top: 2000px;
     left: 50%;
     margin-right: -50%;
     padding: 2% 4%;
@@ -75,6 +75,6 @@ ul{
 
 .hugs{
 
-    top: 1900px; 
+    top: 2500px; 
 
 }
