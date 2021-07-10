@@ -2269,12 +2269,12 @@ let LoginComponent = class LoginComponent {
     tryLogin(value) {
         this.auth.doAuth(value)
             .then(res => {
-            console.log('урааа');
+            console.log('успешно');
             this.router.navigate(['/profile']);
-        }, err => this.openSnackBar(err.message));
+        }, err => this.openSnackBar("Ошибка"));
     }
     openSnackBar(message) {
-        this.snackBar.open(message, ")))0)", {
+        this.snackBar.open(message, "", {
             duration: 3000,
         });
     }
@@ -2500,7 +2500,7 @@ let RegisterComponent = class RegisterComponent {
             .then(res => console.log(res), err => console.log(err));
     }
     openSnackBar() {
-        this.snackBar.open("Регистрация выполнена успешно(На самом деле хз)", ")))0)", {
+        this.snackBar.open("Запрос отправлен.Попробуйте авторизироваться", "", {
             duration: 2000,
         });
     }

@@ -3766,17 +3766,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var _this6 = this;
 
           this.auth.doAuth(value).then(function (res) {
-            console.log('урааа');
+            console.log('успешно');
 
             _this6.router.navigate(['/profile']);
           }, function (err) {
-            return _this6.openSnackBar(err.message);
+            return _this6.openSnackBar("Ошибка");
           });
         }
       }, {
         key: "openSnackBar",
         value: function openSnackBar(message) {
-          this.snackBar.open(message, ")))0)", {
+          this.snackBar.open(message, "", {
             duration: 3000
           });
         }
@@ -4178,7 +4178,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "openSnackBar",
         value: function openSnackBar() {
-          this.snackBar.open("Регистрация выполнена успешно(На самом деле хз)", ")))0)", {
+          this.snackBar.open("Запрос отправлен.Попробуйте авторизироваться", "", {
             duration: 2000
           });
         }
