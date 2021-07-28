@@ -1,0 +1,25 @@
+body{
+    height: 400000px
+}
+.wrapper{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+.container {
+    position: absolute;
+}
+.inner{
+    position: absolute;
+    left: -10px;
+    background: #fcf;
+    color: #513fce;
+    width: 20px;
+    height: 22px;
+    min-width: 20px;
+    min-height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
