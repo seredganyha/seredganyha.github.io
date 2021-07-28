@@ -49,12 +49,12 @@ function toScrollDowns() {
     divs.forEach((elem, i) => {
         valueTransform = elem.style.transform.split('rotate(').join('').split('deg)')
         if(+valueTransform[0]===0){
-            elem.style.left = `-${(+elem.style.left.slice(1, -2)) + 20/3}px`
+            elem.style.left = `-${(+elem.style.left.slice(1, -2)) + 15/3}px`
         }        
 
 
         if(+valueTransform[0]>6){
-            elem.style.transform = `rotate(${valueTransform[0] - 2}deg)`
+            elem.style.transform = `rotate(${valueTransform[0] - 1.6}deg)`
         }
         else{
             elem.style.transform = `rotate(0deg)`
