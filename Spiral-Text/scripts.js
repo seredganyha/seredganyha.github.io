@@ -1,5 +1,7 @@
-let text = "Ураааааа.Я смог раскрутить этот 'спираль-круго-текст' спустя 15 часов.Что я только не пробывал))))Закрутить всегда легче.Кстати,никто не хочет побегать?"
+let text = "Ураааааа.Я смог раскрутить этот 'спираль-круго-текст' спустя 15 часов.Что я только не пробовал))))Закрутить всегда легче.Кстати,никто не хочет побегать?"
 let scrolls = 0
+const TOP_MIN =200
+const STEP_TOP = 0.8
 
 
 let arrayText = text.split('')
@@ -16,7 +18,7 @@ arrayText.forEach((element, index, array) => {
     div.style.transform = `rotate(${index * 6}deg)`;
     
     span.innerHTML = element
-    span.style.top = `-${150 - (0.25 * index)}px`
+    span.style.top = `-${TOP_MIN - (STEP_TOP * index)}px`
 
 
     div.appendChild(span)
@@ -26,6 +28,7 @@ arrayText.forEach((element, index, array) => {
 
 let divs = document.querySelectorAll('.container')
     divs = Array.from(divs)
+let spans = Array.from(document.querySelectorAll('.inner'))
 
 function createDiv() {
     let div = document.createElement('div')
@@ -47,18 +50,35 @@ function toScrollDowns() {
     
 
     divs.forEach((elem, i) => {
-        valueTransform = elem.style.transform.split('rotate(').join('').split('deg)')
+       let valueTransform = elem.style.transform.split('rotate(').join('').split('deg)')
+       let valueTop = +spans[i].style.top.slice(1,-2);
         if(+valueTransform[0]===0){
-            elem.style.left = `-${(+elem.style.left.slice(1, -2)) + 15/3}px`
+           
+            elem.style.left = `-${(+elem.style.left.slice(1, -2)) + 46/3}px`
+            
         }        
 
 
         if(+valueTransform[0]>6){
-            elem.style.transform = `rotate(${valueTransform[0] - 1.6}deg)`
+            elem.style.transform = `rotate(${valueTransform[0] - 6}deg)`
         }
         else{
             elem.style.transform = `rotate(0deg)`
         }
+
+        if(+valueTop<TOP_MIN){
+
+            if(+valueTop<TOP_MIN && (+valueTop>TOP_MIN-STEP_TOP)){
+                console.log(`valueTop = ${+valueTop}`)
+                spans[i].style.top = `-${valueTop+TOP_MIN-valueTop}px`
+            }
+            else{
+                spans[i].style.top = `-${valueTop+STEP_TOP}px`
+            }
+            
+        }
+
+
         
     })
 
