@@ -1,7 +1,7 @@
-let text = "Солнце, не надо злиться из-за всякой ерунды,люблю тебя.Твой алкаш"
+let text = "Сооллнце, не надо злиться из-за всякой ерунды,люблю тебя.Твой алкаш"
 let scrolls = 0
-const TOP_MIN =150
-const STEP_TOP = 0.4
+const TOP_MIN =180
+const STEP_TOP = 0.8
 
 
 let arrayText = text.split('')
@@ -15,7 +15,7 @@ arrayText.forEach((element, index, array) => {
 
     div.style.zIndex = `${array.length - index}`
 
-    div.style.transform = `rotate(${index * 4}deg)`;
+    div.style.transform = `rotate(${index * 6}deg)`;
     
     span.innerHTML = element
     span.style.top = `-${TOP_MIN - (STEP_TOP * index)}px`
@@ -55,13 +55,13 @@ function toScrollDowns() {
        let valueLeft = +elem.style.left.slice(1, -2)
         if(+valueTransform[0]===0){
            
-            elem.style.left = `-${valueLeft + 44/3}px`
+            elem.style.left = `-${valueLeft + 40/3}px`
             
         }  
         
        
         if(+valueTransform[0]>6){
-            elem.style.transform = `rotate(${valueTransform[0] - 4}deg)`
+            elem.style.transform = `rotate(${valueTransform[0] - 3}deg)`
         }
         else{
             elem.style.transform = `rotate(0deg)`
