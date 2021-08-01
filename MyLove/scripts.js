@@ -15,7 +15,7 @@ arrayText.forEach((element, index, array) => {
 
     div.style.zIndex = `${array.length - index}`
 
-    div.style.transform = `rotate(${index * 5}deg)`;
+    div.style.transform = `rotate(${index * 4}deg)`;
     
     span.innerHTML = element
     span.style.top = `-${TOP_MIN - (STEP_TOP * index)}px`
@@ -61,7 +61,7 @@ function toScrollDowns() {
         
        
         if(+valueTransform[0]>6){
-            elem.style.transform = `rotate(${valueTransform[0] - 5}deg)`
+            elem.style.transform = `rotate(${valueTransform[0] - 4}deg)`
         }
         else{
             elem.style.transform = `rotate(0deg)`
