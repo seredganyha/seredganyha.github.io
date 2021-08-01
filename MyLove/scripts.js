@@ -1,7 +1,7 @@
-let text = "При виде творений гениев, рождается смелость, которая в одно мгновение заменяет несколько лет опытности"
+let text = "Солнце, не надо злиться из-за всякой ерунды,люблю тебя.Твой алкаш"
 let scrolls = 0
-const TOP_MIN =180
-const STEP_TOP = 0.8
+const TOP_MIN =150
+const STEP_TOP = 0.4
 
 
 let arrayText = text.split('')
@@ -15,7 +15,7 @@ arrayText.forEach((element, index, array) => {
 
     div.style.zIndex = `${array.length - index}`
 
-    div.style.transform = `rotate(${index * 7}deg)`;
+    div.style.transform = `rotate(${index * 5}deg)`;
     
     span.innerHTML = element
     span.style.top = `-${TOP_MIN - (STEP_TOP * index)}px`
@@ -53,21 +53,15 @@ function toScrollDowns() {
        let valueTransform = elem.style.transform.split('rotate(').join('').split('deg)')
        let valueTop = +spans[i].style.top.slice(1,-2);
        let valueLeft = +elem.style.left.slice(1, -2)
-        if(+valueTransform[0]===0 && valueLeft<300){
+        if(+valueTransform[0]===0){
            
-            elem.style.left = `-${valueLeft + 50/3}px`
+            elem.style.left = `-${valueLeft + 44/3}px`
             
         }  
         
-        console.log(valueLeft)
-        if(valueLeft>300){
-            console.log('++')
-            elem.classList.add('disappearance')
-        }
-
-
+       
         if(+valueTransform[0]>6){
-            elem.style.transform = `rotate(${valueTransform[0] - 7}deg)`
+            elem.style.transform = `rotate(${valueTransform[0] - 5}deg)`
         }
         else{
             elem.style.transform = `rotate(0deg)`
